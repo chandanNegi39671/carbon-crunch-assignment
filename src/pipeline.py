@@ -239,6 +239,7 @@ def main() -> None:
     print(f"    Total spend (all)         : {summary['total_spend_all']:.2f}")
     print(f"    Total spend (high-conf)   : {summary['total_spend_high_confidence']:.2f}")
     print(f"    Flagged receipts          : {summary['flagged_receipts_count']}")
+    print(f"    Excluded outliers         : {summary['excluded_outlier_count']} (total={summary['excluded_outlier_total']:.2f})")
     print(f"    Unique stores             : {len(summary['spend_per_store'])}")
 
     if failures:

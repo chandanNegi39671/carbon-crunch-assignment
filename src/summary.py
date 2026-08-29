@@ -78,6 +78,8 @@ def generate_summary(json_dir: Path) -> dict:
     total_all = 0.0
     total_high_conf = 0.0
     flagged_count = 0
+    excluded_outlier_count = 0
+    excluded_outlier_total = 0.0
     receipts: list[dict] = []
 
     # Per-store accumulators: canonical_name -> {"total": float, "count": int, "original_names": set}
@@ -104,7 +106,14 @@ def generate_summary(json_dir: Path) -> dict:
         except (ValueError, TypeError) as exc:  # noqa: BLE001
             print(f"  WARN: failed to parse amount from {jf.name}: {exc}")
 
-        total_all += amount
+        # Secondary sanity filter: reject amounts > 5000 as implausible outliers
+        if amount > 5000.0:
+            print(f"  WARN: excluding outlier amount {amount:.2f} from {jf.name} (> 5000 ceiling)")
+            excluded_outlier_count += 1
+            excluded_outlier_total += amount
+        else:
+            total_all += amount
+
         if total_conf >= 0.7:
             total_high_conf += amount
         if total_flag:
@@ -157,6 +166,8 @@ def generate_summary(json_dir: Path) -> dict:
         "transaction_count": len(json_files),
         "spend_per_store": spend_per_store,
         "flagged_receipts_count": flagged_count,
+        "excluded_outlier_count": excluded_outlier_count,
+        "excluded_outlier_total": round(excluded_outlier_total, 2),
         "receipts": receipts,
     }
 
@@ -183,12 +194,12 @@ def main() -> None:
 
     summary = generate_summary(json_dir)
     save_summary(summary, output_path)
-
-    print(f"Summary saved to {output_path}\n")
+    print(f"  Summary saved to {output_path}\n")
     print(f"  Transactions    : {summary['transaction_count']}")
     print(f"  Total spend     : {summary['total_spend_all']:.2f}")
     print(f"  High-conf spend : {summary['total_spend_high_confidence']:.2f}")
     print(f"  Flagged receipts: {summary['flagged_receipts_count']}")
+    print(f"  Excluded outliers: {summary['excluded_outlier_count']} (total={summary['excluded_outlier_total']:.2f})")
     print(f"\n  Per-store breakdown:")
     for store, info in sorted(summary["spend_per_store"].items()):
         print(

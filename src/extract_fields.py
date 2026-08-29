@@ -49,6 +49,18 @@ _TOTAL_KEYWORDS = [
 
 _EXCLUDE_KEYWORDS = ["TAX", "GST", "SUBTOTAL", "SUB TOTAL", "CHANGE", "CASH"]
 
+# Reference / transaction line patterns — skip these entirely for total candidacy
+_REFERENCE_PATTERNS = [
+    re.compile(r"\bREF\s*#", re.IGNORECASE),
+    re.compile(r"\bTERMINAL\b", re.IGNORECASE),
+    re.compile(r"\bTRANS(?:\s+|ACTION)\s*ID\b", re.IGNORECASE),
+    re.compile(r"\bAPPROVAL\s*#", re.IGNORECASE),
+    re.compile(r"\bTC\s*#", re.IGNORECASE),
+    re.compile(r"\bVALIDATION\b", re.IGNORECASE),
+    # Long digit run: 8+ consecutive digits (phone, receipt ID, barcode, etc.)
+    re.compile(r"\d{8,}"),
+]
+
 # Currency-like number: optional currency symbol + digits with optional decimals
 _CURRENCY_RE = re.compile(r"[\$RMrm]?\s*(\d{1,6}(?:[,.]\d{1,2})?)")
 _CURRENCY_STRICT_RE = re.compile(r"[\$RMrm]?\s*(\d{1,6}\.\d{2})")
@@ -210,6 +222,13 @@ def _clean_item_description(desc: str) -> str:
     return desc
 
 
+# ─── Reference-line guard ────────────────────────────────────────────
+def _is_reference_line(text: str) -> bool:
+    """Return True if *text* looks like a reference/transaction/terminal
+    number line that should never be treated as a total amount candidate."""
+    return any(p.search(text) for p in _REFERENCE_PATTERNS)
+
+
 # ─── Total amount extraction ─────────────────────────────────────────
 def _extract_total(ocr_lines: list[dict]) -> str:
     """Search for total amount, prioritising ROUNDED TOTAL / GRAND TOTAL,
@@ -224,6 +243,10 @@ def _extract_total(ocr_lines: list[dict]) -> str:
     for line in valid_lines:
         text = line["text"].strip()
         upper = text.upper()
+
+        # Skip lines that look like reference/transaction numbers entirely
+        if _is_reference_line(text):
+            continue
 
         # Determine priority of this line
         priority = -1
@@ -247,13 +270,30 @@ def _extract_total(ocr_lines: list[dict]) -> str:
 
         # Extract price-like number from this line
         # Prefer strict format (X.XX), then loose
-        price_match = _CURRENCY_STRICT_RE.search(text)
-        if not price_match:
-            price_match = _CURRENCY_RE.search(text)
+        strict_match = _CURRENCY_STRICT_RE.search(text)
+        price_match = strict_match if strict_match else _CURRENCY_RE.search(text)
         if not price_match:
             continue
 
         price_str = price_match.group(1).replace(",", "")
+
+        # ── Sanity range checks ────────────────────────────────────
+        try:
+            numeric_val = float(price_str)
+        except ValueError:
+            continue
+
+        is_strict_match = strict_match is not None
+        is_strong_keyword = priority >= 3
+
+        # General ceiling: > 5000 is implausible unless strict match on strong keyword
+        if numeric_val > 5000:
+            if not (is_strict_match and is_strong_keyword):
+                continue
+
+        # Lower ceiling for weak keywords (CASH TEND / VISA TEND) with loose matches
+        if priority == 1 and not is_strict_match and numeric_val > 2000:
+            continue
 
         if priority > best_priority:
             best_priority = priority
@@ -262,11 +302,28 @@ def _extract_total(ocr_lines: list[dict]) -> str:
     # Fallback: look for any line with "TOTAL" and grab the number
     if best_total is None:
         for line in valid_lines:
-            upper = line["text"].upper()
+            text = line["text"].strip()
+            upper = text.upper()
             if "TOTAL" in upper:
-                match = _CURRENCY_RE.search(line["text"])
+                # Skip reference lines even in fallback
+                if _is_reference_line(text):
+                    continue
+                strict_match_fb = _CURRENCY_STRICT_RE.search(text)
+                loose_match_fb = _CURRENCY_RE.search(text) if not strict_match_fb else None
+                match = strict_match_fb or loose_match_fb
                 if match:
-                    best_total = match.group(1).replace(",", "")
+                    price_str = match.group(1).replace(",", "")
+                    try:
+                        numeric_val = float(price_str)
+                    except ValueError:
+                        continue
+                    # Same ceiling: > 5000 rejected unless strict match on strong keyword
+                    is_strong = "ROUNDED TOTAL" in upper or "GRAND TOTAL" in upper or (
+                        "TOTAL" in upper and not any(ex in upper for ex in ["SUBTOTAL", "SUB TOTAL"])
+                    )
+                    if numeric_val > 5000 and not (strict_match_fb is not None and is_strong):
+                        continue
+                    best_total = price_str
                     break
 
     return best_total or ""
