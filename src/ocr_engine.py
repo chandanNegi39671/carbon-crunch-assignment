@@ -1,11 +1,4 @@
-"""
-Module 3: OCR Engine
-Run OCR and return text + bounding boxes + per-word confidence.
-
-Primary engine: EasyOCR
-Fallback/secondary: pytesseract (on "clean" bucket images as a second vote,
-since Tesseract tends to be more accurate on structured tabular scanned text).
-"""
+"""Run OCR and return text + bounding boxes + per-word confidence."""
 
 from __future__ import annotations
 
@@ -16,7 +9,6 @@ from typing import Optional
 import cv2
 import numpy as np
 
-# ─── Lazy-loaded OCR readers ─────────────────────────────────────────
 _easyocr_reader = None
 _tesseract_available: Optional[bool] = None  # None = not checked yet
 
@@ -24,7 +16,7 @@ LINE_Y_TOLERANCE = 15  # pixels — words within this vertical range = same line
 
 
 def _get_easyocr_reader():
-    """Singleton EasyOCR reader (English, CPU mode)."""
+    """Singleton EasyOCR reader (English, CPU)."""
     global _easyocr_reader
     if _easyocr_reader is None:
         import easyocr
@@ -46,11 +38,9 @@ def _is_tesseract_available() -> bool:
     return _tesseract_available
 
 
-# ─── Raw OCR backends ────────────────────────────────────────────────
 def _run_easyocr(image: np.ndarray) -> list[dict]:
-    """Run EasyOCR on *image* (BGR or grayscale). Returns word-level dicts."""
+    """Run EasyOCR on image (BGR or grayscale). Returns word-level dicts."""
     reader = _get_easyocr_reader()
-    # EasyOCR expects BGR or RGB; ensure 3-channel
     if len(image.shape) == 2:
         img_bgr = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
     else:
@@ -59,8 +49,7 @@ def _run_easyocr(image: np.ndarray) -> list[dict]:
     results = reader.readtext(img_bgr)
     words: list[dict] = []
     for bbox, text, conf in results:
-        # bbox is [[x1,y1],[x2,y2],[x3,y3],[x4,y4]] (rotated rect)
-        # Convert to [x_min, y_min, x_max, y_max] for easier processing
+        # Convert rotated rect bbox to [x_min, y_min, x_max, y_max]
         pts = np.array(bbox, dtype=np.float32)
         x_min, y_min = pts.min(axis=0)
         x_max, y_max = pts.max(axis=0)
@@ -73,7 +62,7 @@ def _run_easyocr(image: np.ndarray) -> list[dict]:
 
 
 def _run_pytesseract(image: np.ndarray) -> list[dict]:
-    """Run pytesseract on *image* (BGR or grayscale). Returns word-level dicts."""
+    """Run pytesseract on image (BGR or grayscale). Returns word-level dicts."""
     import pytesseract
     from pytesseract import Output
 
@@ -102,27 +91,19 @@ def _run_pytesseract(image: np.ndarray) -> list[dict]:
     return words
 
 
-# ─── Line grouping ───────────────────────────────────────────────────
 def _group_into_lines(words: list[dict]) -> list[dict]:
-    """Cluster word-level detections into lines based on y-coordinate
-    proximity, then sort each line left-to-right by x-coordinate.
-
-    Returns a list of line dicts:
-        {"text": str, "bbox": [[x,y],...], "confidence": float, "line_id": int}
-    """
+    """Cluster word-level detections into lines by y-coordinate proximity."""
     if not words:
         return []
 
-    # Compute vertical centre for each word
     for w in words:
         y_min = w["bbox"][0][1]
         y_max = w["bbox"][1][1]
         w["_y_center"] = (y_min + y_max) / 2.0
 
-    # Sort by vertical centre
     sorted_words = sorted(words, key=lambda w: w["_y_center"])
 
-    # Group into lines: words within LINE_Y_TOLERANCE pixels vertically
+    # Group: words within LINE_Y_TOLERANCE pixels vertically
     lines: list[list[dict]] = []
     current_line: list[dict] = [sorted_words[0]]
 
@@ -135,20 +116,16 @@ def _group_into_lines(words: list[dict]) -> list[dict]:
             current_line = [w]
     lines.append(current_line)
 
-    # Build line dicts
     result: list[dict] = []
     for line_id, line_words in enumerate(lines):
-        # Sort left-to-right
         line_words.sort(key=lambda w: w["bbox"][0][0])
         text = " ".join(w["text"] for w in line_words)
 
-        # Combined bounding box
         x_min = min(w["bbox"][0][0] for w in line_words)
         y_min = min(w["bbox"][0][1] for w in line_words)
         x_max = max(w["bbox"][1][0] for w in line_words)
         y_max = max(w["bbox"][1][1] for w in line_words)
 
-        # Average confidence across words
         avg_conf = float(np.mean([w["confidence"] for w in line_words]))
 
         result.append({
@@ -161,15 +138,11 @@ def _group_into_lines(words: list[dict]) -> list[dict]:
     return result
 
 
-# ─── Merge duplicates from dual-engine voting ────────────────────────
 def _merge_lines(
     easyocr_lines: list[dict],
     tesseract_lines: list[dict],
 ) -> list[dict]:
-    """Merge lines from two OCR engines. For each EasyOCR line, check if
-    a nearby Tesseract line exists with similar text; if so, take the
-    higher-confidence version. Unmatched Tesseract lines are appended.
-    """
+    """Merge lines from two OCR engines, keeping the higher-confidence version for duplicates."""
     if not tesseract_lines:
         return easyocr_lines
     if not easyocr_lines:
@@ -190,7 +163,6 @@ def _merge_lines(
                 best_match = idx
 
         if best_match is not None:
-            # Keep the higher-confidence version
             if t_line["confidence"] > merged[best_match]["confidence"]:
                 merged[best_match] = t_line
         else:
@@ -199,29 +171,12 @@ def _merge_lines(
     return merged
 
 
-# ─── Public API ──────────────────────────────────────────────────────
 def run_ocr(image: np.ndarray, bucket: str) -> list[dict]:
-    """Run OCR on *image* and return line-grouped results.
-
-    Parameters
-    ----------
-    image : np.ndarray
-        Preprocessed image (grayscale or BGR).
-    bucket : str
-        Triage bucket — "clean" bucket gets a secondary pytesseract vote.
-
-    Returns
-    -------
-    list[dict]
-        One dict per line, each with keys:
-        ``text``, ``bbox`` ([[x_min,y_min],[x_max,y_max]]),
-        ``confidence`` (0-1), ``line_id`` (int).
-    """
-    # Primary engine: EasyOCR
+    """Run OCR on image and return line-grouped results."""
     easyocr_words = _run_easyocr(image)
     easyocr_lines = _group_into_lines(easyocr_words)
 
-    # Secondary engine: pytesseract on clean bucket only
+    # Secondary vote from pytesseract on clean bucket only
     if bucket == "clean" and _is_tesseract_available():
         try:
             tess_words = _run_pytesseract(image)
@@ -233,9 +188,8 @@ def run_ocr(image: np.ndarray, bucket: str) -> list[dict]:
     return easyocr_lines
 
 
-# ─── Standalone test runner ──────────────────────────────────────────
 def main() -> None:
-    """Quick smoke test: run OCR on a few sample images."""
+    """Smoke test: run OCR on a few sample images."""
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent
     dataset_dir = project_root / "data" / "AI-OCR dataset"
@@ -244,7 +198,6 @@ def main() -> None:
         print(f"ERROR: Dataset not found: {dataset_dir}", file=sys.stderr)
         sys.exit(1)
 
-    # Load triage CSV
     import csv
     triage_csv = project_root / "outputs" / "triage" / "dataset_triage.csv"
     if not triage_csv.exists():
@@ -256,13 +209,11 @@ def main() -> None:
         for row in csv.DictReader(fh):
             buckets[row["filename"]] = row["bucket"]
 
-    # Pick one sample per bucket
     samples: dict[str, str] = {}
     for fname, bucket in buckets.items():
         if bucket not in samples:
             samples[bucket] = fname
 
-    # Import preprocessing
     sys.path.insert(0, str(script_dir))
     from preprocess import preprocess
 

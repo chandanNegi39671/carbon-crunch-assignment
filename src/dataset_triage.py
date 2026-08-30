@@ -1,8 +1,4 @@
-"""
-Module 1: Dataset Triage
-Classifies every image into a quality bucket before OCR, so preprocessing
-can be routed differently per bucket.
-"""
+"""Classify every image into a quality bucket before OCR."""
 
 from __future__ import annotations
 
@@ -16,7 +12,6 @@ import cv2
 import numpy as np
 from PIL import Image
 
-# ─── Thresholds ──────────────────────────────────────────────────────
 BLUR_THRESHOLD = 100.0
 SKEW_THRESHOLD = 5.0
 LOW_LIGHT_THRESHOLD = 80.0
@@ -24,7 +19,6 @@ LOW_LIGHT_THRESHOLD = 80.0
 SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
 
 
-# ─── Image I/O ───────────────────────────────────────────────────────
 def read_image_grayscale(path: Path) -> Optional[np.ndarray]:
     """Read an image as grayscale. Falls back to PIL if OpenCV fails."""
     img = cv2.imread(str(path), cv2.IMREAD_GRAYSCALE)
@@ -46,7 +40,6 @@ def get_image_files(dataset_dir: Path) -> list[Path]:
     return files
 
 
-# ─── Quality metrics ─────────────────────────────────────────────────
 def calculate_blur_score(path: Path) -> float:
     """Laplacian variance — higher means sharper. NaN if unreadable."""
     gray = read_image_grayscale(path)
@@ -94,7 +87,6 @@ def calculate_brightness(path: Path) -> tuple[float, float]:
     return (float(np.mean(gray)), float(np.std(gray)))
 
 
-# ─── Classification ──────────────────────────────────────────────────
 def classify_image(
     blur_score: float,
     skew_angle: float,
@@ -112,7 +104,6 @@ def classify_image(
     return "clean"
 
 
-# ─── Per-image processing ────────────────────────────────────────────
 def process_image(path: Path) -> Optional[dict]:
     """Compute triage metrics for a single image. None if fully unreadable."""
     gray = read_image_grayscale(path)
@@ -134,9 +125,7 @@ def process_image(path: Path) -> Optional[dict]:
     }
 
 
-# ─── Main ────────────────────────────────────────────────────────────
 def main() -> None:
-    # Resolve paths relative to this script's location
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent
     dataset_dir = project_root / "data" / "AI-OCR dataset"
@@ -174,7 +163,6 @@ def main() -> None:
             failed.append(path.name)
             print(f"  [{idx}/{len(image_files)}] ERROR: {path.name} -- {exc}", file=sys.stderr)
 
-    # ── Write CSV ────────────────────────────────────────────────────
     fieldnames = [
         "filename",
         "blur_score",
@@ -189,7 +177,6 @@ def main() -> None:
         writer.writerows(rows)
     print(f"\nSaved triage results -> {output_csv}")
 
-    # ── Summary stats ────────────────────────────────────────────────
     if not rows:
         print("No images were successfully processed.")
         return

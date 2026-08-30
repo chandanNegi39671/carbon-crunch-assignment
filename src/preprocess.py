@@ -1,9 +1,4 @@
-"""
-Module 2: Preprocessing
-Clean each image based on its triage bucket before OCR.
-Each sub-step is its own testable function so individual steps can be
-ablated/toggled independently.
-"""
+"""Clean each image based on its triage bucket before OCR."""
 
 from __future__ import annotations
 
@@ -15,11 +10,9 @@ from typing import Optional
 import cv2
 import numpy as np
 
-# Target long-edge dimension in pixels
 TARGET_LONG_EDGE = 1600
 
 
-# ─── Helper: read grayscale ──────────────────────────────────────────
 def _read_gray(image: np.ndarray) -> np.ndarray:
     """Ensure *image* is single-channel grayscale."""
     if image is None or image.size == 0:
@@ -29,7 +22,6 @@ def _read_gray(image: np.ndarray) -> np.ndarray:
     return image.copy()
 
 
-# ─── Sub-step: resize ────────────────────────────────────────────────
 def resize_long_edge(image: np.ndarray, target: int = TARGET_LONG_EDGE) -> np.ndarray:
     """Resize so the long edge equals *target* px, preserving aspect ratio."""
     h, w = image.shape[:2]
@@ -43,13 +35,11 @@ def resize_long_edge(image: np.ndarray, target: int = TARGET_LONG_EDGE) -> np.nd
     return cv2.resize(image, (new_w, new_h), interpolation=interpolation)
 
 
-# ─── Sub-step: denoise ──────────────────────────────────────────────
 def denoise(image: np.ndarray, h: int = 10) -> np.ndarray:
     """Light non-local-means denoising."""
     return cv2.fastNlMeansDenoising(image, h=h)
 
 
-# ─── Sub-step: deskew ───────────────────────────────────────────────
 def deskew(image: np.ndarray) -> np.ndarray:
     """Rotate image to correct detected skew angle using border replication."""
     gray = _read_gray(image)
@@ -89,24 +79,14 @@ def deskew(image: np.ndarray) -> np.ndarray:
     )
 
 
-# ─── Sub-step: contrast enhancement (CLAHE only) ────────────────────
 def enhance_contrast(image: np.ndarray) -> np.ndarray:
-    """Apply CLAHE for local contrast enhancement.
-
-    Returns CLAHE-enhanced grayscale (no binarization), since OCR engines
-    like EasyOCR generally perform better on continuous-tone grayscale
-    than hard-binarized images.
-    """
+    """Apply CLAHE for local contrast (no binarization -- OCR works better on grayscale)."""
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
     return clahe.apply(image)
 
 
 def binarize(image: np.ndarray) -> np.ndarray:
-    """Adaptive thresholding for binarized output.
-
-    Available for explicit use but not called automatically by the
-    preprocessing pipeline.
-    """
+    """Adaptive thresholding -- available but not called automatically by the pipeline."""
     return cv2.adaptiveThreshold(
         image, 255,
         cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
@@ -116,34 +96,21 @@ def binarize(image: np.ndarray) -> np.ndarray:
     )
 
 
-# ─── Sub-step: sharpen (unsharp mask) ───────────────────────────────
 def sharpen(image: np.ndarray) -> np.ndarray:
-    """Unsharp masking to partially recover edge sharpness.
-
-    NOTE: this cannot fully undo blur, only mitigate it.
-    """
+    """Unsharp masking to partially recover edge sharpness (can't fully undo blur)."""
     blurred = cv2.GaussianBlur(image, (0, 0), sigmaX=3)
-    # unsharp = original + (original - blurred) * amount
     sharpened = cv2.addWeighted(image, 1.5, blurred, -0.5, 0)
     return sharpened
 
 
-# ─── Sub-step: perspective correction ────────────────────────────────
 def correct_perspective(image: np.ndarray) -> np.ndarray:
-    """Attempt to flatten a handheld photo by finding the largest
-    4-point contour and applying a perspective warp.
-
-    Falls back gracefully (returns original) if no reliable quadrilateral
-    is found.
-    """
+    """Flatten a handheld photo via perspective warp. Returns original if no reliable quad found."""
     gray = _read_gray(image)
     h, w = gray.shape
 
-    # Blur + Canny to find edges
     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
     edges = cv2.Canny(blurred, 50, 200)
 
-    # Dilate to close small gaps
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
     dilated = cv2.dilate(edges, kernel, iterations=2)
 
@@ -151,13 +118,11 @@ def correct_perspective(image: np.ndarray) -> np.ndarray:
     if not contours:
         return image
 
-    # Sort by area descending, try top candidates
     contours = sorted(contours, key=cv2.contourArea, reverse=True)[:5]
 
     image_area = h * w
     for contour in contours:
         area = cv2.contourArea(contour)
-        # Require the contour to cover at least 15% of the image
         if area < 0.15 * image_area:
             break
 
@@ -167,7 +132,6 @@ def correct_perspective(image: np.ndarray) -> np.ndarray:
         if len(approx) == 4:
             pts = approx.reshape(4, 2).astype(np.float32)
 
-            # Order points: top-left, top-right, bottom-right, bottom-left
             s = pts.sum(axis=1)
             d = np.diff(pts, axis=1).flatten()
             ordered = np.array([
@@ -177,7 +141,6 @@ def correct_perspective(image: np.ndarray) -> np.ndarray:
                 pts[np.argmax(d)],    # bottom-left
             ], dtype=np.float32)
 
-            # Target rectangle
             w_top = np.linalg.norm(ordered[1] - ordered[0])
             w_bot = np.linalg.norm(ordered[2] - ordered[3])
             max_w = int(max(w_top, w_bot))
@@ -199,35 +162,16 @@ def correct_perspective(image: np.ndarray) -> np.ndarray:
             warped = cv2.warpPerspective(image, mat, (max_w, max_h))
             return warped
 
-    # No reliable 4-point contour found
     return image
 
 
-# ─── Main preprocess entry point ─────────────────────────────────────
 def preprocess(image: np.ndarray, bucket: str) -> np.ndarray:
-    """Full preprocessing pipeline, routed by triage bucket.
-
-    Parameters
-    ----------
-    image : np.ndarray
-        Raw image (BGR or grayscale).
-    bucket : str
-        One of "clean", "blurry", "skewed", "low_light", "unknown".
-
-    Returns
-    -------
-    np.ndarray
-        Preprocessed image ready for OCR.
-    """
+    """Full preprocessing pipeline, routed by triage bucket."""
     img = _read_gray(image)
 
-    # 1. ALWAYS: resize long edge to TARGET_LONG_EDGE
     img = resize_long_edge(img)
-
-    # 2. ALWAYS: light denoise
     img = denoise(img, h=10)
 
-    # 3. Bucket-specific enhancements
     if bucket == "skewed":
         img = deskew(img)
 
@@ -237,36 +181,25 @@ def preprocess(image: np.ndarray, bucket: str) -> np.ndarray:
     if bucket == "blurry":
         img = sharpen(img)
 
-    # 4. Attempt perspective correction for handheld/photo-style images
-    #    Detect via: aspect ratio far from typical scanned-receipt ratio
-    #    (scanned receipts are usually ~0.4-0.7 width/height)
     img = _maybe_perspective_correct(img)
 
     return img
 
 
 def _maybe_perspective_correct(image: np.ndarray) -> np.ndarray:
-    """Heuristic: attempt perspective correction if the image looks like
-    a handheld photo (aspect ratio outside typical scan range, or large
-    non-white border region).
-
-    This is intentionally conservative — skip gracefully if uncertain.
-    """
+    """Attempt perspective correction if aspect ratio looks like a handheld photo (conservative)."""
     h, w = image.shape[:2]
     aspect = w / h if h > 0 else 1.0
 
-    # Typical scanned receipts: aspect ~0.35-0.75 (portrait) or 1.3-2.8 (landscape)
-    # Handheld photos tend to have wider aspect ratios and more background
+    # Square-ish aspect -- likely a handheld photo
     if 0.75 < aspect < 1.3:
-        # Square-ish — likely a photo, attempt correction
         return correct_perspective(image)
 
     return image
 
 
-# ─── Standalone test runner ──────────────────────────────────────────
 def main() -> None:
-    """Quick smoke test: preprocess a few sample images and save output."""
+    """Smoke test: preprocess a few sample images and save output."""
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent
     dataset_dir = project_root / "data" / "AI-OCR dataset"
@@ -278,7 +211,6 @@ def main() -> None:
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Load triage CSV to get bucket per image
     triage_csv = project_root / "outputs" / "triage" / "dataset_triage.csv"
     if not triage_csv.exists():
         print("ERROR: Run dataset_triage.py first to generate triage CSV.", file=sys.stderr)
@@ -290,7 +222,6 @@ def main() -> None:
         for row in csv.DictReader(fh):
             buckets[row["filename"]] = row["bucket"]
 
-    # Pick one sample per bucket
     samples_by_bucket: dict[str, str] = {}
     for fname, bucket in buckets.items():
         if bucket not in samples_by_bucket:

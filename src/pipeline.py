@@ -1,11 +1,4 @@
-"""
-Module 7: Pipeline Orchestrator
-Single entry point that runs the full receipt processing pipeline:
-
-  triage -> preprocess -> OCR -> extract fields -> confidence score -> summary
-
-Run as: python src/pipeline.py
-"""
+"""Single entry point that runs the full receipt processing pipeline."""
 
 from __future__ import annotations
 
@@ -18,7 +11,6 @@ from pathlib import Path
 
 import cv2
 
-# Ensure src/ is importable when running from project root
 _SCRIPT_DIR = Path(__file__).resolve().parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
@@ -31,7 +23,6 @@ from confidence import score_receipt
 from summary import generate_summary, save_summary
 
 
-# ─── Per-image processing ────────────────────────────────────────────
 def _process_one(
     img_path: Path,
     bucket: str,
@@ -48,7 +39,6 @@ def _process_one(
     return scored
 
 
-# ─── Main ────────────────────────────────────────────────────────────
 def main() -> None:
     parser = argparse.ArgumentParser(description="Receipt OCR pipeline")
     parser.add_argument(
@@ -66,14 +56,12 @@ def main() -> None:
     json_dir = project_root / "outputs" / "json"
     summary_path = project_root / "outputs" / "expense_summary.json"
 
-    # ── Step 0: validate ─────────────────────────────────────────────
     if not dataset_dir.is_dir():
         print(f"ERROR: Dataset not found: {dataset_dir}", file=sys.stderr)
         sys.exit(1)
 
     json_dir.mkdir(parents=True, exist_ok=True)
 
-    # ── Step 1: triage ───────────────────────────────────────────────
     print("=" * 60)
     print("STEP 1: Dataset Triage")
     print("=" * 60)
@@ -97,7 +85,6 @@ def main() -> None:
                     triage_results.append(result)
             except Exception as exc:  # noqa: BLE001
                 print(f"  WARN: triage failed for {path.name}: {exc}")
-        # Save triage CSV using cached results (no recomputation)
         triage_csv.parent.mkdir(parents=True, exist_ok=True)
         fieldnames = ["filename", "blur_score", "skew_angle",
                        "brightness_mean", "brightness_std", "bucket"]
@@ -110,14 +97,12 @@ def main() -> None:
 
     print(f"  {len(buckets)} images bucketed\n")
 
-    # ── Step 2-5: per-image pipeline ─────────────────────────────────
     print("=" * 60)
     print("STEP 2-5: Preprocess -> OCR -> Extract -> Score")
     print("=" * 60)
 
     image_files = get_image_files(dataset_dir)
     total = len(image_files)
-    # Resume vs force mode
     existing_jsons = {p.stem for p in json_dir.glob("*.json")}
     if force:
         print("  Force mode: reprocessing all images (existing JSONs will be overwritten)")
@@ -134,15 +119,11 @@ def main() -> None:
     failed_count = 0
     failures: list[str] = []
 
-    # Accumulators for stats
     conf_store: list[float] = []
     conf_date: list[float] = []
     conf_total: list[float] = []
     flagged_fields = 0
 
-    # Load stats from existing JSONs — only in resume mode (not force).
-    # In force mode, old JSONs are still on disk but will be overwritten
-    # by Loop B, so loading them here would double-count stats.
     if not force:
         for jf in json_dir.glob("*.json"):
             try:
@@ -175,14 +156,12 @@ def main() -> None:
                 print(f"  [{idx}/{total}] SKIP (unreadable): {fname}")
                 continue
 
-            # Save per-receipt JSON
             out_json = json_dir / f"{img_path.stem}.json"
             with open(out_json, "w", encoding="utf-8") as fh:
                 json.dump(scored, fh, indent=2, ensure_ascii=False)
 
             processed_count += 1
 
-            # Collect stats
             cs = scored["store_name"]["confidence"]
             cd = scored["date"]["confidence"]
             ct = scored["total_amount"]["confidence"]
@@ -211,7 +190,6 @@ def main() -> None:
             failures.append(fname)
             print(f"  [{idx}/{total}] ERROR: {fname} -- {exc}")
 
-    # ── Step 6: summary ──────────────────────────────────────────────
     print(f"\n{'=' * 60}")
     print("STEP 6: Financial Summary")
     print("=" * 60)
@@ -220,7 +198,6 @@ def main() -> None:
     save_summary(summary, summary_path)
     print(f"  Summary saved to {summary_path}")
 
-    # ── Final stats ──────────────────────────────────────────────────
     elapsed = time.time() - t_start
     print(f"\n{'=' * 60}")
     print("PIPELINE COMPLETE")

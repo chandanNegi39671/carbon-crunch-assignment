@@ -1,13 +1,4 @@
-"""
-Debug script: Investigate why total_amount extraction returns empty
-for specific receipts.
-
-This is a read-only diagnostic tool — does NOT modify extract_fields.py.
-
-NOTE: This script must NOT import preprocess/ocr_engine at module level
-due to a known EasyOCR segfault when torch + cv2 are imported first.
-All imports are deferred to main().
-"""
+"""Debug script: Investigate why total_amount extraction returns empty for specific receipts."""
 
 from __future__ import annotations
 
@@ -18,7 +9,6 @@ import json
 from pathlib import Path
 
 
-# ── Target filenames (stems) ─────────────────────────────────────────
 TARGET_STEMS = [
     "9", "10", "11", "13",
     "X51005255805", "X51005288570", "X51005361923",
@@ -31,7 +21,6 @@ TARGET_STEMS = [
 
 
 def main() -> None:
-    # ── Deferred imports (order matters for EasyOCR) ────────────────
     import cv2
     import numpy as np
     import easyocr
@@ -42,11 +31,9 @@ def main() -> None:
     _TRIAGE_CSV = _PROJECT_ROOT / "outputs" / "triage" / "dataset_triage.csv"
     _JSON_DIR = _PROJECT_ROOT / "outputs" / "json"
 
-    # Init EasyOCR BEFORE importing preprocess/ocr_engine
     reader = easyocr.Reader(["en"], gpu=False)
     print("EasyOCR reader initialized\n")
 
-    # Now safe to import project modules
     sys.path.insert(0, str(_SCRIPT_DIR))
     from preprocess import preprocess
     from ocr_engine import _group_into_lines
@@ -59,7 +46,6 @@ def main() -> None:
         extract_fields,
     )
 
-    # Load triage buckets
     buckets: dict[str, str] = {}
     if _TRIAGE_CSV.exists():
         with open(_TRIAGE_CSV, encoding="utf-8") as fh:
@@ -70,7 +56,6 @@ def main() -> None:
     examples: dict[int, list] = {1: [], 2: [], 3: []}
 
     for stem in TARGET_STEMS:
-        # Find image file
         img_path = None
         for ext in (".jpg", ".jpeg", ".png", ".webp", ".JPG"):
             candidate = _DATASET_DIR / f"{stem}{ext}"
@@ -91,13 +76,11 @@ def main() -> None:
         print(f"  {stem}  (file={img_path.name}, bucket={bucket})")
         print(f"{'='*70}")
 
-        # Run OCR with error handling
         try:
             raw = cv2.imread(str(img_path))
             if raw is None:
                 raise ValueError("cv2.imread returned None")
 
-            # Resize to avoid EasyOCR segfault on large images
             h, w = raw.shape[:2]
             scale = min(1.0, 1600 / max(h, w))
             if scale < 1.0:
@@ -105,7 +88,6 @@ def main() -> None:
 
             processed = preprocess(raw, bucket)
 
-            # EasyOCR needs BGR
             if len(processed.shape) == 2:
                 img_bgr = cv2.cvtColor(processed, cv2.COLOR_GRAY2BGR)
             else:
@@ -113,7 +95,6 @@ def main() -> None:
 
             ocr_results = reader.readtext(img_bgr)
 
-            # Convert to word dicts
             words = []
             for bbox, text, conf in ocr_results:
                 pts = np.array(bbox, dtype=np.float32)
@@ -129,7 +110,6 @@ def main() -> None:
 
         except Exception as exc:
             print(f"  OCR FAILED: {exc}")
-            # Fall back to existing JSON
             existing_json = _JSON_DIR / f"{stem}.json"
             if existing_json.exists():
                 with open(existing_json, encoding="utf-8") as fh:
@@ -144,7 +124,6 @@ def main() -> None:
                 examples[1].append({"stem": stem, "reason": "OCR failed, no JSON exists"})
             continue
 
-        # Print all OCR lines with analysis
         print(f"\n  OCR lines ({len(ocr_lines)}):")
         analyses = []
         for i, line in enumerate(ocr_lines):
@@ -172,7 +151,6 @@ def main() -> None:
             }
             analyses.append(analysis)
 
-            # Build display string
             flags = []
             if has_total_kw:
                 flags.append(f"KW:{matched_kws}")
@@ -186,12 +164,10 @@ def main() -> None:
             flag_str = "  ".join(flags) if flags else "(no match)"
             print(f"    [{i:3d}] {text!r:60s}  {flag_str}")
 
-        # Run extract_fields
         fields = extract_fields(ocr_lines)
         total = fields["total_amount"]
         print(f"\n  extract_fields total_amount: {total!r}")
 
-        # ── Categorise ──────────────────────────────────────────────
         kw_lines = [a for a in analyses if a["has_total_keyword"]]
 
         if not kw_lines:
@@ -267,7 +243,6 @@ def main() -> None:
                 ],
             })
 
-    # ── Summary ──────────────────────────────────────────────────────
     print(f"\n{'='*70}")
     print(f"  DIAGNOSTIC SUMMARY")
     print(f"{'='*70}")

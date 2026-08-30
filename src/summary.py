@@ -1,12 +1,4 @@
-"""
-Module 6: Financial Summary
-Aggregate all per-receipt JSONs into one financial summary.
-
-Features:
-- Total spend (all vs high-confidence)
-- Per-store breakdown with fuzzy name matching (threshold ~0.85)
-- Flagged receipt count
-"""
+"""Aggregate all per-receipt JSONs into one financial summary."""
 
 from __future__ import annotations
 
@@ -17,11 +9,9 @@ from collections import defaultdict
 from difflib import SequenceMatcher
 from pathlib import Path
 
-# ─── Fuzzy matching threshold ────────────────────────────────────────
 _SIMILARITY_THRESHOLD = 0.85
 
 
-# ─── Helpers ─────────────────────────────────────────────────────────
 def _normalise_name(name: str) -> str:
     """Lowercase, strip punctuation, collapse whitespace."""
     name = name.lower().strip()
@@ -47,23 +37,8 @@ def _merge_store_name(existing: str, new: str) -> str:
     return existing
 
 
-# ─── Public API ──────────────────────────────────────────────────────
 def generate_summary(json_dir: Path) -> dict:
-    """Load every per-receipt JSON from *json_dir* and produce a summary.
-
-    Parameters
-    ----------
-    json_dir : Path
-        Directory containing ``<filename>.json`` files, each with the
-        schema from ``confidence.score_receipt()``.
-
-    Returns
-    -------
-    dict
-        Summary with keys: ``total_spend_all``, ``total_spend_high_confidence``,
-        ``transaction_count``, ``spend_per_store``, ``flagged_receipts_count``,
-        ``receipts``.
-    """
+    """Load every per-receipt JSON from json_dir and produce a summary."""
     json_files = sorted(json_dir.glob("*.json"))
     if not json_files:
         return {
@@ -82,7 +57,7 @@ def generate_summary(json_dir: Path) -> dict:
     excluded_outlier_total = 0.0
     receipts: list[dict] = []
 
-    # Per-store accumulators: canonical_name -> {"total": float, "count": int, "original_names": set}
+    # canonical_name -> {"total": float, "count": int, "names": set}
     store_data: dict[str, dict] = {}
 
     for jf in json_files:
@@ -93,7 +68,6 @@ def generate_summary(json_dir: Path) -> dict:
             print(f"  WARN: failed to load {jf.name}: {exc}")
             continue
 
-        # Extract total amount
         total_field = data.get("total_amount", {})
         total_val_str = total_field.get("value", "")
         total_conf = total_field.get("confidence", 0.0)
@@ -106,7 +80,7 @@ def generate_summary(json_dir: Path) -> dict:
         except (ValueError, TypeError) as exc:  # noqa: BLE001
             print(f"  WARN: failed to parse amount from {jf.name}: {exc}")
 
-        # Secondary sanity filter: reject amounts > 5000 as implausible outliers
+        # Reject amounts > 5000 as implausible outliers
         if amount > 5000.0:
             print(f"  WARN: excluding outlier amount {amount:.2f} from {jf.name} (> 5000 ceiling)")
             excluded_outlier_count += 1
@@ -119,10 +93,8 @@ def generate_summary(json_dir: Path) -> dict:
         if total_flag:
             flagged_count += 1
 
-        # Store name
         store_name = data.get("store_name", {}).get("value", "UNKNOWN")
 
-        # Fuzzy group into canonical store
         canonical = None
         for existing_key in store_data:
             if _fuzzy_match(existing_key, store_name):
@@ -136,7 +108,6 @@ def generate_summary(json_dir: Path) -> dict:
         store_data[canonical]["count"] += 1
         store_data[canonical]["names"].add(store_name)
 
-        # Keep the best (longest) name as display name
         store_data[canonical]["display"] = _merge_store_name(
             store_data[canonical].get("display", canonical), store_name
         )
@@ -150,7 +121,6 @@ def generate_summary(json_dir: Path) -> dict:
             "total_flagged": total_flag,
         })
 
-    # Build spend_per_store output
     spend_per_store: dict[str, dict] = {}
     for canonical, info in store_data.items():
         display = info.get("display", canonical)
@@ -173,13 +143,12 @@ def generate_summary(json_dir: Path) -> dict:
 
 
 def save_summary(summary: dict, output_path: Path) -> None:
-    """Write summary dict to *output_path* as JSON."""
+    """Write summary dict to output_path as JSON."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as fh:
         json.dump(summary, fh, indent=2, ensure_ascii=False)
 
 
-# ─── Standalone test runner ──────────────────────────────────────────
 def main() -> None:
     """Smoke test: aggregate whatever JSONs exist in outputs/json/."""
     script_dir = Path(__file__).resolve().parent

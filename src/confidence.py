@@ -1,14 +1,4 @@
-"""
-Module 5: Confidence Scoring
-Attach a 0-1 confidence score + reason to every extracted field.
-
-Weighted formula:
-  confidence = 0.5 * ocr_confidence
-             + 0.3 * int(pattern_valid)
-             + 0.2 * int(keyword_anchored)
-
-If confidence < 0.7, set flag=True with a reason string.
-"""
+"""Attach a 0-1 confidence score + reason to every extracted field."""
 
 from __future__ import annotations
 
@@ -16,15 +6,12 @@ import re
 from datetime import datetime
 from typing import Optional
 
-# ─── Weights ─────────────────────────────────────────────────────────
 _W_OCR = 0.5
 _W_PATTERN = 0.3
 _W_ANCHOR = 0.2
 _FLAG_THRESHOLD = 0.7
 
-# ─── Date format list for strptime validation ────────────────────────
 _DATE_FORMATS = [
-    # 4-digit year with time
     "%d/%m/%Y %H:%M:%S",
     "%d/%m/%Y %I:%M:%S %p",
     "%m/%d/%Y %H:%M:%S",
@@ -33,7 +20,6 @@ _DATE_FORMATS = [
     "%d/%m/%Y %I:%M %p",
     "%m/%d/%Y %H:%M",
     "%m/%d/%Y %I:%M %p",
-    # 2-digit year with time
     "%d/%m/%y %H:%M:%S",
     "%d/%m/%y %I:%M:%S %p",
     "%m/%d/%y %H:%M:%S",
@@ -42,7 +28,6 @@ _DATE_FORMATS = [
     "%d/%m/%y %I:%M %p",
     "%m/%d/%y %H:%M",
     "%m/%d/%y %I:%M %p",
-    # Date only
     "%d/%m/%Y",
     "%m/%d/%Y",
     "%d/%m/%y",
@@ -56,11 +41,9 @@ _DATE_FORMATS = [
     "%B %d, %Y",
 ]
 
-# ─── Currency cleaning regex ─────────────────────────────────────────
 _CURRENCY_STRIP = re.compile(r"^(RM|Rs\.?|\$)\s*|[,\s]", re.IGNORECASE)
 
 
-# ─── Pattern validation helpers ──────────────────────────────────────
 def _is_valid_date(value: str) -> bool:
     """Does *value* parse with any known date format?"""
     if not value or not value.strip():
@@ -111,7 +94,6 @@ def _pattern_valid(field_name: str, value: str) -> bool:
     return bool(value and value.strip())
 
 
-# ─── Confidence reason determination ─────────────────────────────────
 def _determine_reason(
     ocr_confidence: float,
     pattern_valid: bool,
@@ -130,7 +112,6 @@ def _determine_reason(
     return None
 
 
-# ─── Public API: score a single field ────────────────────────────────
 def score_field(
     field_name: str,
     value: str,
@@ -138,26 +119,7 @@ def score_field(
     pattern_valid: bool,
     keyword_anchored: bool,
 ) -> dict:
-    """Score a single extracted field.
-
-    Parameters
-    ----------
-    field_name : str
-        e.g. "store_name", "date", "total_amount"
-    value : str
-        Extracted text value.
-    ocr_confidence : float
-        Average OCR confidence for the words that produced this value (0-1).
-    pattern_valid : bool
-        Whether the value matches the expected pattern for its field type.
-    keyword_anchored : bool
-        Whether the field was found near its expected anchor keyword.
-
-    Returns
-    -------
-    dict
-        ``{"value": str, "confidence": float, "flag": bool, "reason": str | None}``
-    """
+    """Score a single extracted field."""
     if not value:
         return {
             "value": "",
@@ -186,22 +148,18 @@ def score_field(
     }
 
 
-# ─── Helper: find if a value appears near an anchor keyword ──────────
 def _is_near_keyword(
     ocr_lines: list[dict],
     value: str,
     keywords: list[str],
     tolerance_y: float = 30.0,
 ) -> bool:
-    """Check if any line containing *value* also contains one of the *keywords*,
-    or if a keyword-line is within *tolerance_y* pixels vertically."""
+    """Check if a value appears near one of the keywords (same line or within tolerance_y px)."""
     for line in ocr_lines:
         upper = line["text"].upper()
-        # Direct: same line has keyword
         if value and value.upper() in upper and any(kw in upper for kw in keywords):
             return True
         if any(kw in upper for kw in keywords):
-            # Check if a line with the value is nearby
             kw_y = (line["bbox"][0][1] + line["bbox"][1][1]) / 2.0
             for other in ocr_lines:
                 if value and value in other["text"]:
@@ -211,31 +169,14 @@ def _is_near_keyword(
     return False
 
 
-# ─── Public API: score an entire receipt ─────────────────────────────
 def score_receipt(
     extracted: dict,
     ocr_lines: list[dict],
 ) -> dict:
-    """Score all fields in an extracted receipt dict.
-
-    Parameters
-    ----------
-    extracted : dict
-        Output from ``extract_fields.extract_fields()``.
-    ocr_lines : list[dict]
-        Output from ``ocr_engine.run_ocr()`` — used to determine
-        keyword anchoring and per-word OCR confidence.
-
-    Returns
-    -------
-    dict
-        Final receipt JSON with confidence-annotated fields.
-    """
-    # Compute average OCR confidence across all lines
+    """Score all fields in an extracted receipt dict."""
     all_confs = [l["confidence"] for l in ocr_lines if l["text"].strip()]
     avg_ocr_conf = float(sum(all_confs) / len(all_confs)) if all_confs else 0.0
 
-    # ── store_name ───────────────────────────────────────────────────
     store_val = extracted.get("store_name", "")
     store_anchored = _is_near_keyword(
         ocr_lines, store_val,
@@ -247,7 +188,6 @@ def score_receipt(
         store_anchored,
     )
 
-    # ── date ─────────────────────────────────────────────────────────
     date_val = extracted.get("date", "")
     date_anchored = _is_near_keyword(
         ocr_lines, date_val,
@@ -259,7 +199,6 @@ def score_receipt(
         date_anchored,
     )
 
-    # ── total_amount ─────────────────────────────────────────────────
     total_val = extracted.get("total_amount", "")
     total_anchored = _is_near_keyword(
         ocr_lines, total_val,
@@ -271,13 +210,12 @@ def score_receipt(
         total_anchored,
     )
 
-    # ── items ────────────────────────────────────────────────────────
     scored_items: list[dict] = []
     for item in extracted.get("items", []):
         item_name = item.get("name", "")
         item_price = item.get("price", "")
 
-        # Per-item OCR confidence: find the OCR line closest to this item
+        # Find the OCR line closest to this item for per-item confidence
         item_ocr_conf = avg_ocr_conf
         for line in ocr_lines:
             if item_name and item_name in line["text"]:
@@ -302,7 +240,6 @@ def score_receipt(
     }
 
 
-# ─── Standalone test runner ──────────────────────────────────────────
 def main() -> None:
     """Smoke test: score a few sample receipts."""
     import json
