@@ -36,6 +36,7 @@ _DATE_PATTERNS = [
 ]
 
 # ─── Total / keyword patterns ────────────────────────────────────────
+# Priority-3 keywords (strong, unambiguous "this is the total" signals)
 _TOTAL_KEYWORDS = [
     "ROUNDED TOTAL",
     "GRAND TOTAL",
@@ -45,7 +46,13 @@ _TOTAL_KEYWORDS = [
     "VISA TEND",
     "BALANCE DUE",
     "NET AMOUNT",
+    "NET AMT",
+    "BAL",
 ]
+
+# Weak/OCR-misread keyword variants — only used as a last resort (priority 1),
+# since short/generic tokens like "TOTA" risk false positives on unrelated text.
+_WEAK_TOTAL_KEYWORDS = ["TOTA", "TOTAI"]
 
 _EXCLUDE_KEYWORDS = ["TAX", "GST", "SUBTOTAL", "SUB TOTAL", "CHANGE", "CASH"]
 
@@ -61,9 +68,60 @@ _REFERENCE_PATTERNS = [
     re.compile(r"\d{8,}"),
 ]
 
-# Currency-like number: optional currency symbol + digits with optional decimals
-_CURRENCY_RE = re.compile(r"[\$RMrm]?\s*(\d{1,6}(?:[,.]\d{1,2})?)")
-_CURRENCY_STRICT_RE = re.compile(r"[\$RMrm]?\s*(\d{1,6}\.\d{2})")
+# Currency-like number: optional currency symbol + digits with optional
+# decimals. Also accepts '-' as a decimal separator since OCR sometimes
+# misreads '.' as '-' (e.g. "14-10" meaning "14.10"). A stray space is
+# also allowed around the decimal separator, since OCR sometimes inserts
+# one (e.g. "338. 16" meaning "338.16").
+_CURRENCY_RE = re.compile(r"[\$RMrm]?\s*(\d{1,6}(?:\s?[,.\-]\s?\d{1,2})?)")
+_CURRENCY_STRICT_RE = re.compile(r"[\$RMrm]?\s*(\d{1,6}\s?[.\-]\s?\d{2})")
+
+
+# ─── Amount string normalization ──────────────────────────────────────
+def _normalize_amount_string(raw: str) -> str:
+    """Normalize a matched amount string to a standard X.XX format.
+
+    Handles:
+    - comma-as-decimal (e.g. '93,80' -> '93.80') vs comma-as-thousands-
+      separator (e.g. '1,234' stays as thousands, stripped), based on
+      digit count after the last comma.
+    - dash-as-decimal, an OCR misread of '.' (e.g. '14-10' -> '14.10').
+    """
+    s = raw.strip()
+    # Collapse a stray space around the decimal separator (OCR artifact),
+    # e.g. "338. 16" -> "338.16", "93 , 80" -> "93,80"
+    s = re.sub(r"\s*([.,\-])\s*", r"\1", s)
+
+    if "-" in s and "." not in s and "," not in s:
+        last_dash_idx = s.rfind("-")
+        digits_after = s[last_dash_idx + 1:]
+        if len(digits_after) == 2 and digits_after.isdigit():
+            s = s[:last_dash_idx] + "." + digits_after
+        else:
+            s = s.replace("-", "")
+        return s
+
+    if "," in s and "." not in s:
+        last_comma_idx = s.rfind(",")
+        digits_after = s[last_comma_idx + 1:]
+        if len(digits_after) == 2 and digits_after.isdigit():
+            s = s[:last_comma_idx] + "." + digits_after
+        else:
+            s = s.replace(",", "")
+        return s
+
+    return s.replace(",", "")
+
+
+def _best_match_on_line(pattern: re.Pattern, text: str) -> Optional[str]:
+    """Return the LAST (rightmost) match of *pattern* in *text*, since
+    amount columns are conventionally right-aligned at the end of the
+    line in these receipts — the first number on a line is often a
+    quantity or item count, not the amount."""
+    matches = pattern.findall(text)
+    if not matches:
+        return None
+    return matches[-1]
 
 
 # ─── Defensive bbox access ─────────────────────────────────────────
@@ -256,9 +314,13 @@ def _extract_total(ocr_lines: list[dict]) -> str:
             priority = 4
         elif "TOTAL" in upper and not any(ex in upper for ex in ["SUBTOTAL", "SUB TOTAL"]):
             priority = 3
-        elif "AMOUNT DUE" in upper or "BALANCE DUE" in upper or "NET AMOUNT" in upper:
+        elif any(kw in upper for kw in ("AMOUNT DUE", "BALANCE DUE", "NET AMOUNT", "NET AMT", "BAL")):
             priority = 2
         elif "CASH TEND" in upper or "VISA TEND" in upper:
+            priority = 1
+        elif any(kw in upper for kw in _WEAK_TOTAL_KEYWORDS):
+            # Weak OCR-misread variants ("TOTA", "TOTAI") — lowest tier,
+            # only used when nothing better is found.
             priority = 1
 
         if priority < 0:
@@ -268,14 +330,18 @@ def _extract_total(ocr_lines: list[dict]) -> str:
         if priority <= 1 and any(ex in upper for ex in ["TAX", "GST", "SUBTOTAL", "SUB TOTAL"]):
             continue
 
-        # Extract price-like number from this line
-        # Prefer strict format (X.XX), then loose
-        strict_match = _CURRENCY_STRICT_RE.search(text)
-        price_match = strict_match if strict_match else _CURRENCY_RE.search(text)
-        if not price_match:
+        # Extract price-like number from this line.
+        # Prefer strict format (X.XX / X-XX), then loose. Take the LAST
+        # (rightmost) match on the line, since amount columns are
+        # conventionally right-aligned — the first number is often a
+        # quantity or item count, not the amount.
+        strict_val = _best_match_on_line(_CURRENCY_STRICT_RE, text)
+        loose_val = _best_match_on_line(_CURRENCY_RE, text) if strict_val is None else None
+        raw_val = strict_val if strict_val is not None else loose_val
+        if raw_val is None:
             continue
 
-        price_str = price_match.group(1).replace(",", "")
+        price_str = _normalize_amount_string(raw_val)
 
         # ── Sanity range checks ────────────────────────────────────
         try:
@@ -283,7 +349,7 @@ def _extract_total(ocr_lines: list[dict]) -> str:
         except ValueError:
             continue
 
-        is_strict_match = strict_match is not None
+        is_strict_match = strict_val is not None
         is_strong_keyword = priority >= 3
 
         # General ceiling: > 5000 is implausible unless strict match on strong keyword
@@ -291,7 +357,8 @@ def _extract_total(ocr_lines: list[dict]) -> str:
             if not (is_strict_match and is_strong_keyword):
                 continue
 
-        # Lower ceiling for weak keywords (CASH TEND / VISA TEND) with loose matches
+        # Lower ceiling for weak keywords (CASH TEND / VISA TEND / weak
+        # OCR-misread variants) with loose matches
         if priority == 1 and not is_strict_match and numeric_val > 2000:
             continue
 
@@ -299,20 +366,22 @@ def _extract_total(ocr_lines: list[dict]) -> str:
             best_priority = priority
             best_total = price_str
 
-    # Fallback: look for any line with "TOTAL" and grab the number
+    # Fallback: look for any line with "TOTAL" (or a weak OCR variant) and
+    # grab the best (rightmost) number
     if best_total is None:
         for line in valid_lines:
             text = line["text"].strip()
             upper = text.upper()
-            if "TOTAL" in upper:
+            has_total_kw = "TOTAL" in upper or any(kw in upper for kw in _WEAK_TOTAL_KEYWORDS)
+            if has_total_kw:
                 # Skip reference lines even in fallback
                 if _is_reference_line(text):
                     continue
-                strict_match_fb = _CURRENCY_STRICT_RE.search(text)
-                loose_match_fb = _CURRENCY_RE.search(text) if not strict_match_fb else None
-                match = strict_match_fb or loose_match_fb
-                if match:
-                    price_str = match.group(1).replace(",", "")
+                strict_val_fb = _best_match_on_line(_CURRENCY_STRICT_RE, text)
+                loose_val_fb = _best_match_on_line(_CURRENCY_RE, text) if strict_val_fb is None else None
+                raw_val_fb = strict_val_fb if strict_val_fb is not None else loose_val_fb
+                if raw_val_fb is not None:
+                    price_str = _normalize_amount_string(raw_val_fb)
                     try:
                         numeric_val = float(price_str)
                     except ValueError:
@@ -321,7 +390,7 @@ def _extract_total(ocr_lines: list[dict]) -> str:
                     is_strong = "ROUNDED TOTAL" in upper or "GRAND TOTAL" in upper or (
                         "TOTAL" in upper and not any(ex in upper for ex in ["SUBTOTAL", "SUB TOTAL"])
                     )
-                    if numeric_val > 5000 and not (strict_match_fb is not None and is_strong):
+                    if numeric_val > 5000 and not (strict_val_fb is not None and is_strong):
                         continue
                     best_total = price_str
                     break
