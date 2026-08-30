@@ -140,25 +140,28 @@ def main() -> None:
     conf_total: list[float] = []
     flagged_fields = 0
 
-    # Load stats from existing JSONs
-    for jf in json_dir.glob("*.json"):
-        try:
-            with open(jf, encoding="utf-8") as fh:
-                data = json.load(fh)
-            conf_store.append(data.get("store_name", {}).get("confidence", 0))
-            conf_date.append(data.get("date", {}).get("confidence", 0))
-            conf_total.append(data.get("total_amount", {}).get("confidence", 0))
-            if data.get("store_name", {}).get("flag", False):
-                flagged_fields += 1
-            if data.get("date", {}).get("flag", False):
-                flagged_fields += 1
-            if data.get("total_amount", {}).get("flag", False):
-                flagged_fields += 1
-            for it in data.get("items", []):
-                if it.get("confidence", 1.0) < 0.7:
+    # Load stats from existing JSONs — only in resume mode (not force).
+    # In force mode, old JSONs are still on disk but will be overwritten
+    # by Loop B, so loading them here would double-count stats.
+    if not force:
+        for jf in json_dir.glob("*.json"):
+            try:
+                with open(jf, encoding="utf-8") as fh:
+                    data = json.load(fh)
+                conf_store.append(data.get("store_name", {}).get("confidence", 0))
+                conf_date.append(data.get("date", {}).get("confidence", 0))
+                conf_total.append(data.get("total_amount", {}).get("confidence", 0))
+                if data.get("store_name", {}).get("flag", False):
                     flagged_fields += 1
-        except Exception as exc:  # noqa: BLE001
-            print(f"  WARN: failed to load {jf.name}: {exc}")
+                if data.get("date", {}).get("flag", False):
+                    flagged_fields += 1
+                if data.get("total_amount", {}).get("flag", False):
+                    flagged_fields += 1
+                for it in data.get("items", []):
+                    if it.get("confidence", 1.0) < 0.7:
+                        flagged_fields += 1
+            except Exception as exc:  # noqa: BLE001
+                print(f"  WARN: failed to load {jf.name}: {exc}")
 
     for idx, img_path in enumerate(to_process, start=skipped + 1):
         fname = img_path.name
