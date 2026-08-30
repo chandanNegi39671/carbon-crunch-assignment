@@ -1,0 +1,4981 @@
+{
+  "total_spend_all": 25373.99,
+  "total_spend_high_confidence": 14422.47,
+  "transaction_count": 371,
+  "spend_per_store": {
+    "WAL*MART": {
+      "total_spend": 81.6,
+      "transaction_count": 4,
+      "known_variants": [
+        "WAL*MART",
+        "Walmart"
+      ]
+    },
+    "\"TRADER JOE'S": {
+      "total_spend": 840.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "\"TRADER JOE'S"
+      ]
+    },
+    "SPAR": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "SPAR"
+      ]
+    },
+    "WHOLE": {
+      "total_spend": 45.44,
+      "transaction_count": 1,
+      "known_variants": [
+        "WHOLE"
+      ]
+    },
+    "See back of receipt for your  chance": {
+      "total_spend": 113.66,
+      "transaction_count": 4,
+      "known_variants": [
+        "See back of receipt for your  chance",
+        "See back of receipt for your chance"
+      ]
+    },
+    "we": {
+      "total_spend": 12.68,
+      "transaction_count": 1,
+      "known_variants": [
+        "we"
+      ]
+    },
+    "Givu U6 Walik youl (eeabeck I /oui3/J/NXS e vov walma ( com": {
+      "total_spend": 86.35,
+      "transaction_count": 1,
+      "known_variants": [
+        "Givu U6 Walik youl (eeabeck I /oui3/J/NXS e vov walma ( com"
+      ]
+    },
+    "Thank youl Give us feedback ID #: 70DRJJ99F 3X survey wale mart_ com": {
+      "total_spend": 35.05,
+      "transaction_count": 1,
+      "known_variants": [
+        "Thank youl Give us feedback ID #: 70DRJJ99F 3X survey wale mart_ com"
+      ]
+    },
+    "La": {
+      "total_spend": 49.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "La"
+      ]
+    },
+    "DOLLAR TREE": {
+      "total_spend": 1.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "DOLLAR TREE"
+      ]
+    },
+    "DollaR TnEe StoRes, Inc .": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "DollaR TnEe StoRes, Inc ."
+      ]
+    },
+    "See to uin bock 51000 id of recelet 7NsnIvixcqdq for your chance": {
+      "total_spend": 144.02,
+      "transaction_count": 1,
+      "known_variants": [
+        "See to uin bock 51000 id of recelet 7NsnIvixcqdq for your chance"
+      ]
+    },
+    "WHOLE FOODS": {
+      "total_spend": 528.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "WHOLE FOODS"
+      ]
+    },
+    "MOMI & Toy's": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "MOMI & Toy's"
+      ]
+    },
+    "coSc": {
+      "total_spend": 1.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "coSc"
+      ]
+    },
+    "Ile Ecod $ 800- Duneanv 17tmti Nwn stor Wi Cocku ncatoodl Io 00124 \"i Mi 10m The Tx 75137 con 6r' Ra": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ile Ecod $ 800- Duneanv 17tmti Nwn stor Wi Cocku ncatoodl Io 00124 \"i Mi 10m The Tx 75137 con 6r' Ra"
+      ]
+    },
+    "tan woon yann": {
+      "total_spend": 248.83,
+      "transaction_count": 5,
+      "known_variants": [
+        "tan woon yann"
+      ]
+    },
+    "tan chay yee": {
+      "total_spend": 244.0,
+      "transaction_count": 5,
+      "known_variants": [
+        "tan chay yee"
+      ]
+    },
+    "Kane ae": {
+      "total_spend": 24.69,
+      "transaction_count": 1,
+      "known_variants": [
+        "Kane ae"
+      ]
+    },
+    "Asxoc BS": {
+      "total_spend": 637.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Asxoc BS"
+      ]
+    },
+    "ALSERKAM ENTERPRISE": {
+      "total_spend": 4.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "ALSERKAM ENTERPRISE"
+      ]
+    },
+    "A psez.": {
+      "total_spend": 38.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "A psez."
+      ]
+    },
+    "pe": {
+      "total_spend": 26.6,
+      "transaction_count": 1,
+      "known_variants": [
+        "pe"
+      ]
+    },
+    "SIN LIANHAP SDN BHD": {
+      "total_spend": 7.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "SIN LIANHAP SDN BHD"
+      ]
+    },
+    "CROSS CHANNEL NETWORK SDN. BHD.": {
+      "total_spend": 101.36,
+      "transaction_count": 2,
+      "known_variants": [
+        "CROSS CHANNEL NE/WORK SDN. BHD.",
+        "CROSS CHANNEL NETWORK SDN. BHD."
+      ]
+    },
+    "SWC ENTERPRISE SDN BAD": {
+      "total_spend": 10.0,
+      "transaction_count": 3,
+      "known_variants": [
+        "ENTERPRISE SDN BHD",
+        "SWC ENTERPRISE SDN BAD",
+        "SWC ENTERPRISE SDN EHD"
+      ]
+    },
+    "(742016-W)": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "(742016-W)"
+      ]
+    },
+    "ISE (SETIA": {
+      "total_spend": 15.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "ISE (SETIA"
+      ]
+    },
+    "HOnE MASTER HARDWARE &": {
+      "total_spend": 10.0,
+      "transaction_count": 2,
+      "known_variants": [
+        "HOnE MASTER HARDWARE &"
+      ]
+    },
+    "KLANG SELANGOR DE MALAYSTA": {
+      "total_spend": 16.0,
+      "transaction_count": 2,
+      "known_variants": [
+        "KLANG SELANGOR DE MALAYSTA"
+      ]
+    },
+    "RESTORAN HASSANBISTRO": {
+      "total_spend": 1.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "RESTORAN HASSANBISTRO"
+      ]
+    },
+    "<3 Sv) ist a ot ret 8 S/B": {
+      "total_spend": 3.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "<3 Sv) ist a ot ret 8 S/B"
+      ]
+    },
+    "NO.23 BATU 10, TAMAN SENTOSA": {
+      "total_spend": 32.69,
+      "transaction_count": 1,
+      "known_variants": [
+        "NO.23 BATU 10, TAMAN SENTOSA"
+      ]
+    },
+    "SECURE PARKING": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "SECURE PARKING"
+      ]
+    },
+    "LIGHTROOM KLANG BANDAR No: ROC SELANGOR 28, No. BUKIT JALAN GALLERY ; (1072825-A) D, RAJA, ASTANA E, MALAYSTA SDN 41050 1C; BHD": {
+      "total_spend": 137.74,
+      "transaction_count": 2,
+      "known_variants": [
+        "LIGHTROOM KLANG BANDAR No: ROC SELANGOR 28, No. BUKIT JALAN GALLERY ; (1072825-A) D, RAJA, ASTANA E, MALAYSTA SDN 41050 1C; BHD"
+      ]
+    },
+    "LIGHTROOM GALLERY, SDN HD": {
+      "total_spend": 39.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "LIGHTROOM GALLERY, SDN HD"
+      ]
+    },
+    "3 1 8 0 0 4 8": {
+      "total_spend": 86.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 1 8 0 0 4 8"
+      ]
+    },
+    "Sy lee.": {
+      "total_spend": 6.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Sy lee."
+      ]
+    },
+    "Rs k -": {
+      "total_spend": 51.42,
+      "transaction_count": 1,
+      "known_variants": [
+        "Rs k -"
+      ]
+    },
+    "MPR aR ho pv 5": {
+      "total_spend": 53.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "MPR aR ho pv 5"
+      ]
+    },
+    "TEL 03-3271 9872 SELANGOR DARUL EHSAN FAX 03-3271 \" 9": {
+      "total_spend": 4.6,
+      "transaction_count": 1,
+      "known_variants": [
+        "TEL 03-3271 9872 SELANGOR DARUL EHSAN FAX 03-3271 \" 9"
+      ]
+    },
+    "OK, 45600 BE an) ARI OAS ‘A,": {
+      "total_spend": 9.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "OK, 45600 BE an) ARI OAS ‘A,"
+      ]
+    },
+    "TEL: 03-3271 GST SELANGOR No, 9872 : 000689913856 _ DARUL FAX: EHSAN 03-3271 9481": {
+      "total_spend": 26.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "TEL: 03-3271 GST SELANGOR No, 9872 : 000689913856 _ DARUL FAX: EHSAN 03-3271 9481"
+      ]
+    },
+    "TEO HENG STATIONERY & BOOKS": {
+      "total_spend": 56.1,
+      "transaction_count": 2,
+      "known_variants": [
+        "TEO HENG STATIONERY & BOOKS"
+      ]
+    },
+    "TED NO. HENG 53, JALAN STATIONERY BESAR, (001451637-1 45600 BATANG & BERJUNTAL BOOKS": {
+      "total_spend": 16.98,
+      "transaction_count": 1,
+      "known_variants": [
+        "TED NO. HENG 53, JALAN STATIONERY BESAR, (001451637-1 45600 BATANG & BERJUNTAL BOOKS"
+      ]
+    },
+    "TED HENG STATI": {
+      "total_spend": 25.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "TED HENG STATI"
+      ]
+    },
+    "NO. 63, JALAN GST SELANGOR No. BESAR, (001451637-M) 9872 : 000689913856 45500 DARUL FAX: BATANG 03-3271 EHSAN BERJUNTAT 9481": {
+      "total_spend": 144.68,
+      "transaction_count": 1,
+      "known_variants": [
+        "NO. 63, JALAN GST SELANGOR No. BESAR, (001451637-M) 9872 : 000689913856 45500 DARUL FAX: BATANG 03-3271 EHSAN BERJUNTAT 9481"
+      ]
+    },
+    "5a": {
+      "total_spend": 120.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "5a"
+      ]
+    },
+    "FAIIO )": {
+      "total_spend": 37.1,
+      "transaction_count": 1,
+      "known_variants": [
+        "FAIIO )"
+      ]
+    },
+    "PAIT": {
+      "total_spend": 2.5,
+      "transaction_count": 1,
+      "known_variants": [
+        "PAIT"
+      ]
+    },
+    "3-1707067": {
+      "total_spend": 110.0,
+      "transaction_count": 2,
+      "known_variants": [
+        "3-1707067"
+      ]
+    },
+    "Aozo/8": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "Aozo/8"
+      ]
+    },
+    "{p3136": {
+      "total_spend": 75.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "{p3136"
+      ]
+    },
+    "Ab302-": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ab302-"
+      ]
+    },
+    "An 26,": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "An 26,"
+      ]
+    },
+    "Ao3ozo": {
+      "total_spend": 58.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ao3ozo"
+      ]
+    },
+    "Fjo3oYi": {
+      "total_spend": 18.81,
+      "transaction_count": 1,
+      "known_variants": [
+        "Fjo3oYi"
+      ]
+    },
+    "A020Y7": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "A020Y7"
+      ]
+    },
+    "Hozosv": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "Hozosv"
+      ]
+    },
+    "nozasz": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "nozasz"
+      ]
+    },
+    "Yozos 7": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Yozos 7"
+      ]
+    },
+    "Ao2062": {
+      "total_spend": 87.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ao2062"
+      ]
+    },
+    "A0206|": {
+      "total_spend": 13.1,
+      "transaction_count": 1,
+      "known_variants": [
+        "A0206|"
+      ]
+    },
+    "A63064": {
+      "total_spend": 49.7,
+      "transaction_count": 1,
+      "known_variants": [
+        "A63064"
+      ]
+    },
+    "BREWERY TAP": {
+      "total_spend": 189.75,
+      "transaction_count": 1,
+      "known_variants": [
+        "BREWERY TAP"
+      ]
+    },
+    "THREE STOOGES": {
+      "total_spend": 458.85,
+      "transaction_count": 2,
+      "known_variants": [
+        "HREE STOOGES",
+        "THREE STOOGES"
+      ]
+    },
+    "Taste Of The Woi Id Sdr Bhd": {
+      "total_spend": 13.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Taste Of The Woi Id Sdr Bhd"
+      ]
+    },
+    "78G , JALAN SS21/62,": {
+      "total_spend": 74.25,
+      "transaction_count": 1,
+      "known_variants": [
+        "78G , JALAN SS21/62,"
+      ]
+    },
+    "Ao2662": {
+      "total_spend": 6.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ao2662"
+      ]
+    },
+    "(OG": {
+      "total_spend": 8.6,
+      "transaction_count": 1,
+      "known_variants": [
+        "(OG"
+      ]
+    },
+    "Hozo7": {
+      "total_spend": 6.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "Hozo7"
+      ]
+    },
+    "A03)2.&": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "A03)2.&"
+      ]
+    },
+    "Ho:iss": {
+      "total_spend": 420.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ho:iss"
+      ]
+    },
+    "REST AURART stu'\"": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "REST AURART stu'\""
+      ]
+    },
+    "H26a}": {
+      "total_spend": 67.92,
+      "transaction_count": 1,
+      "known_variants": [
+        "H26a}"
+      ]
+    },
+    "02?2": {
+      "total_spend": 95.17,
+      "transaction_count": 1,
+      "known_variants": [
+        "02?2"
+      ]
+    },
+    "Ap %)": {
+      "total_spend": 0.45,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ap %)"
+      ]
+    },
+    "Ac3o96": {
+      "total_spend": 35.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ac3o96"
+      ]
+    },
+    "(o3pa3": {
+      "total_spend": 8.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "(o3pa3"
+      ]
+    },
+    "Anz V2-": {
+      "total_spend": 8.5,
+      "transaction_count": 1,
+      "known_variants": [
+        "Anz V2-"
+      ]
+    },
+    "8o3113": {
+      "total_spend": 7.6,
+      "transaction_count": 1,
+      "known_variants": [
+        "8o3113"
+      ]
+    },
+    "Hlozns": {
+      "total_spend": 1000.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Hlozns"
+      ]
+    },
+    "M216": {
+      "total_spend": 9.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "M216"
+      ]
+    },
+    "Aozpi9": {
+      "total_spend": 56.6,
+      "transaction_count": 1,
+      "known_variants": [
+        "Aozpi9"
+      ]
+    },
+    "Ao3120": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ao3120"
+      ]
+    },
+    ")": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        ")"
+      ]
+    },
+    "ho2/>3": {
+      "total_spend": 8.7,
+      "transaction_count": 1,
+      "known_variants": [
+        "ho2/>3"
+      ]
+    },
+    "CONTENTO (JN0761170 080304": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "CONTENTO (JN0761170 080304"
+      ]
+    },
+    "83o3i3y": {
+      "total_spend": 7.4,
+      "transaction_count": 1,
+      "known_variants": [
+        "83o3i3y"
+      ]
+    },
+    "0 re ast 136": {
+      "total_spend": 5.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "0 re ast 136"
+      ]
+    },
+    "Ko W (2 2) Ds)": {
+      "total_spend": 7.6,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ko W (2 2) Ds)"
+      ]
+    },
+    "BLC": {
+      "total_spend": 291.9,
+      "transaction_count": 3,
+      "known_variants": [
+        "BLC"
+      ]
+    },
+    ". Nandos.": {
+      "total_spend": 129.3,
+      "transaction_count": 1,
+      "known_variants": [
+        ". Nandos."
+      ]
+    },
+    "99 SPEED MORT S/B (519537-X)": {
+      "total_spend": 26.65,
+      "transaction_count": 3,
+      "known_variants": [
+        "99 SPEED MART S/B (519537-X)",
+        "99 SPEED MORT S/B (519537-X)",
+        "99 SPEED NART S/B (519537-¥)"
+      ]
+    },
+    "55100 Kuala Lumpur": {
+      "total_spend": 17.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "55100 Kuala Lumpur"
+      ]
+    },
+    "PETRODELI ENIERPRISE": {
+      "total_spend": 54.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "PETRODELI ENIERPRISE"
+      ]
+    },
+    "SUN WONG KUT SON BHO": {
+      "total_spend": 17.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "SUN WONG KUT SON BHO"
+      ]
+    },
+    "RES ! AURANT JIAWE |": {
+      "total_spend": 65.2,
+      "transaction_count": 2,
+      "known_variants": [
+        "RES ! AURANT JIAWE |",
+        "RESTAURANT JIAWE |"
+      ]
+    },
+    "PASARAYA BORONG PINTAR": {
+      "total_spend": 17.55,
+      "transaction_count": 4,
+      "known_variants": [
+        "PASARAYA BORONG PINTAR"
+      ]
+    },
+    "ae": {
+      "total_spend": 0.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "ae"
+      ]
+    },
+    "RESTAURANT SDN BHD": {
+      "total_spend": 53.55,
+      "transaction_count": 1,
+      "known_variants": [
+        "RESTAURANT SDN BHD"
+      ]
+    },
+    "SDN BHD": {
+      "total_spend": 1.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "SDN BHD"
+      ]
+    },
+    "39 STEED MART S/8 (519537.X}": {
+      "total_spend": 141.58,
+      "transaction_count": 1,
+      "known_variants": [
+        "39 STEED MART S/8 (519537.X}"
+      ]
+    },
+    "AEON CO. (M) BHD (126926- -H)": {
+      "total_spend": 49.3,
+      "transaction_count": 2,
+      "known_variants": [
+        "AEON CO. (M) BHD (126926- -H)",
+        "AEON CO. (M) BHD (126926-H)"
+      ]
+    },
+    "————= rl il": {
+      "total_spend": 49.39,
+      "transaction_count": 1,
+      "known_variants": [
+        "————= rl il"
+      ]
+    },
+    "31803033": {
+      "total_spend": 1510.9,
+      "transaction_count": 9,
+      "known_variants": [
+        "3180303",
+        "31803033",
+        "31803039",
+        "3180304",
+        "3180304/",
+        "3180305]",
+        "31803083"
+      ]
+    },
+    "3180303 OS": {
+      "total_spend": 189.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3180303 OS"
+      ]
+    },
+    "Banh Mi CafE": {
+      "total_spend": 21.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "Banh Mi CafE"
+      ]
+    },
+    "NO.22 JALAN PUTERI 2/4": {
+      "total_spend": 92.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "NO.22 JALAN PUTERI 2/4"
+      ]
+    },
+    ") 0. (M) SDN BHD": {
+      "total_spend": 219.59,
+      "transaction_count": 6,
+      "known_variants": [
+        ") 0. (M) SDN BHD",
+        "CO. (M) SDN BHD",
+        "Co. (M) SDN BHD"
+      ]
+    },
+    "MR. D.I.¥. (M) SDN BHD": {
+      "total_spend": 68.5,
+      "transaction_count": 4,
+      "known_variants": [
+        "MR. D.I.Y. SDN BHD",
+        "MR. D.I.¥. (M) SDN BHD",
+        "MR. D.I.¥. SDN BHD",
+        "MR.D.1.¥(M)SDN BHD"
+      ]
+    },
+    "—": {
+      "total_spend": 10.4,
+      "transaction_count": 1,
+      "known_variants": [
+        "—"
+      ]
+    },
+    "EVERGREEN LIGHT SDN BHD": {
+      "total_spend": 25.52,
+      "transaction_count": 2,
+      "known_variants": [
+        "EVERGREEN LIGHT SDN BHD"
+      ]
+    },
+    "KON KWA KARDWARE TRADING": {
+      "total_spend": 31.8,
+      "transaction_count": 3,
+      "known_variants": [
+        "HON HWA HARDWARE TRADING",
+        "KON KWA KARDWARE TRADING"
+      ]
+    },
+    "Company Reg: Na; 001056194X": {
+      "total_spend": 277.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "Company Reg: Na; 001056194X"
+      ]
+    },
+    "www. vivopac.com": {
+      "total_spend": 46.65,
+      "transaction_count": 1,
+      "known_variants": [
+        "www. vivopac.com"
+      ]
+    },
+    "Mm, 'vivopac com": {
+      "total_spend": 52.45,
+      "transaction_count": 1,
+      "known_variants": [
+        "Mm, 'vivopac com"
+      ]
+    },
+    "TEL: 03-91334364 FAX: 03-91310522": {
+      "total_spend": 18.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "TEL: 03-91334364 FAX: 03-91310522"
+      ]
+    },
+    "MR. D.I.¥. SON BHD": {
+      "total_spend": 5.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "MR. D.I.¥. SON BHD"
+      ]
+    },
+    "MR D, [, Y. (KUCHAI)  SDN BHD": {
+      "total_spend": 91.1,
+      "transaction_count": 2,
+      "known_variants": [
+        "MR D, [, Y. (KUCHAI)  SDN BHD",
+        "MR D. I,Y (KUCHAI ) SN BHD"
+      ]
+    },
+    "IKEA Cheras": {
+      "total_spend": 6.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "IKEA Cheras"
+      ]
+    },
+    "(1074617K)": {
+      "total_spend": 80.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "(1074617K)"
+      ]
+    },
+    "Fv EADLE ENTERPRISE": {
+      "total_spend": 11.43,
+      "transaction_count": 2,
+      "known_variants": [
+        "Fr EAGLE ENTERPRISE",
+        "Fv EADLE ENTERPRISE"
+      ]
+    },
+    "MODERN DEPOT SDN BHD": {
+      "total_spend": 141.51,
+      "transaction_count": 1,
+      "known_variants": [
+        "MODERN DEPOT SDN BHD"
+      ]
+    },
+    "Tel Seksyen 4-20, ; 03-51217970 Jalan GST 25, 1D:7000429166592 40400 Ria 25/62 , Shah Fax Taman Alam ; 03-51218059 Selangor Sri Muda |": {
+      "total_spend": 5.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Tel Seksyen 4-20, ; 03-51217970 Jalan GST 25, 1D:7000429166592 40400 Ria 25/62 , Shah Fax Taman Alam ; 03-51218059 Selangor Sri Muda |"
+      ]
+    },
+    "Site 40000 LOT PT ; Shah 1164 5121, Alam, Per. Sel Klang, angor Sek. 27": {
+      "total_spend": 30.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Site 40000 LOT PT ; Shah 1164 5121, Alam, Per. Sel Klang, angor Sek. 27"
+      ]
+    },
+    "tt yen 25, 40400 Shah Alam Selangor": {
+      "total_spend": 85.1,
+      "transaction_count": 1,
+      "known_variants": [
+        "tt yen 25, 40400 Shah Alam Selangor"
+      ]
+    },
+    "NO 183, Jalan Wangsa Delima 12,": {
+      "total_spend": 95.6,
+      "transaction_count": 2,
+      "known_variants": [
+        "NO 1&3, Jalan Wangsa Delima 12,",
+        "NO 183, Jalan Wangsa Delima 12,"
+      ]
+    },
+    "6v": {
+      "total_spend": 5.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "6v"
+      ]
+    },
+    "Ok": {
+      "total_spend": 5.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "Ok"
+      ]
+    },
+    "?E": {
+      "total_spend": 12.25,
+      "transaction_count": 1,
+      "known_variants": [
+        "?E"
+      ]
+    },
+    "OE": {
+      "total_spend": 58.0,
+      "transaction_count": 2,
+      "known_variants": [
+        "OE",
+        "oe"
+      ]
+    },
+    "POPULAR Book": {
+      "total_spend": 11.95,
+      "transaction_count": 2,
+      "known_variants": [
+        "POPULAR Book"
+      ]
+    },
+    "PrIMio": {
+      "total_spend": 13.4,
+      "transaction_count": 1,
+      "known_variants": [
+        "PrIMio"
+      ]
+    },
+    "3 ! 813012": {
+      "total_spend": 104.79,
+      "transaction_count": 2,
+      "known_variants": [
+        "3 ! 813012",
+        "3 /812012"
+      ]
+    },
+    "SYARIKAT PERNIAGAAN GIN KEE": {
+      "total_spend": 302.7,
+      "transaction_count": 2,
+      "known_variants": [
+        "SYARIKAT PERNIAGAAN GIN KEE"
+      ]
+    },
+    "3 18 02 O13,": {
+      "total_spend": 50.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 18 02 O13,"
+      ]
+    },
+    "> 1' > 0 2": {
+      "total_spend": 7.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "> 1' > 0 2"
+      ]
+    },
+    "2 [ 8 12 ol 2": {
+      "total_spend": 29.68,
+      "transaction_count": 1,
+      "known_variants": [
+        "2 [ 8 12 ol 2"
+      ]
+    },
+    "3 |81) 0 (2": {
+      "total_spend": 13.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 |81) 0 (2"
+      ]
+    },
+    "3 | 8 12 01 2": {
+      "total_spend": 40.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 | 8 12 01 2"
+      ]
+    },
+    "2, 1802013": {
+      "total_spend": 4.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "2, 1802013"
+      ]
+    },
+    "3 /8 03 0 /4": {
+      "total_spend": 599.43,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 /8 03 0 /4"
+      ]
+    },
+    "9, 1 Bo3ory": {
+      "total_spend": 41.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "9, 1 Bo3ory"
+      ]
+    },
+    "3 \\2 0d 013,": {
+      "total_spend": 700.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 \\2 0d 013,"
+      ]
+    },
+    "3 | 8 02 0l ' 3": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 | 8 02 0l ' 3"
+      ]
+    },
+    "YB 02014\"": {
+      "total_spend": 56.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "YB 02014\""
+      ]
+    },
+    "3 | 8 6 >015": {
+      "total_spend": 10.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 | 8 6 >015"
+      ]
+    },
+    "318 0 > 0 |3'": {
+      "total_spend": 40.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "318 0 > 0 |3'"
+      ]
+    },
+    "21% 02013:": {
+      "total_spend": 700.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "21% 02013:"
+      ]
+    },
+    "2 \"8 |2 012": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "2 \"8 |2 012"
+      ]
+    },
+    "3 |8 /2012": {
+      "total_spend": 2.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 |8 /2012"
+      ]
+    },
+    "3 ( 8 (9 0/)": {
+      "total_spend": 234.5,
+      "transaction_count": 3,
+      "known_variants": [
+        "3 ! 8 0 | 0",
+        "3 ( 8 (9 0/)",
+        "3 ( 8 0) 0|"
+      ]
+    },
+    "3 (8 0 ( 0 '/7": {
+      "total_spend": 102.76,
+      "transaction_count": 3,
+      "known_variants": [
+        "3 ' 8 0 0 7",
+        "3 (8 0 ( 0 '/7",
+        "3 18 0 1 0 (7"
+      ]
+    },
+    "2 18 01 0|": {
+      "total_spend": 17.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "2 18 01 0|"
+      ]
+    },
+    "3 ( 8 0 1 0i": {
+      "total_spend": 180.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 ( 8 0 1 0i"
+      ]
+    },
+    "BEYOND BROTHERS HARDWARE": {
+      "total_spend": 70.85,
+      "transaction_count": 2,
+      "known_variants": [
+        "BEYOND BROTHERS HARDWARE"
+      ]
+    },
+    "(81109-A)": {
+      "total_spend": 106.08,
+      "transaction_count": 2,
+      "known_variants": [
+        "(81109-A)"
+      ]
+    },
+    "3\\§ Ol": {
+      "total_spend": 4.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3\\§ Ol"
+      ]
+    },
+    "3 12/0! O14": {
+      "total_spend": 93.07,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 12/0! O14"
+      ]
+    },
+    "41,8 Of O17": {
+      "total_spend": 44.73,
+      "transaction_count": 1,
+      "known_variants": [
+        "41,8 Of O17"
+      ]
+    },
+    "31801 0(7": {
+      "total_spend": 32.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "31801 0(7"
+      ]
+    },
+    "3 18 Ol OIF": {
+      "total_spend": 116.28,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 18 Ol OIF"
+      ]
+    },
+    "3 18 '0 / 617": {
+      "total_spend": 50.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 18 '0 / 617"
+      ]
+    },
+    "3 |8'01 017": {
+      "total_spend": 10.6,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 |8'01 017"
+      ]
+    },
+    "319 <— 01 O1F": {
+      "total_spend": 13.25,
+      "transaction_count": 1,
+      "known_variants": [
+        "319 <— 01 O1F"
+      ]
+    },
+    "3 I2' 0/ '0 /7": {
+      "total_spend": 2.12,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 I2' 0/ '0 /7"
+      ]
+    },
+    "3": {
+      "total_spend": 36.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3"
+      ]
+    },
+    "318 01 ‘": {
+      "total_spend": 21.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "318 01 ‘"
+      ]
+    },
+    "2 VOV\\O\\t, + ‘": {
+      "total_spend": 12.72,
+      "transaction_count": 1,
+      "known_variants": [
+        "2 VOV\\O\\t, + ‘"
+      ]
+    },
+    "2 \\2 02 OVE at '": {
+      "total_spend": 4.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "2 \\2 02 OVE at '"
+      ]
+    },
+    "1 8 62 0/ (": {
+      "total_spend": 5.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "1 8 62 0/ ("
+      ]
+    },
+    "'3 1 8 0) 0/,6": {
+      "total_spend": 95.0,
+      "transaction_count": 2,
+      "known_variants": [
+        "'3 1 8 0) 0/,6",
+        "2 1 8 02 0 (6"
+      ]
+    },
+    "3 ! 802,0/*6": {
+      "total_spend": 95.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 ! 802,0/*6"
+      ]
+    },
+    "2 LROdOIG. 7": {
+      "total_spend": 101.76,
+      "transaction_count": 1,
+      "known_variants": [
+        "2 LROdOIG. 7"
+      ]
+    },
+    "3 | 8 0 > 0'16' .": {
+      "total_spend": 26.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3 | 8 0 > 0'16' ."
+      ]
+    },
+    "4% 1g@02°0 | .& :": {
+      "total_spend": 13.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "4% 1g@02°0 | .& :"
+      ]
+    },
+    "STATIONERY SON. BHD": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "STATIONERY SON. BHD"
+      ]
+    },
+    "RESTORAN IBRAHIM MAJU SB": {
+      "total_spend": 5.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "RESTORAN IBRAHIM MAJU SB"
+      ]
+    },
+    "hr stf Los sc3 Fudc": {
+      "total_spend": 79.35,
+      "transaction_count": 1,
+      "known_variants": [
+        "hr stf Los sc3 Fudc"
+      ]
+    },
+    "ASO ELECTRICAL TRADING SDN BHD": {
+      "total_spend": 19.4,
+      "transaction_count": 2,
+      "known_variants": [
+        "ASO ELECTRICAL TRADING SDN BHD"
+      ]
+    },
+    "KEDAI BUKU NEW ACHEIVERS": {
+      "total_spend": 2.16,
+      "transaction_count": 1,
+      "known_variants": [
+        "KEDAI BUKU NEW ACHEIVERS"
+      ]
+    },
+    "MYDIN": {
+      "total_spend": 21.4,
+      "transaction_count": 1,
+      "known_variants": [
+        "MYDIN"
+      ]
+    },
+    "|| | | j (EDAI NO. 12814, BUKU (CO NO. JALAN NEW SA0345444-K) JINJANG ACHEIVERS 27/54 ,": {
+      "total_spend": 2.72,
+      "transaction_count": 1,
+      "known_variants": [
+        "|| | | j (EDAI NO. 12814, BUKU (CO NO. JALAN NEW SA0345444-K) JINJANG ACHEIVERS 27/54 ,"
+      ]
+    },
+    "TEL ; AXIS 03-51221701, SECTION NO 40400 31G, JALAN 26, SHAH 51313001 TAMAN SEPADU ALAM, INDUSTRIES, SELANGOR. FAX: C 95IC, 03-61215716": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "TEL ; AXIS 03-51221701, SECTION NO 40400 31G, JALAN 26, SHAH 51313001 TAMAN SEPADU ALAM, INDUSTRIES, SELANGOR. FAX: C 95IC, 03-61215716"
+      ]
+    },
+    "TS TOOLS HARDWARE & NACHIRERY SOS DED": {
+      "total_spend": 1.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "TS TOOLS HARDWARE & NACHIRERY SOS DED"
+      ]
+    },
+    "RESTORAN WAN SHENG": {
+      "total_spend": 59.07,
+      "transaction_count": 12,
+      "known_variants": [
+        "RESTORAN WAN SHENG"
+      ]
+    },
+    "Pr": {
+      "total_spend": 4.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Pr"
+      ]
+    },
+    "118": {
+      "total_spend": 25.4,
+      "transaction_count": 1,
+      "known_variants": [
+        "118"
+      ]
+    },
+    "107": {
+      "total_spend": 8.5,
+      "transaction_count": 1,
+      "known_variants": [
+        "107"
+      ]
+    },
+    "PappaRi ch BMC": {
+      "total_spend": 72.93,
+      "transaction_count": 1,
+      "known_variants": [
+        "PappaRi ch BMC"
+      ]
+    },
+    "SUSHI  MENTAI MAHKOTA CHERAS": {
+      "total_spend": 66.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "SUSHI  MENTAI MAHKOTA CHERAS"
+      ]
+    },
+    "(65351-M)": {
+      "total_spend": 50.1,
+      "transaction_count": 3,
+      "known_variants": [
+        "(65351-M)",
+        "(653_1-M)"
+      ]
+    },
+    "HAPPY SNACKS ENTERPRISE": {
+      "total_spend": 26.82,
+      "transaction_count": 1,
+      "known_variants": [
+        "HAPPY SNACKS ENTERPRISE"
+      ]
+    },
+    "(1125830-V)": {
+      "total_spend": 30.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "(1125830-V)"
+      ]
+    },
+    "L TWO FLORIST & HANDICRAFT": {
+      "total_spend": 12.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "L TWO FLORIST & HANDICRAFT"
+      ]
+    },
+    "3-1708032": {
+      "total_spend": 135.5,
+      "transaction_count": 4,
+      "known_variants": [
+        "3-1708032"
+      ]
+    },
+    "watsons": {
+      "total_spend": 2307.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "watsons"
+      ]
+    },
+    "KIKU JAPANESE RESTAURANT": {
+      "total_spend": 29.7,
+      "transaction_count": 1,
+      "known_variants": [
+        "KIKU JAPANESE RESTAURANT"
+      ]
+    },
+    "SIMPLIFIED TAX INVOICE": {
+      "total_spend": 14.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "SIMPLIFIED TAX INVOICE"
+      ]
+    },
+    "ROCKU YAKINIKU": {
+      "total_spend": 55.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "ROCKU YAKINIKU"
+      ]
+    },
+    "ropbins": {
+      "total_spend": 21.5,
+      "transaction_count": 1,
+      "known_variants": [
+        "ropbins"
+      ]
+    },
+    "Salon Du Chocolat": {
+      "total_spend": 20.4,
+      "transaction_count": 1,
+      "known_variants": [
+        "Salon Du Chocolat"
+      ]
+    },
+    "99 SPEED MART 5/8": {
+      "total_spend": 3.7,
+      "transaction_count": 1,
+      "known_variants": [
+        "99 SPEED MART 5/8"
+      ]
+    },
+    "SEN LEE HEONG RESTAURANT": {
+      "total_spend": 77.4,
+      "transaction_count": 1,
+      "known_variants": [
+        "SEN LEE HEONG RESTAURANT"
+      ]
+    },
+    "7290": {
+      "total_spend": 60.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "7290"
+      ]
+    },
+    "NADEJE PRESTIGE SDN BHD": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "NADEJE PRESTIGE SDN BHD"
+      ]
+    },
+    "=": {
+      "total_spend": 213.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "="
+      ]
+    },
+    "ee": {
+      "total_spend": 50.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "ee"
+      ]
+    },
+    "<484297 -M>": {
+      "total_spend": 28.7,
+      "transaction_count": 1,
+      "known_variants": [
+        "<484297 -M>"
+      ]
+    },
+    "POTTERS GARDEN SDN BHID": {
+      "total_spend": 39.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "POTTERS GARDEN SDN BHID"
+      ]
+    },
+    "HENG KEE DELIGHT S BAK KUT TEH .": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "HENG KEE DELIGHT S BAK KUT TEH ."
+      ]
+    },
+    "Kr, Dkgal Solaris": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Kr, Dkgal Solaris"
+      ]
+    },
+    "3J JLN BANCAU 1,KEPONG BARU;": {
+      "total_spend": 34.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "3J JLN BANCAU 1,KEPONG BARU;"
+      ]
+    },
+    "THE STORE (MALAYSIA) SDN BHD (8199K)": {
+      "total_spend": 2.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "THE STORE (MALAYSIA) SDN BHD (8199K)"
+      ]
+    },
+    "MR. D.1.¥.(KUCHAT) SDN BHD": {
+      "total_spend": 11.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "MR. D.1.¥.(KUCHAT) SDN BHD"
+      ]
+    },
+    "NYONYA COLORS @ 1 UTAMA": {
+      "total_spend": 53.6,
+      "transaction_count": 1,
+      "known_variants": [
+        "NYONYA COLORS @ 1 UTAMA"
+      ]
+    },
+    "KING’S CONFECTIONERY S/B 273500-U (KSB)": {
+      "total_spend": 1.42,
+      "transaction_count": 1,
+      "known_variants": [
+        "KING’S CONFECTIONERY S/B 273500-U (KSB)"
+      ]
+    },
+    "Yam Fresh": {
+      "total_spend": 29.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "Yam Fresh"
+      ]
+    },
+    "SAINT HEART PASTRY": {
+      "total_spend": 8.2,
+      "transaction_count": 1,
+      "known_variants": [
+        "SAINT HEART PASTRY"
+      ]
+    },
+    "Bandar menjalara,": {
+      "total_spend": 105.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Bandar menjalara,"
+      ]
+    },
+    "Berea BAe fen Sen Ba": {
+      "total_spend": 12.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Berea BAe fen Sen Ba"
+      ]
+    },
+    "Segambut Bahagia": {
+      "total_spend": 33.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Segambut Bahagia"
+      ]
+    },
+    "-": {
+      "total_spend": 50.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "-"
+      ]
+    },
+    "R": {
+      "total_spend": 594.84,
+      "transaction_count": 7,
+      "known_variants": [
+        "R"
+      ]
+    },
+    "Gmb Us": {
+      "total_spend": 91.16,
+      "transaction_count": 1,
+      "known_variants": [
+        "Gmb Us"
+      ]
+    },
+    "( O^ OW\"": {
+      "total_spend": 312.7,
+      "transaction_count": 1,
+      "known_variants": [
+        "( O^ OW\""
+      ]
+    },
+    "meb J6ho9": {
+      "total_spend": 283.55,
+      "transaction_count": 1,
+      "known_variants": [
+        "meb J6ho9"
+      ]
+    },
+    "Inep 293.500": {
+      "total_spend": 270.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "Inep 293.500"
+      ]
+    },
+    "MBp 264 /0 0": {
+      "total_spend": 174.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "MBp 264 /0 0"
+      ]
+    },
+    "MyMydin Subang Bestari 2300": {
+      "total_spend": 5.5,
+      "transaction_count": 1,
+      "known_variants": [
+        "MyMydin Subang Bestari 2300"
+      ]
+    },
+    "BHPetro] Subang Airport": {
+      "total_spend": 41.95,
+      "transaction_count": 1,
+      "known_variants": [
+        "BHPetro] Subang Airport"
+      ]
+    },
+    "Lot 1626, Mukim Kampung Laut": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Lot 1626, Mukim Kampung Laut"
+      ]
+    },
+    "YONG CEN ENTERPRISE": {
+      "total_spend": 24.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "YONG CEN ENTERPRISE"
+      ]
+    },
+    "P)": {
+      "total_spend": 63.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "P)"
+      ]
+    },
+    "(002107*265 V) c81": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "(002107*265 V) c81"
+      ]
+    },
+    "f)": {
+      "total_spend": 4.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "f)"
+      ]
+    },
+    "FASARAYA BORUNG SUPER SEVEN": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "FASARAYA BORUNG SUPER SEVEN"
+      ]
+    },
+    "Mun XeNG ELECTRICAL &": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "Mun XeNG ELECTRICAL &"
+      ]
+    },
+    "Py": {
+      "total_spend": 45.34,
+      "transaction_count": 1,
+      "known_variants": [
+        "Py"
+      ]
+    },
+    "Subway#42219-6 Phone 03-78870693": {
+      "total_spend": 11.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "Subway#42219-6 Phone 03-78870693"
+      ]
+    },
+    "eee": {
+      "total_spend": 6.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "eee"
+      ]
+    },
+    ". KMF FOODICTOUS SON BHD (1132106-H)": {
+      "total_spend": 1.0,
+      "transaction_count": 1,
+      "known_variants": [
+        ". KMF FOODICTOUS SON BHD (1132106-H)"
+      ]
+    },
+    "were er": {
+      "total_spend": 3.99,
+      "transaction_count": 1,
+      "known_variants": [
+        "were er"
+      ]
+    },
+    "cf)": {
+      "total_spend": 26.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "cf)"
+      ]
+    },
+    "th:": {
+      "total_spend": 408.45,
+      "transaction_count": 1,
+      "known_variants": [
+        "th:"
+      ]
+    },
+    "BEMED (SP) SDN. BHD.": {
+      "total_spend": 308.7,
+      "transaction_count": 1,
+      "known_variants": [
+        "BEMED (SP) SDN. BHD."
+      ]
+    },
+    "PANA JAYA ENTERPAISE": {
+      "total_spend": 99.06,
+      "transaction_count": 1,
+      "known_variants": [
+        "PANA JAYA ENTERPAISE"
+      ]
+    },
+    "SUPER SEVEN CASH & CARRY SDN BHD": {
+      "total_spend": 18.29,
+      "transaction_count": 1,
+      "known_variants": [
+        "SUPER SEVEN CASH & CARRY SDN BHD"
+      ]
+    },
+    "Segi Cash & Carry Sdn. Bhd. (317041-¥)": {
+      "total_spend": 145.1,
+      "transaction_count": 1,
+      "known_variants": [
+        "Segi Cash & Carry Sdn. Bhd. (317041-¥)"
+      ]
+    },
+    "MX. (M) SON BHD": {
+      "total_spend": 71.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "MX. (M) SON BHD"
+      ]
+    },
+    "\\": {
+      "total_spend": 34.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "\\"
+      ]
+    },
+    "ary SRU FLR, CO. (M) BHD, TAMAN (126926-H) HALURT SC": {
+      "total_spend": 88.97,
+      "transaction_count": 1,
+      "known_variants": [
+        "ary SRU FLR, CO. (M) BHD, TAMAN (126926-H) HALURT SC"
+      ]
+    },
+    "31803016": {
+      "total_spend": 9.95,
+      "transaction_count": 1,
+      "known_variants": [
+        "31803016"
+      ]
+    },
+    "318030w0": {
+      "total_spend": 42.9,
+      "transaction_count": 2,
+      "known_variants": [
+        "31803040",
+        "318030w0"
+      ]
+    },
+    "JLN JE,AKA , TAMAN MALURI": {
+      "total_spend": 42.46,
+      "transaction_count": 1,
+      "known_variants": [
+        "JLN JE,AKA , TAMAN MALURI"
+      ]
+    },
+    "fe": {
+      "total_spend": 24.5,
+      "transaction_count": 1,
+      "known_variants": [
+        "fe"
+      ]
+    },
+    "3180320q)": {
+      "total_spend": 1.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "3180320q)"
+      ]
+    },
+    "2020z04y": {
+      "total_spend": 35.4,
+      "transaction_count": 1,
+      "known_variants": [
+        "2020z04y"
+      ]
+    },
+    "31803045": {
+      "total_spend": 21.59,
+      "transaction_count": 1,
+      "known_variants": [
+        "31803045"
+      ]
+    },
+    "31802060": {
+      "total_spend": 28.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "31802060"
+      ]
+    },
+    "3180207": {
+      "total_spend": 50.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "3180207"
+      ]
+    },
+    "318 03054.": {
+      "total_spend": 14.9,
+      "transaction_count": 1,
+      "known_variants": [
+        "318 03054."
+      ]
+    },
+    "31802055": {
+      "total_spend": 12.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "31802055"
+      ]
+    },
+    "‘Harvey Norman": {
+      "total_spend": 60.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "‘Harvey Norman"
+      ]
+    },
+    "(590 150-A,": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "(590 150-A,"
+      ]
+    },
+    "hide": {
+      "total_spend": 24.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "hide"
+      ]
+    },
+    "Mo": {
+      "total_spend": 573.99,
+      "transaction_count": 1,
+      "known_variants": [
+        "Mo"
+      ]
+    },
+    "Off Jalan Batu Tiga": {
+      "total_spend": 42.1,
+      "transaction_count": 1,
+      "known_variants": [
+        "Off Jalan Batu Tiga"
+      ]
+    },
+    "<w )": {
+      "total_spend": 7.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "<w )"
+      ]
+    },
+    "Xtt]u": {
+      "total_spend": 98.39,
+      "transaction_count": 1,
+      "known_variants": [
+        "Xtt]u"
+      ]
+    },
+    "UP2-01, Melawati Mall,": {
+      "total_spend": 838.8,
+      "transaction_count": 1,
+      "known_variants": [
+        "UP2-01, Melawati Mall,"
+      ]
+    },
+    "LEE WAH FLORIST SDN BHD": {
+      "total_spend": 353.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "LEE WAH FLORIST SDN BHD"
+      ]
+    },
+    "ADVANCO COMPANY": {
+      "total_spend": 36.0,
+      "transaction_count": 2,
+      "known_variants": [
+        "ADVANCO COMPANY"
+      ]
+    },
+    "GREAT ZONE HOUSEHOLD CENTRE SDN BHD": {
+      "total_spend": 367.3,
+      "transaction_count": 1,
+      "known_variants": [
+        "GREAT ZONE HOUSEHOLD CENTRE SDN BHD"
+      ]
+    },
+    "WANGSA MAJU (AEON BIG SHOPPING CENTER)": {
+      "total_spend": 0.0,
+      "transaction_count": 1,
+      "known_variants": [
+        "WANGSA MAJU (AEON BIG SHOPPING CENTER)"
+      ]
+    },
+    "IMAGE PRINTEC (M) SDN BHD": {
+      "total_spend": 7.65,
+      "transaction_count": 1,
+      "known_variants": [
+        "IMAGE PRINTEC (M) SDN BHD"
+      ]
+    },
+    "SINNATHAMBY HOLDINGS": {
+      "total_spend": 13.5,
+      "transaction_count": 1,
+      "known_variants": [
+        "SINNATHAMBY HOLDINGS"
+      ]
+    },
+    "Cash Saie": {
+      "total_spend": 109.7,
+      "transaction_count": 1,
+      "known_variants": [
+        "Cash Saie"
+      ]
+    },
+    "HUGO TRADING SDN BHD Tota": {
+      "total_spend": 4.09,
+      "transaction_count": 1,
+      "known_variants": [
+        "HUGO TRADING SDN BHD Tota"
+      ]
+    },
+    "POSTED": {
+      "total_spend": 59.42,
+      "transaction_count": 1,
+      "known_variants": [
+        "POSTED"
+      ]
+    }
+  },
+  "flagged_receipts_count": 127,
+  "excluded_outlier_count": 0,
+  "excluded_outlier_total": 0.0,
+  "receipts": [
+    {
+      "file": "0",
+      "store_name": "WAL*MART",
+      "date": "",
+      "total": 5.11,
+      "total_confidence": 0.8687,
+      "total_flagged": false
+    },
+    {
+      "file": "1",
+      "store_name": "\"TRADER JOE'S",
+      "date": "06-28-2014",
+      "total": 840.0,
+      "total_confidence": 0.7127,
+      "total_flagged": false
+    },
+    {
+      "file": "10",
+      "store_name": "SPAR",
+      "date": "",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "11",
+      "store_name": "WHOLE",
+      "date": "",
+      "total": 45.44,
+      "total_confidence": 0.733,
+      "total_flagged": false
+    },
+    {
+      "file": "12",
+      "store_name": "WAL*MART",
+      "date": "10/20/07 13:48:43",
+      "total": 76.0,
+      "total_confidence": 0.6028,
+      "total_flagged": true
+    },
+    {
+      "file": "13",
+      "store_name": "Walmart",
+      "date": "8/11/17 19:19:31",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "14",
+      "store_name": "See back of receipt for your  chance",
+      "date": "05/04/17",
+      "total": 26.6,
+      "total_confidence": 0.8415,
+      "total_flagged": false
+    },
+    {
+      "file": "15",
+      "store_name": "we",
+      "date": "07/22/16 20:53:11",
+      "total": 12.68,
+      "total_confidence": 0.6186,
+      "total_flagged": true
+    },
+    {
+      "file": "16",
+      "store_name": "See back of receipt for your chance",
+      "date": "11/13/17 12:34:04",
+      "total": 23.19,
+      "total_confidence": 0.9462,
+      "total_flagged": false
+    },
+    {
+      "file": "17",
+      "store_name": "See back of receipt for your chance",
+      "date": "01/16/17",
+      "total": 40.68,
+      "total_confidence": 0.6833,
+      "total_flagged": true
+    },
+    {
+      "file": "18",
+      "store_name": "Givu U6 Walik youl (eeabeck I /oui3/J/NXS e vov walma ( com",
+      "date": "00/8/4235",
+      "total": 86.35,
+      "total_confidence": 0.6302,
+      "total_flagged": true
+    },
+    {
+      "file": "19",
+      "store_name": "Thank youl Give us feedback ID #: 70DRJJ99F 3X survey wale mart_ com",
+      "date": "10/16/21",
+      "total": 35.05,
+      "total_confidence": 0.909,
+      "total_flagged": false
+    },
+    {
+      "file": "2",
+      "store_name": "La",
+      "date": "10/18/20 11:30:42",
+      "total": 49.9,
+      "total_confidence": 0.8911,
+      "total_flagged": false
+    },
+    {
+      "file": "20",
+      "store_name": "DOLLAR TREE",
+      "date": "9/17/22 17:08",
+      "total": 1.0,
+      "total_confidence": 0.6207,
+      "total_flagged": true
+    },
+    {
+      "file": "21",
+      "store_name": "DollaR TnEe StoRes, Inc .",
+      "date": "2/20/14 19:52",
+      "total": 0.0,
+      "total_confidence": 0.4783,
+      "total_flagged": true
+    },
+    {
+      "file": "3",
+      "store_name": "See to uin bock 51000 id of recelet 7NsnIvixcqdq for your chance",
+      "date": "04/27/19 12:69:46",
+      "total": 144.02,
+      "total_confidence": 0.6243,
+      "total_flagged": true
+    },
+    {
+      "file": "4",
+      "store_name": "Walmart",
+      "date": "12/08/15 12:39",
+      "total": 0.49,
+      "total_confidence": 0.8323,
+      "total_flagged": false
+    },
+    {
+      "file": "5",
+      "store_name": "WHOLE FOODS",
+      "date": "9/15/2020",
+      "total": 528.0,
+      "total_confidence": 0.6301,
+      "total_flagged": true
+    },
+    {
+      "file": "6",
+      "store_name": "MOMI & Toy's",
+      "date": "26/01/2015 16:13",
+      "total": 0.0,
+      "total_confidence": 0.6004,
+      "total_flagged": true
+    },
+    {
+      "file": "7",
+      "store_name": "See back of receipt for your chance",
+      "date": "11/13/17 12:34:04",
+      "total": 23.19,
+      "total_confidence": 0.9462,
+      "total_flagged": false
+    },
+    {
+      "file": "8",
+      "store_name": "coSc",
+      "date": "",
+      "total": 1.0,
+      "total_confidence": 0.5486,
+      "total_flagged": true
+    },
+    {
+      "file": "9",
+      "store_name": "Ile Ecod $ 800- Duneanv 17tmti Nwn stor Wi Cocku ncatoodl Io 00124 \"i Mi 10m The Tx 75137 con 6r' Ra",
+      "date": "99/08/14",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X00016469612",
+      "store_name": "tan woon yann",
+      "date": "25/12/2018 8:13",
+      "total": 91.0,
+      "total_confidence": 0.8589,
+      "total_flagged": false
+    },
+    {
+      "file": "X00016469619",
+      "store_name": "tan woon yann",
+      "date": "19/10/2018 20:49:59",
+      "total": 2.0,
+      "total_confidence": 0.613,
+      "total_flagged": true
+    },
+    {
+      "file": "X00016469620",
+      "store_name": "tan woon yann",
+      "date": "12-01-19 21:13",
+      "total": 33.92,
+      "total_confidence": 0.9218,
+      "total_flagged": false
+    },
+    {
+      "file": "X00016469622",
+      "store_name": "tan woon yann",
+      "date": "24/12/2018",
+      "total": 91.0,
+      "total_confidence": 0.5895,
+      "total_flagged": true
+    },
+    {
+      "file": "X00016469623",
+      "store_name": "tan woon yann",
+      "date": "",
+      "total": 30.91,
+      "total_confidence": 0.8671,
+      "total_flagged": false
+    },
+    {
+      "file": "X00016469669",
+      "store_name": "tan chay yee",
+      "date": "09/01/2019",
+      "total": 31.0,
+      "total_confidence": 0.8728,
+      "total_flagged": false
+    },
+    {
+      "file": "X00016469670",
+      "store_name": "tan chay yee",
+      "date": "15/01/2019 11:05",
+      "total": 193.0,
+      "total_confidence": 0.9164,
+      "total_flagged": false
+    },
+    {
+      "file": "X00016469671",
+      "store_name": "tan chay yee",
+      "date": "02/01/2019 2:47:14 PM",
+      "total": 0.0,
+      "total_confidence": 0.9293,
+      "total_flagged": false
+    },
+    {
+      "file": "X00016469672",
+      "store_name": "tan chay yee",
+      "date": "11/01/2019",
+      "total": 0.0,
+      "total_confidence": 0.6558,
+      "total_flagged": true
+    },
+    {
+      "file": "X00016469676",
+      "store_name": "tan chay yee",
+      "date": "23-01-2019 13:14:15 PM",
+      "total": 20.0,
+      "total_confidence": 0.9135,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005200931",
+      "store_name": "Kane ae",
+      "date": "09/02/2018",
+      "total": 24.69,
+      "total_confidence": 0.8811,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005200938",
+      "store_name": "Asxoc BS",
+      "date": "",
+      "total": 637.0,
+      "total_confidence": 0.5721,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005230605",
+      "store_name": "ALSERKAM ENTERPRISE",
+      "date": "01/02/2018 4:43:17 PM",
+      "total": 4.9,
+      "total_confidence": 0.95,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005230616",
+      "store_name": "A psez.",
+      "date": "18/01/2018 17:09:21",
+      "total": 38.9,
+      "total_confidence": 0.9478,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005230617",
+      "store_name": "pe",
+      "date": "18/01/2018 10:27:03",
+      "total": 26.6,
+      "total_confidence": 0.9328,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005230621",
+      "store_name": "SIN LIANHAP SDN BHD",
+      "date": "05/02/2018",
+      "total": 7.3,
+      "total_confidence": 0.889,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005230648",
+      "store_name": "CROSS CHANNEL NETWORK SDN. BHD.",
+      "date": "29/01/2018 4:40:40 PM",
+      "total": 6.36,
+      "total_confidence": 0.9273,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005230657",
+      "store_name": "CROSS CHANNEL NE/WORK SDN. BHD.",
+      "date": "31/12/2017",
+      "total": 95.0,
+      "total_confidence": 0.6026,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005230659",
+      "store_name": "ENTERPRISE SDN BHD",
+      "date": "08/01/2018",
+      "total": 8.0,
+      "total_confidence": 0.9235,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005255805",
+      "store_name": "(742016-W)",
+      "date": "29-12-2017",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005268200",
+      "store_name": "ISE (SETIA",
+      "date": "",
+      "total": 15.0,
+      "total_confidence": 0.8334,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005268262",
+      "store_name": "HOnE MASTER HARDWARE &",
+      "date": "",
+      "total": 5.0,
+      "total_confidence": 0.8819,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005268275",
+      "store_name": "KLANG SELANGOR DE MALAYSTA",
+      "date": "20/11/2017",
+      "total": 8.0,
+      "total_confidence": 0.6297,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005268400",
+      "store_name": "RESTORAN HASSANBISTRO",
+      "date": "12/28/2017 10:17:32 PM",
+      "total": 1.0,
+      "total_confidence": 0.8388,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005268408",
+      "store_name": "<3 Sv) ist a ot ret 8 S/B",
+      "date": "",
+      "total": 3.0,
+      "total_confidence": 0.4074,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005268472",
+      "store_name": "NO.23 BATU 10, TAMAN SENTOSA",
+      "date": "22/12/2017",
+      "total": 32.69,
+      "total_confidence": 0.8874,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005288570",
+      "store_name": "SECURE PARKING",
+      "date": "",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005301659",
+      "store_name": "HOnE MASTER HARDWARE &",
+      "date": "",
+      "total": 5.0,
+      "total_confidence": 0.8819,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005301661",
+      "store_name": "LIGHTROOM KLANG BANDAR No: ROC SELANGOR 28, No. BUKIT JALAN GALLERY ; (1072825-A) D, RAJA, ASTANA E, MALAYSTA SDN 41050 1C; BHD",
+      "date": "20/12/2017",
+      "total": 68.87,
+      "total_confidence": 0.7356,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005301666",
+      "store_name": "KLANG SELANGOR DE MALAYSTA",
+      "date": "20/11/2017",
+      "total": 8.0,
+      "total_confidence": 0.6297,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005301667",
+      "store_name": "LIGHTROOM GALLERY, SDN HD",
+      "date": "20/11/2017",
+      "total": 39.8,
+      "total_confidence": 0.7217,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005303661",
+      "store_name": "LIGHTROOM KLANG BANDAR No: ROC SELANGOR 28, No. BUKIT JALAN GALLERY ; (1072825-A) D, RAJA, ASTANA E, MALAYSTA SDN 41050 1C; BHD",
+      "date": "20/12/2017",
+      "total": 68.87,
+      "total_confidence": 0.7356,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005306399",
+      "store_name": "3 1 8 0 0 4 8",
+      "date": "18/03/18",
+      "total": 86.0,
+      "total_confidence": 0.6846,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005337867",
+      "store_name": "Sy lee.",
+      "date": "22 Mar 18",
+      "total": 6.0,
+      "total_confidence": 0.6303,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005337872",
+      "store_name": "Rs k -",
+      "date": "06/03/2018",
+      "total": 51.42,
+      "total_confidence": 0.9207,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005337877",
+      "store_name": "MPR aR ho pv 5",
+      "date": "20/03/2018 6:41:02 PM",
+      "total": 53.0,
+      "total_confidence": 0.9406,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361883",
+      "store_name": "TEL 03-3271 9872 SELANGOR DARUL EHSAN FAX 03-3271 \" 9",
+      "date": "18/01/2018",
+      "total": 4.6,
+      "total_confidence": 0.9339,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361895",
+      "store_name": "OK, 45600 BE an) ARI OAS ‘A,",
+      "date": "43-45-476",
+      "total": 9.0,
+      "total_confidence": 0.9287,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361897",
+      "store_name": "TEL: 03-3271 GST SELANGOR No, 9872 : 000689913856 _ DARUL FAX: EHSAN 03-3271 9481",
+      "date": "17/01/2018",
+      "total": 26.0,
+      "total_confidence": 0.9325,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361898",
+      "store_name": "TEO HENG STATIONERY & BOOKS",
+      "date": "15/01/2018",
+      "total": 55.1,
+      "total_confidence": 0.9122,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361900",
+      "store_name": "TED NO. HENG 53, JALAN STATIONERY BESAR, (001451637-1 45600 BATANG & BERJUNTAL BOOKS",
+      "date": "23/01/2018",
+      "total": 16.98,
+      "total_confidence": 0.928,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361906",
+      "store_name": "TED HENG STATI",
+      "date": "27/01/2018",
+      "total": 25.8,
+      "total_confidence": 0.9239,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361907",
+      "store_name": "NO. 63, JALAN GST SELANGOR No. BESAR, (001451637-M) 9872 : 000689913856 45500 DARUL FAX: BATANG 03-3271 EHSAN BERJUNTAT 9481",
+      "date": "12/02/2018",
+      "total": 144.68,
+      "total_confidence": 0.915,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361908",
+      "store_name": "5a",
+      "date": "15/03/2018",
+      "total": 120.0,
+      "total_confidence": 0.9008,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361912",
+      "store_name": "TEO HENG STATIONERY & BOOKS",
+      "date": "29/01/2018",
+      "total": 1.0,
+      "total_confidence": 0.9482,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361923",
+      "store_name": "SWC ENTERPRISE SDN BAD",
+      "date": "92/01/2018",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005361946",
+      "store_name": "FAIIO )",
+      "date": "14-03-18 21:49",
+      "total": 37.1,
+      "total_confidence": 0.8397,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005361950",
+      "store_name": "PAIT",
+      "date": "24-01-18",
+      "total": 2.5,
+      "total_confidence": 0.8239,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005365179",
+      "store_name": "3-1707067",
+      "date": "01-03-18",
+      "total": 20.0,
+      "total_confidence": 0.9416,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005365187",
+      "store_name": "3-1707067",
+      "date": "02/03/2018",
+      "total": 90.0,
+      "total_confidence": 0.6084,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005433492",
+      "store_name": "Aozo/8",
+      "date": "05 Mar 2018",
+      "total": 8.2,
+      "total_confidence": 0.8912,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433494",
+      "store_name": "{p3136",
+      "date": "",
+      "total": 75.0,
+      "total_confidence": 0.8212,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433514",
+      "store_name": "Ab302-",
+      "date": "03 Mar 2018",
+      "total": 8.2,
+      "total_confidence": 0.8987,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433518",
+      "store_name": "An 26,",
+      "date": "07 Mar 2018",
+      "total": 8.2,
+      "total_confidence": 0.927,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433522",
+      "store_name": "Ao3ozo",
+      "date": "10 Mar 2018",
+      "total": 58.2,
+      "total_confidence": 0.6898,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005433533",
+      "store_name": "Fjo3oYi",
+      "date": "09/03/2018",
+      "total": 18.81,
+      "total_confidence": 0.8958,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433538",
+      "store_name": "A020Y7",
+      "date": "12 Mar 2018",
+      "total": 8.2,
+      "total_confidence": 0.9143,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433541",
+      "store_name": "Hozosv",
+      "date": "14 Mar 2016",
+      "total": 8.2,
+      "total_confidence": 0.8987,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433543",
+      "store_name": "nozasz",
+      "date": "",
+      "total": 8.2,
+      "total_confidence": 0.8791,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433548",
+      "store_name": "Yozos 7",
+      "date": "09/09/18 0:18",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005433552",
+      "store_name": "Ao2062",
+      "date": "10/03/2018 5:41:08",
+      "total": 87.8,
+      "total_confidence": 0.8684,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433553",
+      "store_name": "A0206|",
+      "date": "11/03/2018 06:26",
+      "total": 13.1,
+      "total_confidence": 0.8911,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005433556",
+      "store_name": "A63064",
+      "date": "11/03/2018",
+      "total": 49.7,
+      "total_confidence": 0.9071,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005441398",
+      "store_name": "BREWERY TAP",
+      "date": "30/03/2018",
+      "total": 189.75,
+      "total_confidence": 0.6841,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005441401",
+      "store_name": "HREE STOOGES",
+      "date": "12/03/2018",
+      "total": 343.95,
+      "total_confidence": 0.7194,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005441402",
+      "store_name": "THREE STOOGES",
+      "date": "03/03/2018",
+      "total": 114.9,
+      "total_confidence": 0.9305,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005441407",
+      "store_name": "Taste Of The Woi Id Sdr Bhd",
+      "date": "",
+      "total": 13.0,
+      "total_confidence": 0.4244,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005441408",
+      "store_name": "78G , JALAN SS21/62,",
+      "date": "10-03-2018 23:03:06",
+      "total": 74.25,
+      "total_confidence": 0.9186,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442322",
+      "store_name": "Ao2662",
+      "date": "03 Mar 18",
+      "total": 6.0,
+      "total_confidence": 0.5693,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005442327",
+      "store_name": "(OG",
+      "date": "18 Mar 2018",
+      "total": 8.6,
+      "total_confidence": 0.8821,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442333",
+      "store_name": "Hozo7",
+      "date": "27 Mar 2018",
+      "total": 6.9,
+      "total_confidence": 0.8923,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442334",
+      "store_name": "A03)2.&",
+      "date": "26 Mar 2018",
+      "total": 8.2,
+      "total_confidence": 0.9121,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442338",
+      "store_name": "Ho:iss",
+      "date": "18/03/18",
+      "total": 420.0,
+      "total_confidence": 0.3228,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005442341",
+      "store_name": "REST AURART stu'\"",
+      "date": "09/03/2018",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005442343",
+      "store_name": "H26a}",
+      "date": "13/03/2018",
+      "total": 67.92,
+      "total_confidence": 0.8839,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442344",
+      "store_name": "02?2",
+      "date": "13/03/2018",
+      "total": 95.17,
+      "total_confidence": 0.8479,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442346",
+      "store_name": "Ap %)",
+      "date": "16/03/2018",
+      "total": 0.45,
+      "total_confidence": 0.8678,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442361",
+      "store_name": "Ac3o96",
+      "date": "18-03-23",
+      "total": 35.0,
+      "total_confidence": 0.5911,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005442366",
+      "store_name": "(o3pa3",
+      "date": "22-03-2018",
+      "total": 8.0,
+      "total_confidence": 0.6034,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005442375",
+      "store_name": "Anz V2-",
+      "date": "25 Mar 2018",
+      "total": 8.5,
+      "total_confidence": 0.8966,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442376",
+      "store_name": "8o3113",
+      "date": "22 Mar 2018",
+      "total": 7.6,
+      "total_confidence": 0.9012,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442378",
+      "store_name": "Hlozns",
+      "date": "23/03/2018 9:34:40 AM",
+      "total": 1000.0,
+      "total_confidence": 0.5624,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005442379",
+      "store_name": "M216",
+      "date": "",
+      "total": 9.2,
+      "total_confidence": 0.9024,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442382",
+      "store_name": "Aozpi9",
+      "date": "20 Mar 2018",
+      "total": 56.6,
+      "total_confidence": 0.8946,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442383",
+      "store_name": "Ao3120",
+      "date": "",
+      "total": 0.0,
+      "total_confidence": 0.8812,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442384",
+      "store_name": ")",
+      "date": "19 Mar 2018",
+      "total": 8.2,
+      "total_confidence": 0.8997,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442386",
+      "store_name": "ho2/>3",
+      "date": "21 Mar 2018",
+      "total": 8.7,
+      "total_confidence": 0.907,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442388",
+      "store_name": "CONTENTO (JN0761170 080304",
+      "date": "20/03/18 17:19",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005442392",
+      "store_name": "83o3i3y",
+      "date": "29 Mar 2013",
+      "total": 7.4,
+      "total_confidence": 0.8862,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005442394",
+      "store_name": "0 re ast 136",
+      "date": "30 Mar 2018",
+      "total": 5.0,
+      "total_confidence": 0.5962,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005442397",
+      "store_name": "Ko W (2 2) Ds)",
+      "date": "25-03-2018",
+      "total": 7.6,
+      "total_confidence": 0.7347,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005444033",
+      "store_name": "BLC",
+      "date": "12/03/18",
+      "total": 77.2,
+      "total_confidence": 0.9217,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005444037",
+      "store_name": ". Nandos.",
+      "date": "00-88-6555",
+      "total": 129.3,
+      "total_confidence": 0.7034,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005444040",
+      "store_name": "BLC",
+      "date": "09/03/18",
+      "total": 133.7,
+      "total_confidence": 0.931,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005444041",
+      "store_name": "BLC",
+      "date": "08/03/18",
+      "total": 81.0,
+      "total_confidence": 0.9205,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005444044",
+      "store_name": "99 SPEED MORT S/B (519537-X)",
+      "date": "10-03-18",
+      "total": 5.35,
+      "total_confidence": 0.8919,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005444045",
+      "store_name": "99 SPEED NART S/B (519537-¥)",
+      "date": "19-03-18",
+      "total": 11.4,
+      "total_confidence": 0.839,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005444046",
+      "store_name": "55100 Kuala Lumpur",
+      "date": "25/03/18",
+      "total": 17.0,
+      "total_confidence": 0.6515,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005447832",
+      "store_name": "PETRODELI ENIERPRISE",
+      "date": "26/02/18",
+      "total": 54.0,
+      "total_confidence": 0.6166,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005447833",
+      "store_name": "SUN WONG KUT SON BHO",
+      "date": "21/02/18",
+      "total": 17.0,
+      "total_confidence": 0.6179,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005447839",
+      "store_name": "RES ! AURANT JIAWE |",
+      "date": "9/3/2018",
+      "total": 65.2,
+      "total_confidence": 0.937,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447840",
+      "store_name": "PASARAYA BORONG PINTAR",
+      "date": "14/03/2018",
+      "total": 4.0,
+      "total_confidence": 0.9523,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447841",
+      "store_name": "PASARAYA BORONG PINTAR",
+      "date": "09/03/2018 4:21:23PM",
+      "total": 10.4,
+      "total_confidence": 0.955,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447842",
+      "store_name": "ae",
+      "date": "14/03/2018",
+      "total": 0.9,
+      "total_confidence": 0.9362,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447844",
+      "store_name": "RESTAURANT JIAWE |",
+      "date": "23/2/2018",
+      "total": 0.0,
+      "total_confidence": 0.6247,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005447848",
+      "store_name": "RESTAURANT SDN BHD",
+      "date": "06/01/18",
+      "total": 53.55,
+      "total_confidence": 0.7394,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447850",
+      "store_name": "SDN BHD",
+      "date": "04/03/2018",
+      "total": 1.0,
+      "total_confidence": 0.9422,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447851",
+      "store_name": "PASARAYA BORONG PINTAR",
+      "date": "30/01/2018",
+      "total": 1.7,
+      "total_confidence": 0.9513,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447852",
+      "store_name": "99 SPEED MART S/B (519537-X)",
+      "date": "20-02-18",
+      "total": 9.9,
+      "total_confidence": 0.911,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447853",
+      "store_name": "39 STEED MART S/8 (519537.X}",
+      "date": "",
+      "total": 141.58,
+      "total_confidence": 0.8059,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447859",
+      "store_name": "PASARAYA BORONG PINTAR",
+      "date": "14/02/2018",
+      "total": 1.45,
+      "total_confidence": 0.9459,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447860",
+      "store_name": "AEON CO. (M) BHD (126926-H)",
+      "date": "19/62/2018 16:45",
+      "total": 17.7,
+      "total_confidence": 0.9022,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005447861",
+      "store_name": "————= rl il",
+      "date": "01/03/18 19:14",
+      "total": 49.39,
+      "total_confidence": 0.7484,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005453729",
+      "store_name": "3180303",
+      "date": "",
+      "total": 6.0,
+      "total_confidence": 0.634,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005453801",
+      "store_name": "3180303",
+      "date": "20/03/2012 13:01",
+      "total": 102.0,
+      "total_confidence": 0.8887,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005453802",
+      "store_name": "3180303 OS",
+      "date": "",
+      "total": 189.0,
+      "total_confidence": 0.9411,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005453804",
+      "store_name": "3180303",
+      "date": "",
+      "total": 1290.0,
+      "total_confidence": 0.6368,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005568827",
+      "store_name": "Banh Mi CafE",
+      "date": "29-10-2017 18:31:45",
+      "total": 21.3,
+      "total_confidence": 0.7215,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568829",
+      "store_name": "NO.22 JALAN PUTERI 2/4",
+      "date": "02/02/2017 7:31:08 PM",
+      "total": 92.8,
+      "total_confidence": 0.9049,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568855",
+      "store_name": "CO. (M) SDN BHD",
+      "date": "23/12/17 15:53",
+      "total": 140.65,
+      "total_confidence": 0.9228,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568866",
+      "store_name": "Co. (M) SDN BHD",
+      "date": "20/08/17 12:48",
+      "total": 5.04,
+      "total_confidence": 0.7274,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568880",
+      "store_name": "MR.D.1.¥(M)SDN BHD",
+      "date": "3-04-06",
+      "total": 15.9,
+      "total_confidence": 0.9251,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568881",
+      "store_name": "—",
+      "date": "21/09/2017 10:20:37 AM",
+      "total": 10.4,
+      "total_confidence": 0.921,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568884",
+      "store_name": "MR. D.I.¥. SDN BHD",
+      "date": "24-11-17",
+      "total": 3.9,
+      "total_confidence": 0.9149,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568885",
+      "store_name": "EVERGREEN LIGHT SDN BHD",
+      "date": "",
+      "total": 1.0,
+      "total_confidence": 0.5584,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005568887",
+      "store_name": "KON KWA KARDWARE TRADING",
+      "date": "",
+      "total": 7.2,
+      "total_confidence": 0.8932,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568889",
+      "store_name": "HON HWA HARDWARE TRADING",
+      "date": "11/02/2017 9:35:48 AM",
+      "total": 19.6,
+      "total_confidence": 0.9319,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568890",
+      "store_name": "HON HWA HARDWARE TRADING",
+      "date": "",
+      "total": 5.0,
+      "total_confidence": 0.8704,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568891",
+      "store_name": "Company Reg: Na; 001056194X",
+      "date": "08/02/2017 3:43:01 PM",
+      "total": 277.9,
+      "total_confidence": 0.9381,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568892",
+      "store_name": "EVERGREEN LIGHT SDN BHD",
+      "date": "",
+      "total": 24.52,
+      "total_confidence": 0.6531,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005568894",
+      "store_name": "www. vivopac.com",
+      "date": "17/01/2017 01:31:27 PM",
+      "total": 46.65,
+      "total_confidence": 0.9543,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568895",
+      "store_name": "Mm, 'vivopac com",
+      "date": "13/09/2017 01:13:09 PM",
+      "total": 52.45,
+      "total_confidence": 0.9503,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568898",
+      "store_name": "TEL: 03-91334364 FAX: 03-91310522",
+      "date": "30/05/2017 10:18:02 AM",
+      "total": 18.8,
+      "total_confidence": 0.9338,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568899",
+      "store_name": "MR. D.I.¥. SON BHD",
+      "date": "18-10-17 15:16",
+      "total": 5.9,
+      "total_confidence": 0.7316,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568900",
+      "store_name": "MR. D.I.Y. SDN BHD",
+      "date": "28-12-17 18:52",
+      "total": 9.9,
+      "total_confidence": 0.7263,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568911",
+      "store_name": "MR D. I,Y (KUCHAI ) SN BHD",
+      "date": "21-41-71",
+      "total": 37.8,
+      "total_confidence": 0.9463,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005568913",
+      "store_name": "IKEA Cheras",
+      "date": "",
+      "total": 6.0,
+      "total_confidence": 0.5499,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005568914",
+      "store_name": "(1074617K)",
+      "date": "09/08/17",
+      "total": 80.0,
+      "total_confidence": 0.5909,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005577191",
+      "store_name": "Fv EADLE ENTERPRISE",
+      "date": "07/12/2017",
+      "total": 9.43,
+      "total_confidence": 0.7968,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005577192",
+      "store_name": "Fr EAGLE ENTERPRISE",
+      "date": "04/12/2017",
+      "total": 2.0,
+      "total_confidence": 0.5452,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005582745",
+      "store_name": "MODERN DEPOT SDN BHD",
+      "date": "04/12/2016",
+      "total": 141.51,
+      "total_confidence": 0.8626,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005587254",
+      "store_name": "Tel Seksyen 4-20, ; 03-51217970 Jalan GST 25, 1D:7000429166592 40400 Ria 25/62 , Shah Fax Taman Alam ; 03-51218059 Selangor Sri Muda |",
+      "date": "13/03/2017 03:00:42PM",
+      "total": 5.0,
+      "total_confidence": 0.8899,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005587261",
+      "store_name": "Site 40000 LOT PT ; Shah 1164 5121, Alam, Per. Sel Klang, angor Sek. 27",
+      "date": "23/03/17 14:08",
+      "total": 30.0,
+      "total_confidence": 0.9492,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005587267",
+      "store_name": "tt yen 25, 40400 Shah Alam Selangor",
+      "date": "4/02/2017 03:30:29",
+      "total": 85.1,
+      "total_confidence": 0.6877,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005605284",
+      "store_name": "NO 183, Jalan Wangsa Delima 12,",
+      "date": "23/03/2018 3:13:19",
+      "total": 84.0,
+      "total_confidence": 0.948,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005605285",
+      "store_name": "6v",
+      "date": "22/03/2018 10:18",
+      "total": 5.9,
+      "total_confidence": 0.9291,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005605286",
+      "store_name": "Ok",
+      "date": "09/02/2018 12:53",
+      "total": 5.9,
+      "total_confidence": 0.9122,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005605287",
+      "store_name": "?E",
+      "date": "14/03/2018 12:43",
+      "total": 12.25,
+      "total_confidence": 0.9112,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005605295",
+      "store_name": "OE",
+      "date": "22/03/18 10:17",
+      "total": 56.0,
+      "total_confidence": 0.5512,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005605332",
+      "store_name": "POPULAR Book",
+      "date": "14/03/18 12:52",
+      "total": 7.95,
+      "total_confidence": 0.744,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005605333",
+      "store_name": ") 0. (M) SDN BHD",
+      "date": "07/01/18",
+      "total": 31.47,
+      "total_confidence": 0.8535,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005605334",
+      "store_name": "CO. (M) SDN BHD",
+      "date": "29/03/18 13:24",
+      "total": 9.65,
+      "total_confidence": 0.9558,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005605335",
+      "store_name": "CO. (M) SDN BHD",
+      "date": "12/01/18",
+      "total": 20.98,
+      "total_confidence": 0.7358,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005621482",
+      "store_name": "PrIMio",
+      "date": "20/03/2018 3:20:16 PM",
+      "total": 13.4,
+      "total_confidence": 0.7282,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663272",
+      "store_name": "3 ! 813012",
+      "date": "04/12/17 5:06",
+      "total": 2.4,
+      "total_confidence": 0.9333,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663273",
+      "store_name": "SYARIKAT PERNIAGAAN GIN KEE",
+      "date": "04/12/2017",
+      "total": 47.7,
+      "total_confidence": 0.9313,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663274",
+      "store_name": "3 18 02 O13,",
+      "date": "08/02/2018",
+      "total": 50.0,
+      "total_confidence": 0.6558,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663276",
+      "store_name": "> 1' > 0 2",
+      "date": "02/12/2017",
+      "total": 7.0,
+      "total_confidence": 0.8669,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663277",
+      "store_name": "2 [ 8 12 ol 2",
+      "date": "02/12/2017",
+      "total": 29.68,
+      "total_confidence": 0.9003,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663278",
+      "store_name": "3 |81) 0 (2",
+      "date": "23/12/17",
+      "total": 13.3,
+      "total_confidence": 0.9043,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663279",
+      "store_name": "3 | 8 12 01 2",
+      "date": "28/12/2017",
+      "total": 40.0,
+      "total_confidence": 0.6208,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663280",
+      "store_name": "3 /812012",
+      "date": "30 Dec 17",
+      "total": 102.39,
+      "total_confidence": 0.9112,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663293",
+      "store_name": "2, 1802013",
+      "date": "14-02-2018 13:02:42",
+      "total": 4.0,
+      "total_confidence": 0.6298,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663297",
+      "store_name": "3 /8 03 0 /4",
+      "date": "14/03/2018",
+      "total": 599.43,
+      "total_confidence": 0.6749,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663298",
+      "store_name": "9, 1 Bo3ory",
+      "date": "21-03-2018 13:29:51",
+      "total": 41.3,
+      "total_confidence": 0.9033,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663300",
+      "store_name": "3 \\2 0d 013,",
+      "date": "02/02/2018",
+      "total": 700.0,
+      "total_confidence": 0.6116,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663301",
+      "store_name": "3 | 8 02 0l ' 3",
+      "date": "03/02/2018",
+      "total": 0.0,
+      "total_confidence": 0.65,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663307",
+      "store_name": "YB 02014\"",
+      "date": "09/02/2018 09:21:19 AM",
+      "total": 56.8,
+      "total_confidence": 0.9485,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005663309",
+      "store_name": "3 | 8 6 >015",
+      "date": "01/02/2018",
+      "total": 10.0,
+      "total_confidence": 0.5264,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663310",
+      "store_name": "318 0 > 0 |3'",
+      "date": "09/02/2018",
+      "total": 40.0,
+      "total_confidence": 0.6116,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663311",
+      "store_name": "21% 02013:",
+      "date": "09/02/2018",
+      "total": 700.0,
+      "total_confidence": 0.6329,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663317",
+      "store_name": "2 \"8 |2 012",
+      "date": "29/12/2017",
+      "total": 0.0,
+      "total_confidence": 0.5812,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663323",
+      "store_name": "3 |8 /2012",
+      "date": "04/12/2017",
+      "total": 2.0,
+      "total_confidence": 0.5469,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005663324",
+      "store_name": "3 ( 8 (9 0/)",
+      "date": "28/12/2017",
+      "total": 34.0,
+      "total_confidence": 0.6484,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005675095",
+      "store_name": "3 ' 8 0 0 7",
+      "date": "14/01/2018",
+      "total": 0.0,
+      "total_confidence": 0.5638,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005675099",
+      "store_name": "3 ! 8 0 | 0",
+      "date": "20/01/2018",
+      "total": 132.5,
+      "total_confidence": 0.911,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005675103",
+      "store_name": "2 18 01 0|",
+      "date": "04/01/2018",
+      "total": 17.0,
+      "total_confidence": 0.6389,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005675104",
+      "store_name": "3 ( 8 0 1 0i",
+      "date": "25/01/2018",
+      "total": 180.0,
+      "total_confidence": 0.9484,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005675914",
+      "store_name": "BEYOND BROTHERS HARDWARE",
+      "date": "",
+      "total": 67.85,
+      "total_confidence": 0.9219,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676534",
+      "store_name": "(81109-A)",
+      "date": "03/01/2018",
+      "total": 72.08,
+      "total_confidence": 0.9536,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676535",
+      "store_name": "3\\§ Ol",
+      "date": "30/12/2017",
+      "total": 4.0,
+      "total_confidence": 0.6352,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005676536",
+      "store_name": "3 12/0! O14",
+      "date": "02/01/2018",
+      "total": 93.07,
+      "total_confidence": 0.9496,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676537",
+      "store_name": "(81109-A)",
+      "date": "03/01/2018",
+      "total": 34.0,
+      "total_confidence": 0.6315,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005676538",
+      "store_name": "41,8 Of O17",
+      "date": "04/01/2018",
+      "total": 44.73,
+      "total_confidence": 0.9456,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676539",
+      "store_name": "31801 0(7",
+      "date": "10/01/2018",
+      "total": 32.0,
+      "total_confidence": 0.6548,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005676540",
+      "store_name": "3 18 Ol OIF",
+      "date": "11/01/2018",
+      "total": 116.28,
+      "total_confidence": 0.9565,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676541",
+      "store_name": "3 18 '0 / 617",
+      "date": "03/01/2018",
+      "total": 50.0,
+      "total_confidence": 0.6453,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005676542",
+      "store_name": "3 |8'01 017",
+      "date": "29/12/2017",
+      "total": 10.6,
+      "total_confidence": 0.9549,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676543",
+      "store_name": "319 <— 01 O1F",
+      "date": "02/01/2018",
+      "total": 13.25,
+      "total_confidence": 0.9476,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676544",
+      "store_name": "3 I2' 0/ '0 /7",
+      "date": "02/01/2018",
+      "total": 2.12,
+      "total_confidence": 0.9417,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676545",
+      "store_name": "3",
+      "date": "13/01/2018",
+      "total": 36.0,
+      "total_confidence": 0.6295,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005676546",
+      "store_name": "318 01 ‘",
+      "date": "11/01/2018",
+      "total": 21.2,
+      "total_confidence": 0.9489,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676547",
+      "store_name": "2 VOV\\O\\t, + ‘",
+      "date": "13/01/2018",
+      "total": 12.72,
+      "total_confidence": 0.9365,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005676548",
+      "store_name": "3 18 0 1 0 (7",
+      "date": "15/01/2018",
+      "total": 63.0,
+      "total_confidence": 0.6328,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005676549",
+      "store_name": "3 (8 0 ( 0 '/7",
+      "date": "02/01/2018",
+      "total": 39.76,
+      "total_confidence": 0.937,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005677327",
+      "store_name": "2 \\2 02 OVE at '",
+      "date": "01/02/2018",
+      "total": 4.0,
+      "total_confidence": 0.6193,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005677328",
+      "store_name": "1 8 62 0/ (",
+      "date": "12/02/2018",
+      "total": 5.3,
+      "total_confidence": 0.9281,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005677329",
+      "store_name": "SYARIKAT PERNIAGAAN GIN KEE",
+      "date": "12/02/2018",
+      "total": 255.0,
+      "total_confidence": 0.9414,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005677331",
+      "store_name": "2 1 8 02 0 (6",
+      "date": "03/02/2018",
+      "total": 95.0,
+      "total_confidence": 0.6395,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005677332",
+      "store_name": "3 ! 802,0/*6",
+      "date": "12/01/2018",
+      "total": 95.0,
+      "total_confidence": 0.6233,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005677333",
+      "store_name": "2 LROdOIG. 7",
+      "date": "31/01/2018",
+      "total": 101.76,
+      "total_confidence": 0.9469,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005677334",
+      "store_name": "3 ( 8 0) 0|",
+      "date": "31/01/2018",
+      "total": 68.0,
+      "total_confidence": 0.6388,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005677335",
+      "store_name": "'3 1 8 0) 0/,6",
+      "date": "24/01/2018",
+      "total": 0.0,
+      "total_confidence": 0.646,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005677336",
+      "store_name": "3 | 8 0 > 0'16' .",
+      "date": "27/01/2018",
+      "total": 26.0,
+      "total_confidence": 0.6341,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005677337",
+      "store_name": "4% 1g@02°0 | .& :",
+      "date": "02/02/2018",
+      "total": 13.0,
+      "total_confidence": 0.6258,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005677339",
+      "store_name": "BEYOND BROTHERS HARDWARE",
+      "date": "",
+      "total": 3.0,
+      "total_confidence": 0.5799,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005684949",
+      "store_name": "STATIONERY SON. BHD",
+      "date": "26-02-2018 14:27",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005685355",
+      "store_name": "RESTORAN IBRAHIM MAJU SB",
+      "date": "19/03/2018 03:43:44 PM",
+      "total": 5.3,
+      "total_confidence": 0.925,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005685357",
+      "store_name": "hr stf Los sc3 Fudc",
+      "date": "02/03/18 05:16 PM",
+      "total": 79.35,
+      "total_confidence": 0.9364,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005705722",
+      "store_name": "ASO ELECTRICAL TRADING SDN BHD",
+      "date": "27/09/2017",
+      "total": 14.04,
+      "total_confidence": 0.9274,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005705727",
+      "store_name": "KEDAI BUKU NEW ACHEIVERS",
+      "date": "28/12/2017",
+      "total": 2.16,
+      "total_confidence": 0.9566,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005705729",
+      "store_name": "ASO ELECTRICAL TRADING SDN BHD",
+      "date": "13/10/2017",
+      "total": 5.36,
+      "total_confidence": 0.9164,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005705760",
+      "store_name": "MYDIN",
+      "date": "10/08/2017 03:26:21PM",
+      "total": 21.4,
+      "total_confidence": 0.8825,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005705784",
+      "store_name": "|| | | j (EDAI NO. 12814, BUKU (CO NO. JALAN NEW SA0345444-K) JINJANG ACHEIVERS 27/54 ,",
+      "date": "15/09/2017",
+      "total": 2.72,
+      "total_confidence": 0.9109,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005705804",
+      "store_name": "TEL ; AXIS 03-51221701, SECTION NO 40400 31G, JALAN 26, SHAH 51313001 TAMAN SEPADU ALAM, INDUSTRIES, SELANGOR. FAX: C 95IC, 03-61215716",
+      "date": "",
+      "total": 0.0,
+      "total_confidence": 0.8909,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005710963",
+      "store_name": "TS TOOLS HARDWARE & NACHIRERY SOS DED",
+      "date": "",
+      "total": 1.0,
+      "total_confidence": 0.5935,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711401",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "19-03-2018 18:08:38",
+      "total": 4.0,
+      "total_confidence": 0.6515,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711402",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "17-03-2018 15:22:52",
+      "total": 8.0,
+      "total_confidence": 0.661,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711403",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "19-03-2018 11:12",
+      "total": 0.0,
+      "total_confidence": 0.6652,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711404",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "14-03-2018 10:06:20",
+      "total": 4.0,
+      "total_confidence": 0.6553,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711441",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "21-03-2018",
+      "total": 6.0,
+      "total_confidence": 0.6407,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711442",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "16-03-2018 12:07:10",
+      "total": 9.07,
+      "total_confidence": 0.9502,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005711443",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "23-03-2018",
+      "total": 6.0,
+      "total_confidence": 0.661,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711444",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "21-03-2018 11:42:20",
+      "total": 4.0,
+      "total_confidence": 0.6562,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711445",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "12-03-2018 10:13:04",
+      "total": 6.0,
+      "total_confidence": 0.6602,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711446",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "10-03-2018 16:01:37",
+      "total": 6.0,
+      "total_confidence": 0.6563,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711447",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "14-03-2018",
+      "total": 2.0,
+      "total_confidence": 0.6599,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711449",
+      "store_name": "RESTORAN WAN SHENG",
+      "date": "07-03-2018 15:34:15",
+      "total": 4.0,
+      "total_confidence": 0.6479,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711451",
+      "store_name": "Pr",
+      "date": "05-03-2018",
+      "total": 4.0,
+      "total_confidence": 0.6169,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005711452",
+      "store_name": "118",
+      "date": "21/03/2018 19:53:23",
+      "total": 25.4,
+      "total_confidence": 0.9617,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005711453",
+      "store_name": "107",
+      "date": "10/03/2018 17:24:07",
+      "total": 8.5,
+      "total_confidence": 0.952,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005711454",
+      "store_name": "PappaRi ch BMC",
+      "date": "24 Mar 18",
+      "total": 72.93,
+      "total_confidence": 0.9373,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005711456",
+      "store_name": "SUSHI  MENTAI MAHKOTA CHERAS",
+      "date": "31-03-2018",
+      "total": 66.2,
+      "total_confidence": 0.935,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005712017",
+      "store_name": "(65351-M)",
+      "date": "18/03/2018 23:02:16",
+      "total": 13.1,
+      "total_confidence": 0.9646,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005712021",
+      "store_name": "HAPPY SNACKS ENTERPRISE",
+      "date": "20/03/2018 1:11:38 PM",
+      "total": 26.82,
+      "total_confidence": 0.7378,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005712038",
+      "store_name": "(1125830-V)",
+      "date": "28/03/2018 10:36:13",
+      "total": 30.0,
+      "total_confidence": 0.9256,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005712039",
+      "store_name": "L TWO FLORIST & HANDICRAFT",
+      "date": "21/03/2018",
+      "total": 12.0,
+      "total_confidence": 0.6592,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005715007",
+      "store_name": "3-1708032",
+      "date": "25-03-18 18:34",
+      "total": 18.7,
+      "total_confidence": 0.9349,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005715010",
+      "store_name": "watsons",
+      "date": "",
+      "total": 2307.0,
+      "total_confidence": 0.3624,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005715451",
+      "store_name": "3-1708032",
+      "date": "06/02/18",
+      "total": 14.64,
+      "total_confidence": 0.9024,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005715455",
+      "store_name": "3-1708032",
+      "date": "26-03-18",
+      "total": 0.4,
+      "total_confidence": 0.786,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005715456",
+      "store_name": "3-1708032",
+      "date": "",
+      "total": 101.76,
+      "total_confidence": 0.9107,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005717526",
+      "store_name": "(653_1-M)",
+      "date": "02/03/2018 12:59:16",
+      "total": 28.5,
+      "total_confidence": 0.9311,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719814",
+      "store_name": "KIKU JAPANESE RESTAURANT",
+      "date": "17/1/2018",
+      "total": 29.7,
+      "total_confidence": 0.9628,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719823",
+      "store_name": "SIMPLIFIED TAX INVOICE",
+      "date": "",
+      "total": 14.0,
+      "total_confidence": 0.6084,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719855",
+      "store_name": "ROCKU YAKINIKU",
+      "date": "19/02/2018 17:43",
+      "total": 55.0,
+      "total_confidence": 0.6555,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719856",
+      "store_name": "ropbins",
+      "date": "16/02/2018 12:04",
+      "total": 21.5,
+      "total_confidence": 0.9484,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719857",
+      "store_name": "Salon Du Chocolat",
+      "date": "19-02-2018",
+      "total": 20.4,
+      "total_confidence": 0.9345,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719862",
+      "store_name": "99 SPEED MART 5/8",
+      "date": "03-02-18",
+      "total": 3.7,
+      "total_confidence": 0.8565,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719863",
+      "store_name": "SEN LEE HEONG RESTAURANT",
+      "date": "42-01-2018",
+      "total": 77.4,
+      "total_confidence": 0.6559,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719864",
+      "store_name": "oe",
+      "date": "05/01/2018",
+      "total": 2.0,
+      "total_confidence": 0.6141,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719873",
+      "store_name": "7290",
+      "date": "21/01/2018",
+      "total": 60.0,
+      "total_confidence": 0.6604,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719874",
+      "store_name": "NADEJE PRESTIGE SDN BHD",
+      "date": "18/02/22 13:34:14",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719882",
+      "store_name": "=",
+      "date": "17-02-18",
+      "total": 213.0,
+      "total_confidence": 0.8984,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719883",
+      "store_name": "ee",
+      "date": "17-02-18",
+      "total": 50.0,
+      "total_confidence": 0.5746,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719886",
+      "store_name": "<484297 -M>",
+      "date": "05/01/2018 13:30",
+      "total": 28.7,
+      "total_confidence": 0.6854,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719888",
+      "store_name": "POTTERS GARDEN SDN BHID",
+      "date": "04/01/2018 12:29:18 PM",
+      "total": 39.8,
+      "total_confidence": 0.9371,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719889",
+      "store_name": "HENG KEE DELIGHT S BAK KUT TEH .",
+      "date": "04/01/2018",
+      "total": 0.0,
+      "total_confidence": 0.6406,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719893",
+      "store_name": "Kr, Dkgal Solaris",
+      "date": "18-01-05 22:55:25",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719895",
+      "store_name": "3J JLN BANCAU 1,KEPONG BARU;",
+      "date": "1/8/2018",
+      "total": 34.8,
+      "total_confidence": 0.8933,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719896",
+      "store_name": "THE STORE (MALAYSIA) SDN BHD (8199K)",
+      "date": "14-01-2018",
+      "total": 2.0,
+      "total_confidence": 0.5686,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719898",
+      "store_name": "MR. D.1.¥.(KUCHAT) SDN BHD",
+      "date": "19-03-18",
+      "total": 11.9,
+      "total_confidence": 0.9203,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719899",
+      "store_name": "NYONYA COLORS @ 1 UTAMA",
+      "date": "18-03-2018 11:23",
+      "total": 53.6,
+      "total_confidence": 0.7189,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719902",
+      "store_name": "KING’S CONFECTIONERY S/B 273500-U (KSB)",
+      "date": "11/03/18 21:30",
+      "total": 1.42,
+      "total_confidence": 0.8945,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719903",
+      "store_name": "(65351-M)",
+      "date": "11/03/2018 14:31",
+      "total": 8.5,
+      "total_confidence": 0.9414,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719904",
+      "store_name": "Yam Fresh",
+      "date": "18-03-16 13:18:48",
+      "total": 29.3,
+      "total_confidence": 0.6949,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005719905",
+      "store_name": "SAINT HEART PASTRY",
+      "date": "25/03/2018",
+      "total": 8.2,
+      "total_confidence": 0.9599,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719906",
+      "store_name": "Bandar menjalara,",
+      "date": "25 Mar 2018",
+      "total": 105.0,
+      "total_confidence": 0.9459,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719912",
+      "store_name": "Berea BAe fen Sen Ba",
+      "date": "04/03/18",
+      "total": 12.0,
+      "total_confidence": 0.8989,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719914",
+      "store_name": "MR D, [, Y. (KUCHAI)  SDN BHD",
+      "date": "11/3-21",
+      "total": 53.3,
+      "total_confidence": 0.7067,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005719917",
+      "store_name": "Segambut Bahagia",
+      "date": "",
+      "total": 33.0,
+      "total_confidence": 0.7624,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005722668",
+      "store_name": "-",
+      "date": "01/02/2018",
+      "total": 50.0,
+      "total_confidence": 0.6228,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005722699",
+      "store_name": "CO. (M) SDN BHD",
+      "date": "11/02/18 19:21",
+      "total": 11.8,
+      "total_confidence": 0.7371,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724552",
+      "store_name": "R",
+      "date": "21/03/2078",
+      "total": 0.0,
+      "total_confidence": 0.6534,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005724554",
+      "store_name": "R",
+      "date": "28/02/2018",
+      "total": 96.0,
+      "total_confidence": 0.9596,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724611",
+      "store_name": "R",
+      "date": "21/03/2078",
+      "total": 144.16,
+      "total_confidence": 0.9357,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724621",
+      "store_name": "R",
+      "date": "06/03/2018",
+      "total": 127.2,
+      "total_confidence": 0.9556,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724622",
+      "store_name": "Gmb Us",
+      "date": "07/03/2018",
+      "total": 91.16,
+      "total_confidence": 0.9255,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724623",
+      "store_name": "( O^ OW\"",
+      "date": "",
+      "total": 312.7,
+      "total_confidence": 0.895,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724624",
+      "store_name": "R",
+      "date": "",
+      "total": 135.68,
+      "total_confidence": 0.9561,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724625",
+      "store_name": "meb J6ho9",
+      "date": "12/03/2018",
+      "total": 283.55,
+      "total_confidence": 0.9518,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724626",
+      "store_name": "Inep 293.500",
+      "date": "",
+      "total": 270.3,
+      "total_confidence": 0.9466,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724627",
+      "store_name": "R",
+      "date": "31/03/2018",
+      "total": 7.0,
+      "total_confidence": 0.649,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005724628",
+      "store_name": "R",
+      "date": "10/03/2018",
+      "total": 84.8,
+      "total_confidence": 0.9444,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005724629",
+      "store_name": "MBp 264 /0 0",
+      "date": "17/03/2018",
+      "total": 174.9,
+      "total_confidence": 0.9227,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005741929",
+      "store_name": "MyMydin Subang Bestari 2300",
+      "date": "19/01/2018 10:59:13",
+      "total": 5.5,
+      "total_confidence": 0.8865,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005741944",
+      "store_name": "BHPetro] Subang Airport",
+      "date": "18-01-2018 15:44:46",
+      "total": 41.95,
+      "total_confidence": 0.7272,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005742068",
+      "store_name": "Lot 1626, Mukim Kampung Laut",
+      "date": "24-03-2018 22:02:55",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005742110",
+      "store_name": "YONG CEN ENTERPRISE",
+      "date": "06/01/2018",
+      "total": 24.0,
+      "total_confidence": 0.6448,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005745183",
+      "store_name": "P)",
+      "date": "22/02/2018 7:41:46 AM",
+      "total": 63.8,
+      "total_confidence": 0.863,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005745187",
+      "store_name": "(002107*265 V) c81",
+      "date": "",
+      "total": 0.0,
+      "total_confidence": 0.5527,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005745188",
+      "store_name": "f)",
+      "date": "02/02/2018",
+      "total": 4.0,
+      "total_confidence": 0.5914,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005745190",
+      "store_name": "FASARAYA BORUNG SUPER SEVEN",
+      "date": "",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005745213",
+      "store_name": "Mun XeNG ELECTRICAL &",
+      "date": "",
+      "total": 0.0,
+      "total_confidence": 0.4853,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005745214",
+      "store_name": "Py",
+      "date": "07-02-18",
+      "total": 45.34,
+      "total_confidence": 0.8556,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005745244",
+      "store_name": "Subway#42219-6 Phone 03-78870693",
+      "date": "14/02/2018 11:13:31",
+      "total": 11.9,
+      "total_confidence": 0.9235,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005745249",
+      "store_name": "eee",
+      "date": "27/02/2018 15:32:47",
+      "total": 6.0,
+      "total_confidence": 0.42,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005745296",
+      "store_name": ". KMF FOODICTOUS SON BHD (1132106-H)",
+      "date": "09-04-2018",
+      "total": 1.0,
+      "total_confidence": 0.6471,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005745298",
+      "store_name": "were er",
+      "date": "31-03-18",
+      "total": 3.99,
+      "total_confidence": 0.8744,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005746140",
+      "store_name": "cf)",
+      "date": "02/03/2018",
+      "total": 26.0,
+      "total_confidence": 0.6658,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005746203",
+      "store_name": "th:",
+      "date": "01-03-2018 09:23:06 AM",
+      "total": 408.45,
+      "total_confidence": 0.9035,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005746204",
+      "store_name": "BEMED (SP) SDN. BHD.",
+      "date": "",
+      "total": 308.7,
+      "total_confidence": 0.8884,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005746206",
+      "store_name": "PANA JAYA ENTERPAISE",
+      "date": "21-03-2018 10:37:49",
+      "total": 99.06,
+      "total_confidence": 0.8986,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005746207",
+      "store_name": "SUPER SEVEN CASH & CARRY SDN BHD",
+      "date": "21-03-2018 11:25:07 AM",
+      "total": 18.29,
+      "total_confidence": 0.9267,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005746210",
+      "store_name": "Segi Cash & Carry Sdn. Bhd. (317041-¥)",
+      "date": "12 Mar 2018",
+      "total": 145.1,
+      "total_confidence": 0.8956,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005749895",
+      "store_name": "MX. (M) SON BHD",
+      "date": "",
+      "total": 71.9,
+      "total_confidence": 0.889,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005749904",
+      "store_name": "SWC ENTERPRISE SDN EHD",
+      "date": "06/03/2018",
+      "total": 2.0,
+      "total_confidence": 0.4946,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005749905",
+      "store_name": "\\",
+      "date": "10/03/2018",
+      "total": 34.0,
+      "total_confidence": 0.9237,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005749912",
+      "store_name": "MR. D.I.¥. (M) SDN BHD",
+      "date": "28-03-18",
+      "total": 38.8,
+      "total_confidence": 0.9346,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757199",
+      "store_name": "POPULAR Book",
+      "date": "01/03/18 12:36",
+      "total": 4.0,
+      "total_confidence": 0.9229,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757201",
+      "store_name": "ary SRU FLR, CO. (M) BHD, TAMAN (126926-H) HALURT SC",
+      "date": "28/02/2018 20:11",
+      "total": 88.97,
+      "total_confidence": 0.8819,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757233",
+      "store_name": "31803016",
+      "date": "9/03/18",
+      "total": 9.95,
+      "total_confidence": 0.8101,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757235",
+      "store_name": "AEON CO. (M) BHD (126926- -H)",
+      "date": "09/03/2018 18:54",
+      "total": 31.6,
+      "total_confidence": 0.885,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757243",
+      "store_name": "318030w0",
+      "date": "11/03/18 16:30",
+      "total": 0.0,
+      "total_confidence": 0.7104,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757248",
+      "store_name": "JLN JE,AKA , TAMAN MALURI",
+      "date": "12/03/2118 13:07",
+      "total": 42.46,
+      "total_confidence": 0.8327,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757273",
+      "store_name": "31803033",
+      "date": "12-03-18 14:37",
+      "total": 45.0,
+      "total_confidence": 0.9007,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757282",
+      "store_name": "fe",
+      "date": "12/09/2017 4:42:33 PM",
+      "total": 24.5,
+      "total_confidence": 0.9014,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757286",
+      "store_name": "31803039",
+      "date": "10/10/2017 4:22:12 PM",
+      "total": 8.0,
+      "total_confidence": 0.9182,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757290",
+      "store_name": "31803040",
+      "date": "17-03-18 14:49",
+      "total": 42.9,
+      "total_confidence": 0.9318,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757292",
+      "store_name": "3180304/",
+      "date": "18-03-18 12:09",
+      "total": 6.6,
+      "total_confidence": 0.7318,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757294",
+      "store_name": "3180320q)",
+      "date": "22-52-62",
+      "total": 1.0,
+      "total_confidence": 0.5955,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005757304",
+      "store_name": "2020z04y",
+      "date": "20/03/2018 7:07pm",
+      "total": 35.4,
+      "total_confidence": 0.9041,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757308",
+      "store_name": "31803045",
+      "date": "12-21-22",
+      "total": 21.59,
+      "total_confidence": 0.926,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757323",
+      "store_name": "31802060",
+      "date": "26-03-18 15:25",
+      "total": 28.0,
+      "total_confidence": 0.914,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757324",
+      "store_name": "3180207",
+      "date": "25-03-18 18:47",
+      "total": 50.8,
+      "total_confidence": 0.9141,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757342",
+      "store_name": "3180304",
+      "date": "23-03-18 10:43",
+      "total": 6.2,
+      "total_confidence": 0.9237,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757346",
+      "store_name": "3180305]",
+      "date": "",
+      "total": 26.1,
+      "total_confidence": 0.9245,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757349",
+      "store_name": "31803083",
+      "date": "",
+      "total": 21.0,
+      "total_confidence": 0.93,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757351",
+      "store_name": "318 03054.",
+      "date": "23-33-53",
+      "total": 14.9,
+      "total_confidence": 0.9242,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005757353",
+      "store_name": "31802055",
+      "date": "23-33-53",
+      "total": 12.3,
+      "total_confidence": 0.9409,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005763940",
+      "store_name": "‘Harvey Norman",
+      "date": "00-88-5200",
+      "total": 60.0,
+      "total_confidence": 0.9304,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005763958",
+      "store_name": "(590 150-A,",
+      "date": "27-01-2018 04:32:13 PM",
+      "total": 0.0,
+      "total_confidence": 0.5975,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005763964",
+      "store_name": "hide",
+      "date": "06/01/2018",
+      "total": 24.0,
+      "total_confidence": 0.6265,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005763999",
+      "store_name": "Mo",
+      "date": "06 Jan 2018",
+      "total": 573.99,
+      "total_confidence": 0.8985,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005764031",
+      "store_name": "Off Jalan Batu Tiga",
+      "date": "01-62-2018",
+      "total": 42.1,
+      "total_confidence": 0.9024,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005764154",
+      "store_name": "<w )",
+      "date": "25-01-2018",
+      "total": 7.0,
+      "total_confidence": 0.6048,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005764161",
+      "store_name": "Xtt]u",
+      "date": "",
+      "total": 98.39,
+      "total_confidence": 0.6123,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005806678",
+      "store_name": "UP2-01, Melawati Mall,",
+      "date": "29-01-18 20:38",
+      "total": 838.8,
+      "total_confidence": 0.9423,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806679",
+      "store_name": "LEE WAH FLORIST SDN BHD",
+      "date": "92/02/2018",
+      "total": 353.0,
+      "total_confidence": 0.9067,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806685",
+      "store_name": "ADVANCO COMPANY",
+      "date": "17/01/2018",
+      "total": 29.0,
+      "total_confidence": 0.9215,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806692",
+      "store_name": "GREAT ZONE HOUSEHOLD CENTRE SDN BHD",
+      "date": "18/02/2018 06:08:59 PM",
+      "total": 367.3,
+      "total_confidence": 0.9635,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806695",
+      "store_name": "WANGSA MAJU (AEON BIG SHOPPING CENTER)",
+      "date": "",
+      "total": 0.0,
+      "total_confidence": 0.0,
+      "total_flagged": true
+    },
+    {
+      "file": "X51005806696",
+      "store_name": "IMAGE PRINTEC (M) SDN BHD",
+      "date": "23/02/2918 7:44:16",
+      "total": 7.65,
+      "total_confidence": 0.9639,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806698",
+      "store_name": "NO 1&3, Jalan Wangsa Delima 12,",
+      "date": "28/02/2018 6:02:25",
+      "total": 11.6,
+      "total_confidence": 0.9605,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806702",
+      "store_name": "SINNATHAMBY HOLDINGS",
+      "date": "03-18/1999",
+      "total": 13.5,
+      "total_confidence": 0.9674,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806703",
+      "store_name": "Cash Saie",
+      "date": "04-18/6842",
+      "total": 109.7,
+      "total_confidence": 0.9182,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806716",
+      "store_name": "ADVANCO COMPANY",
+      "date": "",
+      "total": 7.0,
+      "total_confidence": 0.9225,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806718",
+      "store_name": "HUGO TRADING SDN BHD Tota",
+      "date": "13/01/2018",
+      "total": 4.09,
+      "total_confidence": 0.9313,
+      "total_flagged": false
+    },
+    {
+      "file": "X51005806719",
+      "store_name": "POSTED",
+      "date": "",
+      "total": 59.42,
+      "total_confidence": 0.9064,
+      "total_flagged": false
+    }
+  ]
+}
