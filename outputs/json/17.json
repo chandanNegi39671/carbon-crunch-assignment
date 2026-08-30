@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "See back of receipt for your chance",
+    "confidence": 0.6833,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "01/16/17",
+    "confidence": 0.6833,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "= BANANAS",
+      "price": "1.76",
+      "confidence": 0.745
+    },
+    {
+      "name": "75 4b b /0,54",
+      "price": "0.95",
+      "confidence": 0.6471
+    }
+  ],
+  "total_amount": {
+    "value": "40.68",
+    "confidence": 0.6833,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

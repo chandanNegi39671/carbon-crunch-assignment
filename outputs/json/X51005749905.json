@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "\\",
+    "confidence": 0.4237,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "10/03/2018",
+    "confidence": 0.7237,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "03-78",
+      "confidence": 0.5733
+    },
+    {
+      "name": "Tel:",
+      "price": "03-78",
+      "confidence": 0.5767
+    },
+    {
+      "name": "HIP:",
+      "price": "012-65",
+      "confidence": 0.5949
+    },
+    {
+      "name": "001533",
+      "price": "1.00",
+      "confidence": 0.86
+    },
+    {
+      "name": "000920",
+      "price": "1.00",
+      "confidence": 0.847
+    },
+    {
+      "name": "006828",
+      "price": "2.00",
+      "confidence": 0.7565
+    },
+    {
+      "name": "Rounding Adjusment",
+      "price": "0.00",
+      "confidence": 0.865
+    },
+    {
+      "name": "SR 6 %",
+      "price": "32.07",
+      "confidence": 0.8774
+    },
+    {
+      "name": "POINT",
+      "price": "0.00",
+      "confidence": 0.8567
+    }
+  ],
+  "total_amount": {
+    "value": "34.00",
+    "confidence": 0.9237,
+    "flag": false,
+    "reason": null
+  }
+}

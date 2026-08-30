@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "NO.22 JALAN PUTERI 2/4",
+    "confidence": 0.7049,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "02/02/2017 7:31:08 PM",
+    "confidence": 0.9049,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Bill No",
+      "price": "01-36",
+      "confidence": 0.575
+    },
+    {
+      "name": "1 O6SBRAISED",
+      "price": "20.00",
+      "confidence": 0.8012
+    },
+    {
+      "name": "2 32 PHRANAKON",
+      "price": "28.00",
+      "confidence": 0.8537
+    },
+    {
+      "name": "3 51 GARLIC FRIED",
+      "price": "13.00",
+      "confidence": 0.8008
+    },
+    {
+      "name": "4 84THAISTYLE",
+      "price": "15.00",
+      "confidence": 0.833
+    },
+    {
+      "name": "5 130 PLAINRICE 1",
+      "price": "7.20",
+      "confidence": 0.8445
+    },
+    {
+      "name": "6 113 COCONUT",
+      "price": "6.50",
+      "confidence": 0.7567
+    },
+    {
+      "name": "7 116DISTILLED",
+      "price": "0.60",
+      "confidence": 0.7925
+    },
+    {
+      "name": "AVERAGE / PAX(S)",
+      "price": "23.20",
+      "confidence": 0.8263
+    }
+  ],
+  "total_amount": {
+    "value": "92.80",
+    "confidence": 0.9049,
+    "flag": false,
+    "reason": null
+  }
+}

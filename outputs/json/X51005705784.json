@@ -1,0 +1,77 @@
+{
+  "store_name": {
+    "value": "|| | | j (EDAI NO. 12814, BUKU (CO NO. JALAN NEW SA0345444-K) JINJANG ACHEIVERS 27/54 ,",
+    "confidence": 0.7109,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "15/09/2017",
+    "confidence": 0.9109,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TeL",
+      "price": "803-51",
+      "confidence": 0.4969
+    },
+    {
+      "name": "Xr: USER Time:",
+      "price": "10.22",
+      "confidence": 0.7476
+    },
+    {
+      "name": "0320",
+      "price": "3.20",
+      "confidence": 0.869
+    },
+    {
+      "name": "12363087",
+      "price": "3.80",
+      "confidence": 0.8593
+    },
+    {
+      "name": "70448257",
+      "price": "7.90",
+      "confidence": 0.812
+    },
+    {
+      "name": "1300514",
+      "price": "2.73",
+      "confidence": 0.8123
+    },
+    {
+      "name": "1300637",
+      "price": "2.73",
+      "confidence": 0.8139
+    },
+    {
+      "name": "ToTary:",
+      "price": "48.00",
+      "confidence": 0.7717
+    },
+    {
+      "name": "Dlscount",
+      "price": "0.00",
+      "confidence": 0.8916
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8758
+    },
+    {
+      "name": "6",
+      "price": "45.28",
+      "confidence": 0.7969
+    }
+  ],
+  "total_amount": {
+    "value": "2.72",
+    "confidence": 0.9109,
+    "flag": false,
+    "reason": null
+  }
+}

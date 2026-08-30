@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "SAINT HEART PASTRY",
+    "confidence": 0.7599,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "25/03/2018",
+    "confidence": 0.9599,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-61",
+      "confidence": 0.5856
+    },
+    {
+      "name": "JUMBO SAUSAGE CHEESE",
+      "price": "3.10",
+      "confidence": 0.8503
+    },
+    {
+      "name": "JUMBO SAUSAGE CHEESE {",
+      "price": "3.10",
+      "confidence": 0.8407
+    },
+    {
+      "name": "GARLIC CHEESE",
+      "price": "2.00",
+      "confidence": 0.8679
+    },
+    {
+      "name": "Dlscount",
+      "price": "0.00",
+      "confidence": 0.8461
+    },
+    {
+      "name": "Rounding :",
+      "price": "0.00",
+      "confidence": 0.8517
+    },
+    {
+      "name": "SR",
+      "price": "7.74",
+      "confidence": 0.8503
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.9599,
+    "flag": false,
+    "reason": null
+  }
+}

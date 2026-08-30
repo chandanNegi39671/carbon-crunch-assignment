@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "YONG CEN ENTERPRISE",
+    "confidence": 0.7448,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "06/01/2018",
+    "confidence": 0.9448,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "012-97",
+      "confidence": 0.5625
+    },
+    {
+      "name": "9555223500000",
+      "price": "2.58",
+      "confidence": 0.8842
+    },
+    {
+      "name": "SR:CHAMPIGNONS MUSHROOMS 425G(",
+      "price": "2.58",
+      "confidence": 0.8467
+    },
+    {
+      "name": "DISC —",
+      "price": "0.00",
+      "confidence": 0.6275
+    },
+    {
+      "name": "ROUNDING",
+      "price": "0.01",
+      "confidence": 0.8236
+    }
+  ],
+  "total_amount": {
+    "value": "24",
+    "confidence": 0.6448,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

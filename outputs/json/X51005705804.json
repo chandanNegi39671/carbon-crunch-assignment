@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "TEL ; AXIS 03-51221701, SECTION NO 40400 31G, JALAN 26, SHAH 51313001 TAMAN SEPADU ALAM, INDUSTRIES, SELANGOR. FAX: C 95IC, 03-61215716",
+    "confidence": 0.6909,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TEL ; AXIS",
+      "price": "03-51",
+      "confidence": 0.4843
+    },
+    {
+      "name": "FAX :",
+      "price": "03-61",
+      "confidence": 0.5843
+    },
+    {
+      "name": "TEL",
+      "price": "03-51",
+      "confidence": 0.4843
+    },
+    {
+      "name": "Ite",
+      "price": "44.40",
+      "confidence": 0.8724
+    },
+    {
+      "name": "Iter SR: 402749 SR: 406766 FUJI ANLY Toray: CONTACTOR, FLOATLESS Qty 1 1 2 RELAY SC",
+      "price": "03. 44",
+      "confidence": 0.4474
+    },
+    {
+      "name": "106766 SR: ANLY FLOATLESS RELAY 240V.AF8-1",
+      "price": "79.00",
+      "confidence": 0.763
+    },
+    {
+      "name": "Code % Arnount",
+      "price": "93.40",
+      "confidence": 0.824
+    },
+    {
+      "name": "S",
+      "price": "93.40",
+      "confidence": 0.878
+    }
+  ],
+  "total_amount": {
+    "value": "0.00",
+    "confidence": 0.8909,
+    "flag": false,
+    "reason": null
+  }
+}

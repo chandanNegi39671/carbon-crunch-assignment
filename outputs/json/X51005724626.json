@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "Inep 293.500",
+    "confidence": 0.7466,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Inep",
+      "price": "293.50",
+      "confidence": 0.5425
+    },
+    {
+      "name": "TEL",
+      "price": "03-87",
+      "confidence": 0.5253
+    },
+    {
+      "name": "NO 1 JALAN AMAN",
+      "price": "445.20",
+      "confidence": 0.8029
+    },
+    {
+      "name": "101785",
+      "price": "18.00",
+      "confidence": 0.8544
+    },
+    {
+      "name": "100160 §",
+      "price": "3.00",
+      "confidence": 0.8658
+    },
+    {
+      "name": "101275",
+      "price": "2.00",
+      "confidence": 0.8642
+    },
+    {
+      "name": "Rounding :",
+      "price": "0.00",
+      "confidence": 0.855
+    },
+    {
+      "name": "SR",
+      "price": "255.00",
+      "confidence": 0.8544
+    }
+  ],
+  "total_amount": {
+    "value": "270.30",
+    "confidence": 0.9466,
+    "flag": false,
+    "reason": null
+  }
+}

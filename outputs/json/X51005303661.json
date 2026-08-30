@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "LIGHTROOM KLANG BANDAR No: ROC SELANGOR 28, No. BUKIT JALAN GALLERY ; (1072825-A) D, RAJA, ASTANA E, MALAYSTA SDN 41050 1C; BHD",
+    "confidence": 0.7356,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "20/12/2017",
+    "confidence": 0.9356,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "03-33",
+      "confidence": 0.55
+    },
+    {
+      "name": "| * R",
+      "price": "2.83",
+      "confidence": 0.7743
+    },
+    {
+      "name": "2 RH",
+      "price": "33. 02",
+      "confidence": 0.5129
+    },
+    {
+      "name": "Service Charge R",
+      "price": "0. 00",
+      "confidence": 0.5482
+    },
+    {
+      "name": "T0\" ^ R",
+      "price": "73. 00",
+      "confidence": 0.5041
+    },
+    {
+      "name": "CA_ R",
+      "price": "73. 00",
+      "confidence": 0.5779
+    },
+    {
+      "name": "SR @ 6%",
+      "price": "68. 87",
+      "confidence": 0.5508
+    },
+    {
+      "name": "ZR/0S/EZ",
+      "price": "0. 00",
+      "confidence": 0.525
+    }
+  ],
+  "total_amount": {
+    "value": "68.87",
+    "confidence": 0.7356,
+    "flag": false,
+    "reason": null
+  }
+}

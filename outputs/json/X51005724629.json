@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "MBp 264 /0 0",
+    "confidence": 0.7227,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "17/03/2018",
+    "confidence": 0.9227,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-87",
+      "confidence": 0.5533
+    },
+    {
+      "name": "100088",
+      "price": "55.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.88
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8775
+    },
+    {
+      "name": "SR 6 165,00",
+      "price": "9.90",
+      "confidence": 0.8808
+    }
+  ],
+  "total_amount": {
+    "value": "174.90",
+    "confidence": 0.9227,
+    "flag": false,
+    "reason": null
+  }
+}

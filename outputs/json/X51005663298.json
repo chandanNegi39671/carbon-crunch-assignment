@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "9, 1 Bo3ory",
+    "confidence": 0.7033,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "21-03-2018 13:29:51",
+    "confidence": 0.6033,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Date",
+      "price": "21-03",
+      "confidence": 0.4699
+    },
+    {
+      "name": "Serv. Charge (10%):",
+      "price": "4.13",
+      "confidence": 0.8712
+    },
+    {
+      "name": "SR 6X ) 45,43",
+      "price": "2.73",
+      "confidence": 0.808
+    }
+  ],
+  "total_amount": {
+    "value": "41.30",
+    "confidence": 0.9033,
+    "flag": false,
+    "reason": null
+  }
+}

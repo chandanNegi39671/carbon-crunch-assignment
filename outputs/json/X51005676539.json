@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "31801 0(7",
+    "confidence": 0.4548,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "10/01/2018",
+    "confidence": 0.9548,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-40",
+      "confidence": 0.5483
+    },
+    {
+      "name": "1943",
+      "price": "23.32",
+      "confidence": 0.8758
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8999
+    },
+    {
+      "name": "SR",
+      "price": "22.00",
+      "confidence": 0.8758
+    }
+  ],
+  "total_amount": {
+    "value": "32",
+    "confidence": 0.6548,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

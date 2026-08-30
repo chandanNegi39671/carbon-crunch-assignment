@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "See back of receipt for your  chance",
+    "confidence": 0.6415,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "05/04/17",
+    "confidence": 0.6415,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "STI 01695 @Pt 007573 TE",
+      "price": "3.88",
+      "confidence": 0.6656
+    }
+  ],
+  "total_amount": {
+    "value": "26.60",
+    "confidence": 0.8415,
+    "flag": false,
+    "reason": null
+  }
+}

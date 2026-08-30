@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "99 SPEED MART 5/8",
+    "confidence": 0.6565,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "03-02-18",
+    "confidence": 0.3565,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "(23 56PM",
+      "price": "03-02",
+      "confidence": 0.4187
+    },
+    {
+      "name": "$2",
+      "price": "3.49",
+      "confidence": 0.6787
+    }
+  ],
+  "total_amount": {
+    "value": "3.70",
+    "confidence": 0.8565,
+    "flag": false,
+    "reason": null
+  }
+}

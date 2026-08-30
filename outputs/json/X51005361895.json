@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "OK, 45600 BE an) ARI OAS ‘A,",
+    "confidence": 0.7287,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "43-45-476",
+    "confidence": 0.4287,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "NO",
+      "price": "43-45",
+      "confidence": 0.434
+    },
+    {
+      "name": "|",
+      "price": "8.49",
+      "confidence": 0.825
+    },
+    {
+      "name": "S",
+      "price": "8.49",
+      "confidence": 0.7071
+    }
+  ],
+  "total_amount": {
+    "value": "9.00",
+    "confidence": 0.9287,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "Ile Ecod $ 800- Duneanv 17tmti Nwn stor Wi Cocku ncatoodl Io 00124 \"i Mi 10m The Tx 75137 con 6r' Ra",
+    "confidence": 0.7185,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "99/08/14",
+    "confidence": 0.4185,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "FRE Si6c5ik EP 261 CHICKEN PORK DIET PICSNEET PICSNEET N/YORK CHICKEN LOIN Ln GRND TX wiNGS wiNGS GREENS BL CHOP GRLC EnD 28 34 B 20167400003 26841800000 20337400O0C 26840100000 26840100000 7056096902 1045900558 7056087677 4820000C",
+      "price": "10.87",
+      "confidence": 0.7533
+    },
+    {
+      "name": "POBEST PoRK  FO2 SOEN EYE EYE RND RND 1/2 StK STEAk , 4497921020 STEW FP 20254300000 20323300000 201",
+      "price": "18.24",
+      "confidence": 0.747
+    },
+    {
+      "name": "WINCO NOODLES 0/m HAM BAR S MEAT \"FRNk 4590001903 7055280303 44",
+      "price": "3.88",
+      "confidence": 0.7907
+    },
+    {
+      "name": "TNDRBRD CHiX BR 3737101318 2",
+      "price": "5.98",
+      "confidence": 0.8252
+    },
+    {
+      "name": "2",
+      "price": "1.82",
+      "confidence": 0.5506
+    },
+    {
+      "name": "EGGO WAFFLE",
+      "price": "1.96",
+      "confidence": 0.8752
+    },
+    {
+      "name": "DM PNAPL  CHNKY",
+      "price": "1.96",
+      "confidence": 0.8539
+    },
+    {
+      "name": "SUNBEAN BUNS",
+      "price": "1.98",
+      "confidence": 0.7912
+    },
+    {
+      "name": "IOTAL",
+      "price": "121.92",
+      "confidence": 0.8265
+    },
+    {
+      "name": "PICS! 2 GREENS",
+      "price": "1.34",
+      "confidence": 0.816
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

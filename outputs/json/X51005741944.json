@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "BHPetro] Subang Airport",
+    "confidence": 0.7272,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "18-01-2018 15:44:46",
+    "confidence": 0.4272,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "invoice No:",
+      "price": "1-91",
+      "confidence": 0.5617
+    },
+    {
+      "name": "infiniti 97 E4MP3",
+      "price": "2.57",
+      "confidence": 0.7736
+    },
+    {
+      "name": "EDC   MASTER R",
+      "price": "41.95",
+      "confidence": 0.8318
+    },
+    {
+      "name": "S: Standard 6%",
+      "price": "39.58",
+      "confidence": 0.7771
+    },
+    {
+      "name": "Custemer Service",
+      "price": "1-30",
+      "confidence": 0.515
+    }
+  ],
+  "total_amount": {
+    "value": "41.95",
+    "confidence": 0.7272,
+    "flag": false,
+    "reason": null
+  }
+}

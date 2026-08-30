@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "<3 Sv) ist a ot ret 8 S/B",
+    "confidence": 0.5074,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Rounding RN j",
+      "price": "89.20",
+      "confidence": 0.6429
+    },
+    {
+      "name": "CST Suasart",
+      "price": "160.17",
+      "confidence": 0.6547
+    }
+  ],
+  "total_amount": {
+    "value": "3",
+    "confidence": 0.4074,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

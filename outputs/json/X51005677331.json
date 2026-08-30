@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "2 1 8 02 0 (6",
+    "confidence": 0.4395,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "03/02/2018",
+    "confidence": 0.9395,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5464
+    },
+    {
+      "name": "2786",
+      "price": "4.77",
+      "confidence": 0.8809
+    },
+    {
+      "name": "1943",
+      "price": "23.32",
+      "confidence": 0.869
+    }
+  ],
+  "total_amount": {
+    "value": "95",
+    "confidence": 0.6395,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

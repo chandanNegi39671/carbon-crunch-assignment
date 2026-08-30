@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "41,8 Of O17",
+    "confidence": 0.7456,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "04/01/2018",
+    "confidence": 0.9456,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-40",
+      "confidence": 0.55
+    },
+    {
+      "name": "2402 1",
+      "price": "3.71",
+      "confidence": 0.833
+    },
+    {
+      "name": "1462",
+      "price": "0.64",
+      "confidence": 0.827
+    },
+    {
+      "name": "2247 33",
+      "price": "33.92",
+      "confidence": 0.8226
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.8372
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8917
+    }
+  ],
+  "total_amount": {
+    "value": "44.73",
+    "confidence": 0.9456,
+    "flag": false,
+    "reason": null
+  }
+}

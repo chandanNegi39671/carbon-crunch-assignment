@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "(742016-W)",
+    "confidence": 0.7088,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "29-12-2017",
+    "confidence": 0.9088,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL/FAX",
+      "price": "03-51",
+      "confidence": 0.5802
+    },
+    {
+      "name": "9557368063013 1 X",
+      "price": "5.20",
+      "confidence": 0.8381
+    },
+    {
+      "name": "237~q08 1 X",
+      "price": "8.90",
+      "confidence": 0.791
+    },
+    {
+      "name": "TATAL R",
+      "price": "14.10",
+      "confidence": 0.8433
+    },
+    {
+      "name": "Frid~v",
+      "price": "29-12",
+      "confidence": 0.494
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "99 SPEED NART S/B (519537-¥)",
+    "confidence": 0.639,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "19-03-18",
+    "confidence": 0.339,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "09: @BPn",
+      "price": "19-03",
+      "confidence": 0.4662
+    },
+    {
+      "name": "$ =",
+      "price": "61. 10",
+      "confidence": 0.4222
+    }
+  ],
+  "total_amount": {
+    "value": "11.40",
+    "confidence": 0.839,
+    "flag": false,
+    "reason": null
+  }
+}

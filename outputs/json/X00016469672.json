@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "tan chay yee",
+    "confidence": 0.7558,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "11/01/2019",
+    "confidence": 0.9558,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "07-56",
+      "confidence": 0.5623
+    },
+    {
+      "name": "1072",
+      "price": "80.00",
+      "confidence": 0.8087
+    },
+    {
+      "name": "70949",
+      "price": "160.00",
+      "confidence": 0.826
+    },
+    {
+      "name": "1071 1 1/00",
+      "price": "17.00",
+      "confidence": 0.796
+    },
+    {
+      "name": "70791",
+      "price": "10.00",
+      "confidence": 0.844
+    },
+    {
+      "name": "70637",
+      "price": "6.00",
+      "confidence": 0.851
+    },
+    {
+      "name": "1643",
+      "price": "8.00",
+      "confidence": 0.874
+    },
+    {
+      "name": "70197",
+      "price": "10.60",
+      "confidence": 0.861
+    },
+    {
+      "name": "70561",
+      "price": "18.00",
+      "confidence": 0.84
+    }
+  ],
+  "total_amount": {
+    "value": "00",
+    "confidence": 0.6558,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

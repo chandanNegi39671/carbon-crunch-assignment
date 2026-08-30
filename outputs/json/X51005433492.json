@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Aozo/8",
+    "confidence": 0.6912,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "05 Mar 2018",
+    "confidence": 0.6912,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "05 Mar",
+      "price": "18.24",
+      "confidence": 0.8681
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.8912,
+    "flag": false,
+    "reason": null
+  }
+}

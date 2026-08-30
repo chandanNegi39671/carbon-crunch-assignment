@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Xtt]u",
+    "confidence": 0.6123,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Gil X R",
+      "price": "8.97",
+      "confidence": 0.7462
+    }
+  ],
+  "total_amount": {
+    "value": "98.39",
+    "confidence": 0.6123,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

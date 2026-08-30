@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "tan chay yee",
+    "confidence": 0.6728,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "09/01/2019",
+    "confidence": 0.8728,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Date 09/01/2019",
+      "price": "801.11",
+      "confidence": 0.8388
+    },
+    {
+      "name": "Flastlc",
+      "price": "15.50",
+      "confidence": 0.8051
+    }
+  ],
+  "total_amount": {
+    "value": "31.00",
+    "confidence": 0.8728,
+    "flag": false,
+    "reason": null
+  }
+}

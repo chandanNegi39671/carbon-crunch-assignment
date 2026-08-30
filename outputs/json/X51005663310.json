@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "318 0 > 0 |3'",
+    "confidence": 0.4116,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "09/02/2018",
+    "confidence": 0.9116,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Jalan Ipoh Batu",
+      "price": "5. 51",
+      "confidence": 0.5414
+    },
+    {
+      "name": "Tei & Fax No",
+      "price": "03-62",
+      "confidence": 0.5556
+    }
+  ],
+  "total_amount": {
+    "value": "40",
+    "confidence": 0.6116,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

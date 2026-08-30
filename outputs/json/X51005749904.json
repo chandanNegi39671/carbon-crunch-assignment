@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "SWC ENTERPRISE SDN EHD",
+    "confidence": 0.5946,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "06/03/2018",
+    "confidence": 0.5946,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "OLs 23 06zi-i",
+      "price": "2.00",
+      "confidence": 0.5713
+    }
+  ],
+  "total_amount": {
+    "value": "2",
+    "confidence": 0.4946,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

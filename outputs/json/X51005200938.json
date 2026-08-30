@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "Asxoc BS",
+    "confidence": 0.6721,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "07-38",
+      "confidence": 0.49
+    },
+    {
+      "name": "9585075108147 GA",
+      "price": "7.00",
+      "confidence": 0.784
+    },
+    {
+      "name": "9744 &l T",
+      "price": "8.00",
+      "confidence": 0.7346
+    },
+    {
+      "name": "2016 Gh",
+      "price": "0.70",
+      "confidence": 0.7557
+    },
+    {
+      "name": "Discount (RM):",
+      "price": "0.00",
+      "confidence": 0.7017
+    },
+    {
+      "name": "Roundlng {RM}",
+      "price": "0.02",
+      "confidence": 0.82
+    },
+    {
+      "name": "S",
+      "price": "706.10",
+      "confidence": 0.5225
+    },
+    {
+      "name": "Tolal",
+      "price": "106.10",
+      "confidence": 0.7925
+    }
+  ],
+  "total_amount": {
+    "value": "637",
+    "confidence": 0.5721,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "tan chay yee",
+    "confidence": 0.7164,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "15/01/2019 11:05",
+    "confidence": 0.9164,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "07-38",
+      "confidence": 0.5613
+    },
+    {
+      "name": "Date 15/01/2019 11:",
+      "price": "05.16",
+      "confidence": 0.8121
+    },
+    {
+      "name": "000000111",
+      "price": "193.00",
+      "confidence": 0.8538
+    }
+  ],
+  "total_amount": {
+    "value": "193.00",
+    "confidence": 0.9164,
+    "flag": false,
+    "reason": null
+  }
+}

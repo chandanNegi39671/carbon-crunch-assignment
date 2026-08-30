@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "ho2/>3",
+    "confidence": 0.707,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "21 Mar 2018",
+    "confidence": 0.707,
+    "flag": false,
+    "reason": null
+  },
+  "items": [],
+  "total_amount": {
+    "value": "8.70",
+    "confidence": 0.907,
+    "flag": false,
+    "reason": null
+  }
+}

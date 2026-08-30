@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "A0206|",
+    "confidence": 0.6911,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "11/03/2018 06:26",
+    "confidence": 0.6911,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "Receipt No.:",
+      "price": "003-12",
+      "confidence": 0.4322
+    },
+    {
+      "name": "FG-A00019",
+      "price": "1.50",
+      "confidence": 0.788
+    },
+    {
+      "name": "FG-H00007",
+      "price": "8.80",
+      "confidence": 0.781
+    },
+    {
+      "name": "1",
+      "price": "2.80",
+      "confidence": 0.785
+    }
+  ],
+  "total_amount": {
+    "value": "13.10",
+    "confidence": 0.8911,
+    "flag": false,
+    "reason": null
+  }
+}

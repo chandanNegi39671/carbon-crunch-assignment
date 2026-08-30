@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Hozo7",
+    "confidence": 0.6923,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "27 Mar 2018",
+    "confidence": 0.6923,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "27 Mar",
+      "price": "18.46",
+      "confidence": 0.8459
+    },
+    {
+      "name": "52,00 S",
+      "price": "2.00",
+      "confidence": 0.8174
+    }
+  ],
+  "total_amount": {
+    "value": "6.90",
+    "confidence": 0.8923,
+    "flag": false,
+    "reason": null
+  }
+}

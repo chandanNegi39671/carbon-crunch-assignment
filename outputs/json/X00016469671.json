@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "tan chay yee",
+    "confidence": 0.7293,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "02/01/2019 2:47:14 PM",
+    "confidence": 0.9293,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "07-38",
+      "confidence": 0.5625
+    },
+    {
+      "name": "000000111",
+      "price": "170.00",
+      "confidence": 0.8839
+    },
+    {
+      "name": "Round Amt:",
+      "price": "0.00",
+      "confidence": 0.8047
+    },
+    {
+      "name": "VISA CARD",
+      "price": "170.00",
+      "confidence": 0.8783
+    }
+  ],
+  "total_amount": {
+    "value": "0.00",
+    "confidence": 0.9293,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "(590 150-A,",
+    "confidence": 0.6975,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "27-01-2018 04:32:13 PM",
+    "confidence": 0.3975,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-78",
+      "confidence": 0.5843
+    },
+    {
+      "name": "FAX",
+      "price": "03-78",
+      "confidence": 0.5313
+    },
+    {
+      "name": "KK KACANGCORENG 300G @",
+      "price": "5.90",
+      "confidence": 0.775
+    },
+    {
+      "name": "95566240(1140) *10",
+      "price": "59.00",
+      "confidence": 0.8274
+    },
+    {
+      "name": "SR (68)",
+      "price": "55.66",
+      "confidence": 0.8682
+    },
+    {
+      "name": "ZR (0%)",
+      "price": "0.00",
+      "confidence": 0.8675
+    }
+  ],
+  "total_amount": {
+    "value": "00",
+    "confidence": 0.5975,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

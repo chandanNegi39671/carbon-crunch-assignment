@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 0.6323,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "12/08/15 12:39",
+    "confidence": 0.6323,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "DEBIT",
+      "price": "7.43",
+      "confidence": 0.877
+    }
+  ],
+  "total_amount": {
+    "value": "0.49",
+    "confidence": 0.8323,
+    "flag": false,
+    "reason": null
+  }
+}

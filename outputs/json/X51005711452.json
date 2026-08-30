@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "118",
+    "confidence": 0.4617,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "21/03/2018 19:53:23",
+    "confidence": 0.7617,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel No",
+      "price": "03-90",
+      "confidence": 0.5633
+    },
+    {
+      "name": "ORD #18 -REG #",
+      "price": "19- 21",
+      "confidence": 0.5642
+    },
+    {
+      "name": "9Nuggets",
+      "price": "10.90",
+      "confidence": 0.8436
+    },
+    {
+      "name": "Guest Relations Center ;",
+      "price": "1300-13",
+      "confidence": 0.54
+    }
+  ],
+  "total_amount": {
+    "value": "25.40",
+    "confidence": 0.9617,
+    "flag": false,
+    "reason": null
+  }
+}

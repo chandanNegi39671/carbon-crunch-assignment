@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "3 |81) 0 (2",
+    "confidence": 0.4043,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "23/12/17",
+    "confidence": 0.9043,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "910347623 Almond Sak",
+      "price": "22.50",
+      "confidence": 0.818
+    },
+    {
+      "name": "939900245 IKEA Retai",
+      "price": "36.00",
+      "confidence": 0.861
+    },
+    {
+      "name": "Round ing",
+      "price": "0.00",
+      "confidence": 0.84
+    }
+  ],
+  "total_amount": {
+    "value": "13.30",
+    "confidence": 0.9043,
+    "flag": false,
+    "reason": null
+  }
+}

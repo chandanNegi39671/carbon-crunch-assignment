@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "MR D. I,Y (KUCHAI ) SN BHD",
+    "confidence": 0.7463,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "21-41-71",
+    "confidence": 0.4463,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "9001620 1 X",
+      "price": "29.90",
+      "confidence": 0.82
+    },
+    {
+      "name": "EC",
+      "price": "21-41",
+      "confidence": 0.5233
+    },
+    {
+      "name": "9063977 1X",
+      "price": "2.10",
+      "confidence": 0.86
+    },
+    {
+      "name": "9071246 1X",
+      "price": "2.50",
+      "confidence": 0.845
+    },
+    {
+      "name": "LG",
+      "price": "32-42",
+      "confidence": 0.565
+    }
+  ],
+  "total_amount": {
+    "value": "37.80",
+    "confidence": 0.9463,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "store_name": {
+    "value": "MYDIN",
+    "confidence": 0.6825,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "10/08/2017 03:26:21PM",
+    "confidence": 0.5825,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Seksyen Tel :",
+      "price": "03-51",
+      "confidence": 0.5392
+    },
+    {
+      "name": "Te]",
+      "price": "03-51",
+      "confidence": 0.5278
+    },
+    {
+      "name": "2 *",
+      "price": "2.60",
+      "confidence": 0.79
+    },
+    {
+      "name": "1 *",
+      "price": "0.20",
+      "confidence": 0.83
+    },
+    {
+      "name": "UMOE S/NT   1OONXZSM,  N/GRN",
+      "price": "3 .00",
+      "confidence": 0.3494
+    },
+    {
+      "name": "9555495400985 1 * 3,00",
+      "price": "3.00",
+      "confidence": 0.826
+    },
+    {
+      "name": "§5495400961 1 * 2,50",
+      "price": "2.50",
+      "confidence": 0.785
+    },
+    {
+      "name": "556549540-Z5Mx5on; 'OE N/PINK",
+      "price": "2.50",
+      "confidence": 0.6545
+    },
+    {
+      "name": "{Gataegaira fotal",
+      "price": "21.40",
+      "confidence": 0.7538
+    },
+    {
+      "name": "L 1023307724 /NT 100NX7SM; 2 N/GRN *",
+      "price": "2.50",
+      "confidence": 0.7214
+    },
+    {
+      "name": "395495401722 1 *",
+      "price": "3.00",
+      "confidence": 0.765
+    }
+  ],
+  "total_amount": {
+    "value": "21.40",
+    "confidence": 0.8825,
+    "flag": false,
+    "reason": null
+  }
+}

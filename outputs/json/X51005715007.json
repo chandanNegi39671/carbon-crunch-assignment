@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "3-1708032",
+    "confidence": 0.4349,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "25-03-18 18:34",
+    "confidence": 0.6349,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Lot No",
+      "price": "13-01",
+      "confidence": 0.5308
+    },
+    {
+      "name": "Tel:",
+      "price": "03 - 92",
+      "confidence": 0.5387
+    },
+    {
+      "name": "Date:",
+      "price": "25-03",
+      "confidence": 0.545
+    },
+    {
+      "name": "KEYCHAIN - pail STA pes",
+      "price": "5.90",
+      "confidence": 0.7956
+    },
+    {
+      "name": "KEYCHAIN - KNIT SCAR pes",
+      "price": "3.90",
+      "confidence": 0.8593
+    },
+    {
+      "name": "S",
+      "price": "17.64",
+      "confidence": 0.8275
+    }
+  ],
+  "total_amount": {
+    "value": "18.70",
+    "confidence": 0.9349,
+    "flag": false,
+    "reason": null
+  }
+}

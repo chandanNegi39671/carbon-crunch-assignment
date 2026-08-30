@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "we",
+    "confidence": 0.6186,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "07/22/16 20:53:11",
+    "confidence": 0.6186,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "DIABETEs 068113131172H VISA SubioiaL tovaL TEND",
+      "price": "12.68",
+      "confidence": 0.7344
+    },
+    {
+      "name": "TcI 7603",
+      "price": "0129.10",
+      "confidence": 0.4559
+    }
+  ],
+  "total_amount": {
+    "value": "12.68",
+    "confidence": 0.6186,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

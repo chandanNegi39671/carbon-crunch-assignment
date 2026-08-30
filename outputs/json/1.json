@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "\"TRADER JOE'S",
+    "confidence": 0.7127,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "06-28-2014",
+    "confidence": 0.7127,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Store #403 - (469)",
+      "price": "334-06",
+      "confidence": 0.569
+    },
+    {
+      "name": "Mini-PEARL  TOMATQES SHREDDED MoZZAREiLA LITE T",
+      "price": "3.99",
+      "confidence": 0.6981
+    },
+    {
+      "name": "PGGS 1 doz' ORGANIC BROWN . 0,89",
+      "price": "3.79",
+      "confidence": 0.731
+    },
+    {
+      "name": "CREANY SALTED PEANUT   BUTTER 3FA @",
+      "price": "0.29",
+      "confidence": 0.7012
+    },
+    {
+      "name": "2 @",
+      "price": "0.69",
+      "confidence": 0.7741
+    },
+    {
+      "name": "ITEMS",
+      "price": "06-28",
+      "confidence": 0.57
+    },
+    {
+      "name": "364 © @",
+      "price": "0.29",
+      "confidence": 0.5262
+    }
+  ],
+  "total_amount": {
+    "value": "840.00",
+    "confidence": 0.7127,
+    "flag": false,
+    "reason": null
+  }
+}

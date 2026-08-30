@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "6v",
+    "confidence": 0.7291,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "22/03/2018 10:18",
+    "confidence": 0.7291,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1x",
+      "price": "5.90",
+      "confidence": 0.8417
+    },
+    {
+      "name": "SR @ 6% 5,57",
+      "price": "0.33",
+      "confidence": 0.835
+    },
+    {
+      "name": "TEL",
+      "price": "1-30",
+      "confidence": 0.3301
+    }
+  ],
+  "total_amount": {
+    "value": "5.90",
+    "confidence": 0.9291,
+    "flag": false,
+    "reason": null
+  }
+}

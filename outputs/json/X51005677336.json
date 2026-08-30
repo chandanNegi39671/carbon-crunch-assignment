@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "3 | 8 0 > 0'16' .",
+    "confidence": 0.4341,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "27/01/2018",
+    "confidence": 0.9341,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.4754
+    },
+    {
+      "name": "194",
+      "price": "0.74",
+      "confidence": 0.8447
+    },
+    {
+      "name": "Lhsh",
+      "price": "22.26",
+      "confidence": 0.6739
+    }
+  ],
+  "total_amount": {
+    "value": "26",
+    "confidence": 0.6341,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

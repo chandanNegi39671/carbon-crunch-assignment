@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "3 \\2 0d 013,",
+    "confidence": 0.7116,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "02/02/2018",
+    "confidence": 0.7116,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel & Fax No",
+      "price": "03-62",
+      "confidence": 0.5125
+    },
+    {
+      "name": "SR @ 6%",
+      "price": "6.60",
+      "confidence": 0.816
+    }
+  ],
+  "total_amount": {
+    "value": "700",
+    "confidence": 0.6116,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

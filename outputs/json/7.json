@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "See back of receipt for your chance",
+    "confidence": 0.7462,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "11/13/17 12:34:04",
+    "confidence": 0.7462,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "6 WING PLATE",
+      "price": "3.98",
+      "confidence": 0.8725
+    },
+    {
+      "name": "ASST 27",
+      "price": "4.88",
+      "confidence": 0.846
+    },
+    {
+      "name": "DEBIT TEND",
+      "price": "23.19",
+      "confidence": 0.8656
+    },
+    {
+      "name": "CUTIE CAR",
+      "price": "12.88",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "23.19",
+    "confidence": 0.9462,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "Gmb Us",
+    "confidence": 0.7255,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "07/03/2018",
+    "confidence": 0.9255,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-87",
+      "confidence": 0.5727
+    },
+    {
+      "name": "101870",
+      "price": "65.00",
+      "confidence": 0.8662
+    },
+    {
+      "name": "100160 3",
+      "price": "3.18",
+      "confidence": 0.8581
+    },
+    {
+      "name": "SR",
+      "price": "86.00",
+      "confidence": 0.8662
+    }
+  ],
+  "total_amount": {
+    "value": "91.16",
+    "confidence": 0.9255,
+    "flag": false,
+    "reason": null
+  }
+}

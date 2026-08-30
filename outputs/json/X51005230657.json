@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "CROSS CHANNEL NE/WORK SDN. BHD.",
+    "confidence": 0.7026,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "31/12/2017",
+    "confidence": 0.7026,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel :",
+      "price": "03-60",
+      "confidence": 0.5516
+    },
+    {
+      "name": "~OMM HERO PVC CONDUIT PIPE",
+      "price": "1.80",
+      "confidence": 0.883
+    },
+    {
+      "name": "154 TOR@",
+      "price": "1.80",
+      "confidence": 0.8033
+    },
+    {
+      "name": "Paid",
+      "price": "19.90",
+      "confidence": 0.8175
+    },
+    {
+      "name": "SR @ A",
+      "price": "7.50",
+      "confidence": 0.8638
+    },
+    {
+      "name": "31/12/2017",
+      "price": "10.33",
+      "confidence": 0.892
+    }
+  ],
+  "total_amount": {
+    "value": "95",
+    "confidence": 0.6026,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

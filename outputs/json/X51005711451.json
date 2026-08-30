@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "Pr",
+    "confidence": 0.7169,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "05-03-2018",
+    "confidence": 0.9169,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Date",
+      "price": "05-03",
+      "confidence": 0.3989
+    },
+    {
+      "name": "zk",
+      "price": "2.80",
+      "confidence": 0.7963
+    },
+    {
+      "name": "SR (@ 6%)",
+      "price": "5.66",
+      "confidence": 0.864
+    }
+  ],
+  "total_amount": {
+    "value": "4",
+    "confidence": 0.6169,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

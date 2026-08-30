@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "3 18 '0 / 617",
+    "confidence": 0.4453,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "03/01/2018",
+    "confidence": 0.9453,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5791
+    },
+    {
+      "name": "1938 2 6",
+      "price": "13.78",
+      "confidence": 0.8666
+    },
+    {
+      "name": "1618",
+      "price": "40.28",
+      "confidence": 0.8986
+    },
+    {
+      "name": "2225",
+      "price": "4.77",
+      "confidence": 0.8537
+    },
+    {
+      "name": "Tolal (ty",
+      "price": "94.87",
+      "confidence": 0.7997
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.8956
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8322
+    }
+  ],
+  "total_amount": {
+    "value": "50",
+    "confidence": 0.6453,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

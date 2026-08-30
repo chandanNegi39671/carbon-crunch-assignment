@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Tel Seksyen 4-20, ; 03-51217970 Jalan GST 25, 1D:7000429166592 40400 Ria 25/62 , Shah Fax Taman Alam ; 03-51218059 Selangor Sri Muda |",
+    "confidence": 0.6899,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "13/03/2017 03:00:42PM",
+    "confidence": 0.5899,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "03-51",
+      "confidence": 0.5204
+    },
+    {
+      "name": "89990023105614 EVEREADY BAT H/D 1015 SH4 AA",
+      "price": "2.50",
+      "confidence": 0.8004
+    }
+  ],
+  "total_amount": {
+    "value": "5.00",
+    "confidence": 0.8899,
+    "flag": false,
+    "reason": null
+  }
+}

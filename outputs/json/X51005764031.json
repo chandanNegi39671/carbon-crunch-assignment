@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "Off Jalan Batu Tiga",
+    "confidence": 0.7024,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "01-62-2018",
+    "confidence": 0.4024,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-78",
+      "confidence": 0.5067
+    },
+    {
+      "name": "FAX ;",
+      "price": "03-78",
+      "confidence": 0.5083
+    },
+    {
+      "name": "Laby CHOICE Ki TARTAR SAUC @",
+      "price": "35.50",
+      "confidence": 0.6842
+    },
+    {
+      "name": "9556024001383",
+      "price": "35.50",
+      "confidence": 0.8133
+    },
+    {
+      "name": "SAYUR RMI . 0O @",
+      "price": "1.00",
+      "confidence": 0.6949
+    },
+    {
+      "name": "SAYUP RMI, Q0 @",
+      "price": "1.00",
+      "confidence": 0.7202
+    },
+    {
+      "name": "#3",
+      "price": "3.00",
+      "confidence": 0.8217
+    },
+    {
+      "name": "KOBIS MERAH",
+      "price": "01.60",
+      "confidence": 0.8451
+    },
+    {
+      "name": "SR (6%)",
+      "price": "33.49",
+      "confidence": 0.79
+    },
+    {
+      "name": "ZR (0%)",
+      "price": "6.60",
+      "confidence": 0.8675
+    }
+  ],
+  "total_amount": {
+    "value": "42.10",
+    "confidence": 0.9024,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "AEON CO. (M) BHD (126926- -H)",
+    "confidence": 0.685,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "09/03/2018 18:54",
+    "confidence": 0.685,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "1x",
+      "price": "15.50",
+      "confidence": 0.7067
+    },
+    {
+      "name": "SR @ 6%",
+      "price": "25.24",
+      "confidence": 0.81
+    },
+    {
+      "name": "TEL",
+      "price": "1-30",
+      "confidence": 0.5033
+    }
+  ],
+  "total_amount": {
+    "value": "31.60",
+    "confidence": 0.885,
+    "flag": false,
+    "reason": null
+  }
+}

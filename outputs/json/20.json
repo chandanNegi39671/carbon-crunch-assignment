@@ -1,0 +1,87 @@
+{
+  "store_name": {
+    "value": "DOLLAR TREE",
+    "confidence": 0.7207,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "9/17/22 17:08",
+    "confidence": 0.7207,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Storel 156 (517)",
+      "price": "993-03",
+      "confidence": 0.5183
+    },
+    {
+      "name": "Okemos HI",
+      "price": "56252-56",
+      "confidence": 0.4251
+    },
+    {
+      "name": "SP STICK ACTIVE DEO",
+      "price": "1.82",
+      "confidence": 0.8558
+    },
+    {
+      "name": "SP STICK ACTIVE DEO",
+      "price": "1.82",
+      "confidence": 0.8558
+    },
+    {
+      "name": "SP STICK ACTIVE DEO",
+      "price": "1.82",
+      "confidence": 0.8558
+    },
+    {
+      "name": "SP STICK ACTIVE DEO",
+      "price": "1.82",
+      "confidence": 0.8558
+    },
+    {
+      "name": "SP STICK ACTIVE DEO",
+      "price": "1.82",
+      "confidence": 0.8558
+    },
+    {
+      "name": "SPEED STCK A/P ULT SPRT",
+      "price": "1.82",
+      "confidence": 0.8679
+    },
+    {
+      "name": "SPEED STCK A/P ULT SPRT",
+      "price": "1.82",
+      "confidence": 0.8679
+    },
+    {
+      "name": "SPEED STCK A/P ULT SPRT",
+      "price": "1.82",
+      "confidence": 0.8679
+    },
+    {
+      "name": "BAHBOO CHARCOAL   TOOTHBRUSH",
+      "price": "1.00",
+      "confidence": 0.8249
+    },
+    {
+      "name": "BAMBOO CHARCOAL TOOTHBRUSH 1 :",
+      "price": "1.00",
+      "confidence": 0.8158
+    },
+    {
+      "name": "FIFTHTHIRD DEBIT",
+      "price": "25.44",
+      "confidence": 0.8667
+    }
+  ],
+  "total_amount": {
+    "value": "1",
+    "confidence": 0.6207,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Rs k -",
+    "confidence": 0.7207,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "06/03/2018",
+    "confidence": 0.9207,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-77",
+      "confidence": 0.57
+    },
+    {
+      "name": "(VOZ) SOUR & SPICY 1.0",
+      "price": "12.00",
+      "confidence": 0.8243
+    },
+    {
+      "name": "(B03) JASMINE GREEN 2.0",
+      "price": "2.30",
+      "confidence": 0.8275
+    },
+    {
+      "name": "(ROS) ROAST PORK + 10",
+      "price": "11.90",
+      "confidence": 0.8071
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.88
+    }
+  ],
+  "total_amount": {
+    "value": "51.42",
+    "confidence": 0.9207,
+    "flag": false,
+    "reason": null
+  }
+}

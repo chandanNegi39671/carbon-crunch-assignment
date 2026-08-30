@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "Py",
+    "confidence": 0.6556,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "07-02-18",
+    "confidence": 0.3556,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "033 16PH $69337",
+      "price": "07-02",
+      "confidence": 0.4938
+    },
+    {
+      "name": "03 X R",
+      "price": "3.38",
+      "confidence": 0.715
+    },
+    {
+      "name": "270 CSR GULA 12%1K6* RH",
+      "price": "35.20",
+      "confidence": 0.7492
+    },
+    {
+      "name": "Rounding rh",
+      "price": "45.35",
+      "confidence": 0.7134
+    },
+    {
+      "name": "CREDIT RH",
+      "price": "45.35",
+      "confidence": 0.8124
+    },
+    {
+      "name": "s ?",
+      "price": "9.57",
+      "confidence": 0.6999
+    },
+    {
+      "name": "2",
+      "price": "35.20",
+      "confidence": 0.816
+    }
+  ],
+  "total_amount": {
+    "value": "45.34",
+    "confidence": 0.8556,
+    "flag": false,
+    "reason": null
+  }
+}

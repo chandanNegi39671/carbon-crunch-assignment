@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "WAL*MART",
+    "confidence": 0.6687,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "( 515 )",
+      "price": "986 - 17",
+      "confidence": 0.5325
+    },
+    {
+      "name": "FRAP 001200010451 F",
+      "price": "5.48",
+      "confidence": 0.89
+    },
+    {
+      "name": "DISCOUNT GIVEN",
+      "price": "0.57",
+      "confidence": 0.88
+    },
+    {
+      "name": "TCM\"5679",
+      "price": "8348.64",
+      "confidence": 0.4981
+    }
+  ],
+  "total_amount": {
+    "value": "5.11",
+    "confidence": 0.8687,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "Taste Of The Woi Id Sdr Bhd",
+    "confidence": 0.7244,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "13",
+    "confidence": 0.4244,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

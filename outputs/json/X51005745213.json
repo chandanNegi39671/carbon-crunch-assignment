@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "Mun XeNG ELECTRICAL &",
+    "confidence": 0.5853,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Tel.0i",
+      "price": "3-22",
+      "confidence": 0.324
+    },
+    {
+      "name": "Far",
+      "price": "03-78",
+      "confidence": 0.4143
+    },
+    {
+      "name": "TraAmni &30",
+      "price": "7.00",
+      "confidence": 0.7115
+    },
+    {
+      "name": "Rouncing Adjusmnen:",
+      "price": "0.01",
+      "confidence": 0.6304
+    },
+    {
+      "name": "Paid Awncunf",
+      "price": "7.00",
+      "confidence": 0.5863
+    },
+    {
+      "name": "tskel",
+      "price": "6.60",
+      "confidence": 0.7169
+    }
+  ],
+  "total_amount": {
+    "value": "0",
+    "confidence": 0.4853,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

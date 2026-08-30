@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "(o3pa3",
+    "confidence": 0.7034,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "22-03-2018",
+    "confidence": 0.9034,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "No 14816 Jalan Permas Tel:",
+      "price": "016-75",
+      "confidence": 0.5509
+    },
+    {
+      "name": "Tel ;",
+      "price": "016-75",
+      "confidence": 0.2919
+    },
+    {
+      "name": "Date: Receipt",
+      "price": "22-03",
+      "confidence": 0.5221
+    },
+    {
+      "name": "1x VS FUJISOOml",
+      "price": "10.00",
+      "confidence": 0.7692
+    },
+    {
+      "name": "Ix Apollo cake",
+      "price": "6.80",
+      "confidence": 0.8319
+    },
+    {
+      "name": "(Diso;",
+      "price": "0.30",
+      "confidence": 0.7325
+    },
+    {
+      "name": "ix TG Coated",
+      "price": "1.90",
+      "confidence": 0.806
+    },
+    {
+      "name": "Dlscount",
+      "price": "0.30",
+      "confidence": 0.7964
+    },
+    {
+      "name": "‘otal Amount",
+      "price": "22.60",
+      "confidence": 0.8367
+    },
+    {
+      "name": "Tendered",
+      "price": "22.60",
+      "confidence": 0.85
+    }
+  ],
+  "total_amount": {
+    "value": "8",
+    "confidence": 0.6034,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

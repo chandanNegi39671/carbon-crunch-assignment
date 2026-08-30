@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "Yam Fresh",
+    "confidence": 0.6949,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "18-03-16 13:18:48",
+    "confidence": 0.5949,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "eit wo.:",
+      "price": "001-32",
+      "confidence": 0.447
+    },
+    {
+      "name": "Date:",
+      "price": "2018-03",
+      "confidence": 0.4967
+    },
+    {
+      "name": "AQ7 BlackSugar Ice i R",
+      "price": "7.50",
+      "confidence": 0.722
+    },
+    {
+      "name": "Herb. J R",
+      "price": "3 . 00",
+      "confidence": 0.3717
+    }
+  ],
+  "total_amount": {
+    "value": "29.30",
+    "confidence": 0.6949,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

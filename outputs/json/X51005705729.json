@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "ASO ELECTRICAL TRADING SDN BHD",
+    "confidence": 0.7164,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "13/10/2017",
+    "confidence": 0.9164,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-51",
+      "confidence": 0.27
+    },
+    {
+      "name": "TEL :",
+      "price": "03-51",
+      "confidence": 0.27
+    },
+    {
+      "name": "SR: 107645 CRIMPING TOTQTY: TOOL, {7 1 HS-38",
+      "price": "75.00",
+      "confidence": 0.8131
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.8996
+    },
+    {
+      "name": "Rounding",
+      "price": "0.02",
+      "confidence": 0.8658
+    }
+  ],
+  "total_amount": {
+    "value": "5.36",
+    "confidence": 0.9164,
+    "flag": false,
+    "reason": null
+  }
+}

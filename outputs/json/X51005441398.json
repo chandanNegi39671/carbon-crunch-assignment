@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "BREWERY TAP",
+    "confidence": 0.6841,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "30/03/2018",
+    "confidence": 0.8841,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL: +",
+      "price": "603-42",
+      "confidence": 0.405
+    },
+    {
+      "name": "Tiger Bucket HH",
+      "price": "95.00",
+      "confidence": 0.849
+    },
+    {
+      "name": "Cnicken Wings",
+      "price": "22.00",
+      "confidence": 0.8355
+    },
+    {
+      "name": "French Frles",
+      "price": "12.00",
+      "confidence": 0.8257
+    },
+    {
+      "name": "Tiger Bucket- HH",
+      "price": "50.00",
+      "confidence": 0.8625
+    },
+    {
+      "name": "Rounding Ad}",
+      "price": "0.81",
+      "confidence": 0.785
+    },
+    {
+      "name": "Net Tota]",
+      "price": "189.75",
+      "confidence": 0.8831
+    }
+  ],
+  "total_amount": {
+    "value": "189.75",
+    "confidence": 0.6841,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

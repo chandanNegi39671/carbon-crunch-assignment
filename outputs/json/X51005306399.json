@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "3 1 8 0 0 4 8",
+    "confidence": 0.3846,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "18/03/18",
+    "confidence": 0.6846,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "6 00% CST A R",
+      "price": "4.87",
+      "confidence": 0.835
+    }
+  ],
+  "total_amount": {
+    "value": "86.00",
+    "confidence": 0.6846,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

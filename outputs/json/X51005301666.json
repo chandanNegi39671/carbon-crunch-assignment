@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "KLANG SELANGOR DE MALAYSTA",
+    "confidence": 0.7297,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "20/11/2017",
+    "confidence": 0.9297,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "03-33",
+      "confidence": 0.5487
+    },
+    {
+      "name": "Name : ESWARAN",
+      "price": "012-63",
+      "confidence": 0.5437
+    },
+    {
+      "name": "*R",
+      "price": "45.29",
+      "confidence": 0.7893
+    },
+    {
+      "name": "1 * R",
+      "price": "155.66",
+      "confidence": 0.776
+    },
+    {
+      "name": "R",
+      "price": "16. 99",
+      "confidence": 0.5663
+    },
+    {
+      "name": "R",
+      "price": "39. 80",
+      "confidence": 0.5663
+    },
+    {
+      "name": "TOT’ : R",
+      "price": "278.80",
+      "confidence": 0.8087
+    },
+    {
+      "name": "CASi , R",
+      "price": "278. 80",
+      "confidence": 0.4659
+    },
+    {
+      "name": "R",
+      "price": "0. 00",
+      "confidence": 0.5663
+    },
+    {
+      "name": "SR 7R/0S/EZ @ 6% 263",
+      "price": "0. 02",
+      "confidence": 0.5162
+    }
+  ],
+  "total_amount": {
+    "value": "8",
+    "confidence": 0.6297,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "MX. (M) SON BHD",
+    "confidence": 0.689,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "9072351 2X",
+      "price": "23.90",
+      "confidence": 0.8437
+    },
+    {
+      "name": "9064017 4X",
+      "price": "3.00",
+      "confidence": 0.8725
+    },
+    {
+      "name": "99999 1X",
+      "price": "0.20",
+      "confidence": 0.815
+    },
+    {
+      "name": "WB",
+      "price": "22 - 56",
+      "confidence": 0.5367
+    },
+    {
+      "name": "9555258506 5 X",
+      "price": "0.60",
+      "confidence": 0.831
+    },
+    {
+      "name": "02",
+      "price": "03-18",
+      "confidence": 0.4742
+    }
+  ],
+  "total_amount": {
+    "value": "71.90",
+    "confidence": 0.889,
+    "flag": false,
+    "reason": null
+  }
+}

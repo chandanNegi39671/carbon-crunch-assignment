@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SEN LEE HEONG RESTAURANT",
+    "confidence": 0.6559,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "42-01-2018",
+    "confidence": 0.3559,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "012-25",
+      "confidence": 0.5484
+    },
+    {
+      "name": "Food SR 1 67.Q0 R",
+      "price": "67.00",
+      "confidence": 0.7663
+    },
+    {
+      "name": "2",
+      "price": "1.50",
+      "confidence": 0.5842
+    },
+    {
+      "name": "ROUND ADJ R",
+      "price": "0.02",
+      "confidence": 0.7235
+    }
+  ],
+  "total_amount": {
+    "value": "77.40",
+    "confidence": 0.6559,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

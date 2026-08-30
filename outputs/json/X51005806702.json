@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SINNATHAMBY HOLDINGS",
+    "confidence": 0.7674,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "03-18/1999",
+    "confidence": 0.4674,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Document No. + T",
+      "price": "03-18",
+      "confidence": 0.5188
+    },
+    {
+      "name": "1UNIT *",
+      "price": "13.50",
+      "confidence": 0.825
+    },
+    {
+      "name": "Rounding Adjustment;",
+      "price": "0.00",
+      "confidence": 0.8958
+    },
+    {
+      "name": "SR 6%",
+      "price": "12.74",
+      "confidence": 0.8454
+    }
+  ],
+  "total_amount": {
+    "value": "13.50",
+    "confidence": 0.9674,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "tan woon yann",
+    "confidence": 0.6895,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "24/12/2018",
+    "confidence": 0.8895,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "NO",
+      "price": "122.12",
+      "confidence": 0.845
+    },
+    {
+      "name": "TEL",
+      "price": "07-35",
+      "confidence": 0.3975
+    }
+  ],
+  "total_amount": {
+    "value": "91",
+    "confidence": 0.5895,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

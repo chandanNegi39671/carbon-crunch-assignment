@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "3-1708032",
+    "confidence": 0.286,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "26-03-18",
+    "confidence": 0.286,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "102CHm",
+      "price": "26-03",
+      "confidence": 0.3447
+    }
+  ],
+  "total_amount": {
+    "value": "0.40",
+    "confidence": 0.786,
+    "flag": false,
+    "reason": null
+  }
+}

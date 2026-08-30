@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "PAIT",
+    "confidence": 0.6239,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "24-01-18",
+    "confidence": 0.3239,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "10: 43AN",
+      "price": "24-01",
+      "confidence": 0.4387
+    },
+    {
+      "name": "5 =",
+      "price": "2.36",
+      "confidence": 0.7011
+    }
+  ],
+  "total_amount": {
+    "value": "2.50",
+    "confidence": 0.8239,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "store_name": {
+    "value": ". KMF FOODICTOUS SON BHD (1132106-H)",
+    "confidence": 0.7471,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "09-04-2018",
+    "confidence": 0.9471,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Bill#: VO",
+      "price": "15- 67",
+      "confidence": 0.487
+    },
+    {
+      "name": "Date",
+      "price": "09-04",
+      "confidence": 0.5867
+    },
+    {
+      "name": "1x",
+      "price": "12.80",
+      "confidence": 0.8075
+    },
+    {
+      "name": "1x",
+      "price": "0.00",
+      "confidence": 0.8075
+    },
+    {
+      "name": "4x",
+      "price": "1.80",
+      "confidence": 0.7863
+    },
+    {
+      "name": "Sushi",
+      "price": "2.80",
+      "confidence": 0.8952
+    },
+    {
+      "name": "2x",
+      "price": "2.80",
+      "confidence": 0.8462
+    },
+    {
+      "name": "Serv. Charge (10%):",
+      "price": "2.66",
+      "confidence": 0.85
+    },
+    {
+      "name": "Rounding Adj:",
+      "price": "0.02",
+      "confidence": 0.8667
+    },
+    {
+      "name": "Closed: 0g",
+      "price": "04-20",
+      "confidence": 0.4952
+    },
+    {
+      "name": "SR (@ 6%)",
+      "price": "29.26",
+      "confidence": 0.847
+    }
+  ],
+  "total_amount": {
+    "value": "1",
+    "confidence": 0.6471,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

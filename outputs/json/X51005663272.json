@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "3 ! 813012",
+    "confidence": 0.4333,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "04/12/17 5:06",
+    "confidence": 0.9333,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "603-40",
+      "confidence": 0.5437
+    },
+    {
+      "name": "STORE: 40225409 FAX :",
+      "price": "603-40",
+      "confidence": 0.565
+    },
+    {
+      "name": "2",
+      "price": "2.65",
+      "confidence": 0.6604
+    },
+    {
+      "name": "2",
+      "price": "3.18",
+      "confidence": 0.6604
+    },
+    {
+      "name": "1",
+      "price": "30 . 74",
+      "confidence": 0.3604
+    },
+    {
+      "name": "Gross Amount :",
+      "price": "40.00",
+      "confidence": 0.8163
+    },
+    {
+      "name": "Amount Paid",
+      "price": "42.40",
+      "confidence": 0.8905
+    },
+    {
+      "name": "SRE6Z",
+      "price": "40 . 00",
+      "confidence": 0.4441
+    }
+  ],
+  "total_amount": {
+    "value": "2.40",
+    "confidence": 0.9333,
+    "flag": false,
+    "reason": null
+  }
+}

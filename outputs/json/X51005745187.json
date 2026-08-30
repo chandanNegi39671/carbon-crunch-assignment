@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "(002107*265 V) c81",
+    "confidence": 0.6527,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Sales",
+      "price": "21.20",
+      "confidence": 0.7575
+    }
+  ],
+  "total_amount": {
+    "value": "0",
+    "confidence": 0.5527,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

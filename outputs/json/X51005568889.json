@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "HON HWA HARDWARE TRADING",
+    "confidence": 0.7319,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "11/02/2017 9:35:48 AM",
+    "confidence": 0.7319,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "+",
+      "price": "603-91",
+      "confidence": 0.5856
+    },
+    {
+      "name": "item Discount",
+      "price": "0.00",
+      "confidence": 0.8367
+    },
+    {
+      "name": "Jiscount:",
+      "price": "0.00",
+      "confidence": 0.8601
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0.00",
+      "confidence": 0.88
+    },
+    {
+      "name": "SR S",
+      "price": "18.49",
+      "confidence": 0.8386
+    }
+  ],
+  "total_amount": {
+    "value": "19.60",
+    "confidence": 0.9319,
+    "flag": false,
+    "reason": null
+  }
+}

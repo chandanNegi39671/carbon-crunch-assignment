@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "Ap %)",
+    "confidence": 0.6678,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "16/03/2018",
+    "confidence": 0.8678,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL '",
+      "price": "07-38",
+      "confidence": 0.5102
+    },
+    {
+      "name": "Rounding (RM} :",
+      "price": "6.00",
+      "confidence": 0.7287
+    },
+    {
+      "name": "Ghange (RM) :",
+      "price": "6.00",
+      "confidence": 0.78
+    },
+    {
+      "name": "S",
+      "price": "7.55",
+      "confidence": 0.8087
+    }
+  ],
+  "total_amount": {
+    "value": "0.45",
+    "confidence": 0.8678,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "f)",
+    "confidence": 0.6914,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "02/02/2018",
+    "confidence": 0.6914,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "6194020100124",
+      "price": "11.32",
+      "confidence": 0.8434
+    },
+    {
+      "name": "S",
+      "price": "45.28",
+      "confidence": 0.865
+    },
+    {
+      "name": "ROUNDING",
+      "price": "0.00",
+      "confidence": 0.8725
+    }
+  ],
+  "total_amount": {
+    "value": "4",
+    "confidence": 0.5914,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

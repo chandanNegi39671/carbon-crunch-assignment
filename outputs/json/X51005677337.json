@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "4% 1g@02°0 | .& :",
+    "confidence": 0.7258,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "02/02/2018",
+    "confidence": 0.9258,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5396
+    },
+    {
+      "name": "1796",
+      "price": "12.72",
+      "confidence": 0.862
+    },
+    {
+      "name": "1816",
+      "price": "34.34",
+      "confidence": 0.8785
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8938
+    },
+    {
+      "name": "SR 6 88",
+      "price": "5.33",
+      "confidence": 0.879
+    }
+  ],
+  "total_amount": {
+    "value": "13",
+    "confidence": 0.6258,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

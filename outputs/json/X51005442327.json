@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "(OG",
+    "confidence": 0.6821,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "18 Mar 2018",
+    "confidence": 0.6821,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "8.60",
+    "confidence": 0.8821,
+    "flag": false,
+    "reason": null
+  }
+}

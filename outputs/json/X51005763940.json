@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "‘Harvey Norman",
+    "confidence": 0.7304,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "00-88-5200",
+    "confidence": 0.4304,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "1300-88",
+      "confidence": 0.572
+    },
+    {
+      "name": "2",
+      "price": "22.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "S6",
+      "price": "6.00",
+      "confidence": 0.802
+    }
+  ],
+  "total_amount": {
+    "value": "60.00",
+    "confidence": 0.9304,
+    "flag": false,
+    "reason": null
+  }
+}

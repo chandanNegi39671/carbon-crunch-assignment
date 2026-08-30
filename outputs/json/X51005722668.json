@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "-",
+    "confidence": 0.4228,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "01/02/2018",
+    "confidence": 0.9228,
+    "flag": false,
+    "reason": null
+  },
+  "items": [],
+  "total_amount": {
+    "value": "50",
+    "confidence": 0.6228,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

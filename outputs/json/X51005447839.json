@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "RES ! AURANT JIAWE |",
+    "confidence": 0.737,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "9/3/2018",
+    "confidence": 0.937,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Date 9/3/2018",
+      "price": "20.54",
+      "confidence": 0.849
+    },
+    {
+      "name": "|",
+      "price": "16. 00",
+      "confidence": 0.5275
+    },
+    {
+      "name": "1",
+      "price": "10. 00",
+      "confidence": 0.558
+    },
+    {
+      "name": "2 1",
+      "price": "0. 00",
+      "confidence": 0.5567
+    },
+    {
+      "name": "Service Charge R",
+      "price": "0. 00",
+      "confidence": 0.571
+    },
+    {
+      "name": "Rounding Adjustment R",
+      "price": "0.00",
+      "confidence": 0.82
+    }
+  ],
+  "total_amount": {
+    "value": "65.20",
+    "confidence": 0.937,
+    "flag": false,
+    "reason": null
+  }
+}

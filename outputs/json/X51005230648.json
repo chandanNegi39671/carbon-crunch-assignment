@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "CROSS CHANNEL NETWORK SDN. BHD.",
+    "confidence": 0.7273,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "29/01/2018 4:40:40 PM",
+    "confidence": 0.7273,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel :",
+      "price": "03-60",
+      "confidence": 0.573
+    },
+    {
+      "name": "SCHNEIDER E1SR 134 SWITCH",
+      "price": "6.36",
+      "confidence": 0.841
+    },
+    {
+      "name": "SOCKET OUTLET @",
+      "price": "6.00",
+      "confidence": 0.8712
+    },
+    {
+      "name": "Rounding Adjustment:",
+      "price": "0.01",
+      "confidence": 0.7983
+    },
+    {
+      "name": "SR @ A",
+      "price": "6.00",
+      "confidence": 0.7784
+    }
+  ],
+  "total_amount": {
+    "value": "6.36",
+    "confidence": 0.9273,
+    "flag": false,
+    "reason": null
+  }
+}

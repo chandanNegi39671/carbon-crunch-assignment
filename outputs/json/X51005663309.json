@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "3 | 8 6 >015",
+    "confidence": 0.3264,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "01/02/2018",
+    "confidence": 0.8264,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "03-62",
+      "confidence": 0.4625
+    },
+    {
+      "name": "3674",
+      "price": "0.53",
+      "confidence": 0.8252
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.8782
+    },
+    {
+      "name": "RquNDING",
+      "price": "0.00",
+      "confidence": 0.6536
+    },
+    {
+      "name": "SR 5",
+      "price": "0.30",
+      "confidence": 0.7929
+    }
+  ],
+  "total_amount": {
+    "value": "10",
+    "confidence": 0.5264,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

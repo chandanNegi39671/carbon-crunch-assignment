@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "POTTERS GARDEN SDN BHID",
+    "confidence": 0.7371,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "04/01/2018 12:29:18 PM",
+    "confidence": 0.7371,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "016-66",
+      "confidence": 0.575
+    },
+    {
+      "name": "AA00016 PLANT",
+      "price": "16.00",
+      "confidence": 0.8212
+    },
+    {
+      "name": "AAQ0016 PLANT",
+      "price": "7.00",
+      "confidence": 0.7675
+    }
+  ],
+  "total_amount": {
+    "value": "39.80",
+    "confidence": 0.9371,
+    "flag": false,
+    "reason": null
+  }
+}

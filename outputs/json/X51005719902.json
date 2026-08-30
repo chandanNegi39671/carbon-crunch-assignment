@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "KING’S CONFECTIONERY S/B 273500-U (KSB)",
+    "confidence": 0.6945,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "11/03/18 21:30",
+    "confidence": 0.8945,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL NO:~",
+      "price": "012 - 60",
+      "confidence": 0.5392
+    },
+    {
+      "name": "201019 Kaya PUFF",
+      "price": "1.60",
+      "confidence": 0.8289
+    },
+    {
+      "name": "231027 Slice Cak",
+      "price": "8.70",
+      "confidence": 0.7727
+    },
+    {
+      "name": "101110 Cheese Le",
+      "price": "3.50",
+      "confidence": 0.8752
+    },
+    {
+      "name": "251030 Cheese Ta",
+      "price": "3.40",
+      "confidence": 0.8471
+    },
+    {
+      "name": "171153 D/R BUTTE 1 4,20",
+      "price": "4.20",
+      "confidence": 0.7949
+    },
+    {
+      "name": "Qty",
+      "price": "25.15",
+      "confidence": 0.7682
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0.00",
+      "confidence": 0.8463
+    },
+    {
+      "name": "due",
+      "price": "29.15",
+      "confidence": 0.75
+    },
+    {
+      "name": "Pay",
+      "price": "25.15",
+      "confidence": 0.835
+    }
+  ],
+  "total_amount": {
+    "value": "1.42",
+    "confidence": 0.8945,
+    "flag": false,
+    "reason": null
+  }
+}

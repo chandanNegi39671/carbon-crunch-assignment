@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "3-1707067",
+    "confidence": 0.4084,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "02/03/2018",
+    "confidence": 0.9084,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TFL",
+      "price": "03- 89",
+      "confidence": 0.4684
+    },
+    {
+      "name": "955",
+      "price": "89240-25",
+      "confidence": 0.3262
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.865
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "ZKL 10",
+      "price": "0.00",
+      "confidence": 0.7874
+    }
+  ],
+  "total_amount": {
+    "value": "90",
+    "confidence": 0.6084,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

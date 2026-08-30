@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "NO. 63, JALAN GST SELANGOR No. BESAR, (001451637-M) 9872 : 000689913856 45500 DARUL FAX: BATANG 03-3271 EHSAN BERJUNTAT 9481",
+    "confidence": 0.715,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "12/02/2018",
+    "confidence": 0.715,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "9555067700208",
+      "price": "10.57",
+      "confidence": 0.8353
+    },
+    {
+      "name": "9557583450025",
+      "price": "17.45",
+      "confidence": 0.8264
+    },
+    {
+      "name": "4974052801334",
+      "price": "2.70",
+      "confidence": 0.8156
+    },
+    {
+      "name": "9557546953990",
+      "price": "0.85",
+      "confidence": 0.8301
+    },
+    {
+      "name": "6924238702311",
+      "price": "0.85",
+      "confidence": 0.8327
+    },
+    {
+      "name": "9556655112694",
+      "price": "8.40",
+      "confidence": 0.8897
+    },
+    {
+      "name": "9557369305006",
+      "price": "3.96",
+      "confidence": 0.858
+    },
+    {
+      "name": "SR",
+      "price": "144.68",
+      "confidence": 0.8108
+    }
+  ],
+  "total_amount": {
+    "value": "144.68",
+    "confidence": 0.915,
+    "flag": false,
+    "reason": null
+  }
+}

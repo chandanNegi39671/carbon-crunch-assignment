@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "coSc",
+    "confidence": 0.6486,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "E E 673919 FF BS BREAST 633561 KS DICED TO",
+      "price": "2.97",
+      "confidence": 0.84
+    },
+    {
+      "name": "E E 3 @",
+      "price": "4.29",
+      "confidence": 0.832
+    },
+    {
+      "name": "m =] ~ LY E a E",
+      "price": "6324.29",
+      "confidence": 0.8153
+    },
+    {
+      "name": "55992 GRND TURKEY",
+      "price": "18.47",
+      "confidence": 0.8382
+    },
+    {
+      "name": "1 263423 CHPD ONION 22101 MONT JACK 2#",
+      "price": "3.59",
+      "confidence": 0.7502
+    },
+    {
+      "name": "Check /Member Prntd",
+      "price": "89.13",
+      "confidence": 0.8833
+    }
+  ],
+  "total_amount": {
+    "value": "1",
+    "confidence": 0.5486,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

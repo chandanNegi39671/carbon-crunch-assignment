@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "HREE STOOGES",
+    "confidence": 0.7194,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "12/03/2018",
+    "confidence": 0.9194,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1 HH GUINESS 12 GLASSES",
+      "price": "150.00",
+      "confidence": 0.8317
+    },
+    {
+      "name": "1 HH TIGER 12 GLASSES",
+      "price": "145.00",
+      "confidence": 0.8342
+    },
+    {
+      "name": "SERVICE CHARGE 10%",
+      "price": "29.50",
+      "confidence": 0.87
+    },
+    {
+      "name": "ROUNDING ADJ",
+      "price": "0.02",
+      "confidence": 0.87
+    },
+    {
+      "name": "SR GS ax",
+      "price": "324.50",
+      "confidence": 0.788
+    }
+  ],
+  "total_amount": {
+    "value": "343.95",
+    "confidence": 0.7194,
+    "flag": false,
+    "reason": null
+  }
+}

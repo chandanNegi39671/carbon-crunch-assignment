@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Salon Du Chocolat",
+    "confidence": 0.7345,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "19-02-2018",
+    "confidence": 0.9345,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Lot",
+      "price": "26-27",
+      "confidence": 0.545
+    },
+    {
+      "name": "Date",
+      "price": "19-02",
+      "confidence": 0.4894
+    },
+    {
+      "name": "1",
+      "price": "17.90",
+      "confidence": 0.845
+    },
+    {
+      "name": "Rounding Adj:",
+      "price": "0.01",
+      "confidence": 0.8767
+    },
+    {
+      "name": "Closed;",
+      "price": "19-02",
+      "confidence": 0.5785
+    }
+  ],
+  "total_amount": {
+    "value": "20.40",
+    "confidence": 0.9345,
+    "flag": false,
+    "reason": null
+  }
+}

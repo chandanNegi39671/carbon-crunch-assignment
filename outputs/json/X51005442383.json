@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Ao3120",
+    "confidence": 0.6812,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "SALESPERSON TIMIE: 12*",
+      "price": "42.00",
+      "confidence": 0.8572
+    },
+    {
+      "name": "238",
+      "price": "10.00",
+      "confidence": 0.871
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.8101
+    },
+    {
+      "name": "SERVICE CHARGE :",
+      "price": "0.00",
+      "confidence": 0.8287
+    },
+    {
+      "name": "ROUNDING :",
+      "price": "0.02",
+      "confidence": 0.8683
+    }
+  ],
+  "total_amount": {
+    "value": "0.00",
+    "confidence": 0.8812,
+    "flag": false,
+    "reason": null
+  }
+}

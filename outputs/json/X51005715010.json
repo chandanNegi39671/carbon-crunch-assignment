@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "watsons",
+    "confidence": 0.6624,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "22241 WS CUT SCISSORS",
+      "price": "18.00",
+      "confidence": 0.822
+    }
+  ],
+  "total_amount": {
+    "value": "2307",
+    "confidence": 0.3624,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

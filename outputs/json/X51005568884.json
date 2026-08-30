@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "MR. D.I.¥. SDN BHD",
+    "confidence": 0.7149,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "24-11-17",
+    "confidence": 0.4149,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "9021937 1X",
+      "price": "3.90",
+      "confidence": 0.8
+    }
+  ],
+  "total_amount": {
+    "value": "3.90",
+    "confidence": 0.9149,
+    "flag": false,
+    "reason": null
+  }
+}

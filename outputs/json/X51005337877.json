@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "MPR aR ho pv 5",
+    "confidence": 0.7406,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "20/03/2018 6:41:02 PM",
+    "confidence": 0.9406,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1 KO NABE INANIWA",
+      "price": "24.00",
+      "confidence": 0.86
+    },
+    {
+      "name": "UDON @",
+      "price": "24.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "1 GREEN TEA @",
+      "price": "1.00",
+      "confidence": 0.86
+    },
+    {
+      "name": "1 GYOZA 5pcs @",
+      "price": "15.00",
+      "confidence": 0.8586
+    },
+    {
+      "name": "1 GARLIC CHAHAN @ [T",
+      "price": "6.00",
+      "confidence": 0.8891
+    },
+    {
+      "name": "service Chg",
+      "price": "10.00",
+      "confidence": 0.868
+    },
+    {
+      "name": "S",
+      "price": "6.00",
+      "confidence": 0.876
+    }
+  ],
+  "total_amount": {
+    "value": "53.00",
+    "confidence": 0.9406,
+    "flag": false,
+    "reason": null
+  }
+}

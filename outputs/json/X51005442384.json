@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": ")",
+    "confidence": 0.3997,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "19 Mar 2018",
+    "confidence": 0.6997,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "QST @6%:",
+      "price": "0.46",
+      "confidence": 0.7467
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.8997,
+    "flag": false,
+    "reason": null
+  }
+}

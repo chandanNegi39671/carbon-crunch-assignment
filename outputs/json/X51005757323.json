@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "31802060",
+    "confidence": 0.414,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "26-03-18 15:25",
+    "confidence": 0.414,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "9074624 1X",
+      "price": "19.90",
+      "confidence": 0.8425
+    },
+    {
+      "name": "WA",
+      "price": "33 - 10",
+      "confidence": 0.535
+    },
+    {
+      "name": "9180501 1X",
+      "price": "0.80",
+      "confidence": 0.875
+    },
+    {
+      "name": "9067474 1X",
+      "price": "7.30",
+      "confidence": 0.8737
+    }
+  ],
+  "total_amount": {
+    "value": "28.00",
+    "confidence": 0.914,
+    "flag": false,
+    "reason": null
+  }
+}

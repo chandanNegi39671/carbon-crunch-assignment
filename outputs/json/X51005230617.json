@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "pe",
+    "confidence": 0.7328,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "18/01/2018 10:27:03",
+    "confidence": 0.7328,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel No",
+      "price": "03-41",
+      "confidence": 0.5533
+    },
+    {
+      "name": "ORD #50 -REG #",
+      "price": "19- 18",
+      "confidence": 0.5675
+    },
+    {
+      "name": "2 ChicMcMuffin",
+      "price": "11.00",
+      "confidence": 0.829
+    },
+    {
+      "name": "1 BM 2HotCakes",
+      "price": "10.00",
+      "confidence": 0.8525
+    },
+    {
+      "name": "Customer Service Hotline :",
+      "price": "03-27",
+      "confidence": 0.559
+    }
+  ],
+  "total_amount": {
+    "value": "26.60",
+    "confidence": 0.9328,
+    "flag": false,
+    "reason": null
+  }
+}

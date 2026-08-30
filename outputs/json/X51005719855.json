@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "ROCKU YAKINIKU",
+    "confidence": 0.7555,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "19/02/2018 17:43",
+    "confidence": 0.7555,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1",
+      "price": "3.00",
+      "confidence": 0.857
+    },
+    {
+      "name": "1",
+      "price": "3.00",
+      "confidence": 0.857
+    },
+    {
+      "name": "SUBTTL",
+      "price": "155.70",
+      "confidence": 0.8675
+    },
+    {
+      "name": "10% SVC CHG",
+      "price": "15.57",
+      "confidence": 0.8425
+    },
+    {
+      "name": "Z:lero Rated",
+      "price": "0.00",
+      "confidence": 0.83
+    }
+  ],
+  "total_amount": {
+    "value": "55",
+    "confidence": 0.6555,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "318030w0",
+    "confidence": 0.7104,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "11/03/18 16:30",
+    "confidence": 0.7104,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel +",
+      "price": "05-80",
+      "confidence": 0.494
+    },
+    {
+      "name": "T @ 6%",
+      "price": "5.42",
+      "confidence": 0.8292
+    }
+  ],
+  "total_amount": {
+    "value": "0.00",
+    "confidence": 0.7104,
+    "flag": false,
+    "reason": null
+  }
+}

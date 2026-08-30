@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "7290",
+    "confidence": 0.4604,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "21/01/2018",
+    "confidence": 0.9604,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "SR 6% 8",
+      "price": "0.48",
+      "confidence": 0.8655
+    },
+    {
+      "name": "Printedat 21/012018",
+      "price": "15.46",
+      "confidence": 0.7453
+    }
+  ],
+  "total_amount": {
+    "value": "60",
+    "confidence": 0.6604,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

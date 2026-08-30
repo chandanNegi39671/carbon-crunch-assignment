@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "3180303",
+    "confidence": 0.434,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Name Badge (H)",
+      "price": "0.55",
+      "confidence": 0.8563
+    },
+    {
+      "name": "SR ( A",
+      "price": "15.00",
+      "confidence": 0.8188
+    }
+  ],
+  "total_amount": {
+    "value": "6",
+    "confidence": 0.634,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

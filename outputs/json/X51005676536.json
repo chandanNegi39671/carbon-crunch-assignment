@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "3 12/0! O14",
+    "confidence": 0.7496,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "02/01/2018",
+    "confidence": 0.9496,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5989
+    },
+    {
+      "name": "1042",
+      "price": "18.65",
+      "confidence": 0.85
+    },
+    {
+      "name": "1921",
+      "price": "5.30",
+      "confidence": 0.8768
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8989
+    }
+  ],
+  "total_amount": {
+    "value": "93.07",
+    "confidence": 0.9496,
+    "flag": false,
+    "reason": null
+  }
+}

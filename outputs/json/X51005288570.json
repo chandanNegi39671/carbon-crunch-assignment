@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "SECURE PARKING",
+    "confidence": 0.7208,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "eee",
+    "confidence": 0.72,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "27/02/2018 15:32:47",
+    "confidence": 0.72,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Subway#42210-0 Phone",
+      "price": "03-76",
+      "confidence": 0.5183
+    },
+    {
+      "name": "] (MY) EDY Heal R",
+      "price": "11.90",
+      "confidence": 0.763
+    },
+    {
+      "name": "1 (HY) EDV Meal R",
+      "price": "11.90",
+      "confidence": 0.791
+    },
+    {
+      "name": "Tota| (Eat In) R",
+      "price": "24. 00",
+      "confidence": 0.5251
+    }
+  ],
+  "total_amount": {
+    "value": "6",
+    "confidence": 0.42,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": ") 0. (M) SDN BHD",
+    "confidence": 0.6535,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "07/01/18",
+    "confidence": 0.6535,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "03-41",
+      "confidence": 0.4881
+    },
+    {
+      "name": "Spe @",
+      "price": "13.89",
+      "confidence": 0.755
+    },
+    {
+      "name": "Stat-Great Saving ~",
+      "price": "9.60",
+      "confidence": 0.7438
+    },
+    {
+      "name": "Rounding Adj ~",
+      "price": "0.02",
+      "confidence": 0.7817
+    },
+    {
+      "name": "T @",
+      "price": "29.69",
+      "confidence": 0.6374
+    }
+  ],
+  "total_amount": {
+    "value": "31.47",
+    "confidence": 0.8535,
+    "flag": false,
+    "reason": null
+  }
+}

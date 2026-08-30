@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "La",
+    "confidence": 0.6911,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "10/18/20 11:30:42",
+    "confidence": 0.6911,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "GV OATMEAL 007874243408 F",
+      "price": "1.76",
+      "confidence": 0.7938
+    },
+    {
+      "name": "OT 200Z TUM",
+      "price": "6.74",
+      "confidence": 0.8492
+    },
+    {
+      "name": "M ATHLETICS",
+      "price": "24.97",
+      "confidence": 0.7871
+    },
+    {
+      "name": "DEXAS 15X20",
+      "price": "12.97",
+      "confidence": 0.8793
+    },
+    {
+      "name": "DEBIT TEND",
+      "price": "49.90",
+      "confidence": 0.8824
+    },
+    {
+      "name": "M ATHLETICS",
+      "price": "24.97",
+      "confidence": 0.7871
+    }
+  ],
+  "total_amount": {
+    "value": "49.90",
+    "confidence": 0.8911,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "store_name": {
+    "value": "Segi Cash & Carry Sdn. Bhd. (317041-¥)",
+    "confidence": 0.6956,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "12 Mar 2018",
+    "confidence": 0.8956,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1 x",
+      "price": "25.80",
+      "confidence": 0.793
+    },
+    {
+      "name": "1x",
+      "price": "7.49",
+      "confidence": 0.7825
+    },
+    {
+      "name": "13,50",
+      "price": "13.50",
+      "confidence": 0.7804
+    },
+    {
+      "name": "x",
+      "price": "10.90",
+      "confidence": 0.793
+    },
+    {
+      "name": "1 x",
+      "price": "10.90",
+      "confidence": 0.793
+    },
+    {
+      "name": "1 x",
+      "price": "10.90",
+      "confidence": 0.793
+    },
+    {
+      "name": "1x",
+      "price": "10.90",
+      "confidence": 0.7825
+    },
+    {
+      "name": "1x",
+      "price": "10.90",
+      "confidence": 0.7825
+    },
+    {
+      "name": "x",
+      "price": "10.90",
+      "confidence": 0.793
+    },
+    {
+      "name": "1 *",
+      "price": "10.90",
+      "confidence": 0.8676
+    },
+    {
+      "name": "1 *",
+      "price": "10.90",
+      "confidence": 0.8676
+    },
+    {
+      "name": "x",
+      "price": "10.90",
+      "confidence": 0.793
+    },
+    {
+      "name": "Rounding:R",
+      "price": "0.01",
+      "confidence": 0.7323
+    },
+    {
+      "name": "Master xxxxxxxxxxxx0000s",
+      "price": "145.10",
+      "confidence": 0.7333
+    },
+    {
+      "name": "2 @O.O7",
+      "price": "123.90",
+      "confidence": 0.7193
+    },
+    {
+      "name": "§ Z 86.0% @0.0%",
+      "price": "123.90",
+      "confidence": 0.7794
+    }
+  ],
+  "total_amount": {
+    "value": "145.10",
+    "confidence": 0.8956,
+    "flag": false,
+    "reason": null
+  }
+}

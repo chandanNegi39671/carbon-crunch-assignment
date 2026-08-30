@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "ee",
+    "confidence": 0.6746,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "17-02-18",
+    "confidence": 0.3746,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "07:44PH",
+      "price": "17-02",
+      "confidence": 0.4555
+    },
+    {
+      "name": "s = 6",
+      "price": "102.34",
+      "confidence": 0.769
+    }
+  ],
+  "total_amount": {
+    "value": "50",
+    "confidence": 0.5746,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

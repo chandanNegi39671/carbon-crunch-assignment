@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "31803040",
+    "confidence": 0.4318,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "17-03-18 14:49",
+    "confidence": 0.4318,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "9034915 1X",
+      "price": "9.50",
+      "confidence": 0.865
+    },
+    {
+      "name": "Q",
+      "price": "131 - 12",
+      "confidence": 0.5167
+    },
+    {
+      "name": "9034870 1 X",
+      "price": "22.90",
+      "confidence": 0.84
+    },
+    {
+      "name": "9555590500184 1X",
+      "price": "10.50",
+      "confidence": 0.8312
+    }
+  ],
+  "total_amount": {
+    "value": "42.90",
+    "confidence": 0.9318,
+    "flag": false,
+    "reason": null
+  }
+}

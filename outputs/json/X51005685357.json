@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "hr stf Los sc3 Fudc",
+    "confidence": 0.7364,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "02/03/18 05:16 PM",
+    "confidence": 0.7364,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1X",
+      "price": "111.30",
+      "confidence": 0.8075
+    },
+    {
+      "name": "1X",
+      "price": "7.00",
+      "confidence": 0.8075
+    },
+    {
+      "name": "RoundinG",
+      "price": "0. 00",
+      "confidence": 0.4894
+    },
+    {
+      "name": "NET",
+      "price": "79. 35",
+      "confidence": 0.5449
+    },
+    {
+      "name": "TENDE",
+      "price": "100. 00",
+      "confidence": 0.575
+    },
+    {
+      "name": "ZRL @",
+      "price": "0. 00",
+      "confidence": 0.51
+    },
+    {
+      "name": "SR @",
+      "price": "6. 00",
+      "confidence": 0.5383
+    }
+  ],
+  "total_amount": {
+    "value": "79.35",
+    "confidence": 0.9364,
+    "flag": false,
+    "reason": null
+  }
+}

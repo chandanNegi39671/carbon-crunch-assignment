@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "MODERN DEPOT SDN BHD",
+    "confidence": 0.6626,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "04/12/2016",
+    "confidence": 0.8626,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL: +6U",
+      "price": "3-42",
+      "confidence": 0.4825
+    },
+    {
+      "name": "CLSTEL670",
+      "price": "141.51",
+      "confidence": 0.8646
+    },
+    {
+      "name": "ROUNDING",
+      "price": "0.00",
+      "confidence": 0.7875
+    },
+    {
+      "name": "S",
+      "price": "141.51",
+      "confidence": 0.8555
+    }
+  ],
+  "total_amount": {
+    "value": "141.51",
+    "confidence": 0.8626,
+    "flag": false,
+    "reason": null
+  }
+}

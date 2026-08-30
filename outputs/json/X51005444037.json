@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": ". Nandos.",
+    "confidence": 0.7034,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "00-88-6555",
+    "confidence": 0.4034,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "1300-88",
+      "confidence": 0.571
+    },
+    {
+      "name": "1 DELIVERY CHG",
+      "price": "4.00",
+      "confidence": 0.813
+    },
+    {
+      "name": "4 1/4 Chict1sd-T",
+      "price": "617.90",
+      "confidence": 0.7433
+    },
+    {
+      "name": "Amt Due",
+      "price": "129.30",
+      "confidence": 0.815
+    }
+  ],
+  "total_amount": {
+    "value": "129.30",
+    "confidence": 0.7034,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "(81109-A)",
+    "confidence": 0.7315,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "03/01/2018",
+    "confidence": 0.9315,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5088
+    },
+    {
+      "name": "1611",
+      "price": "4.24",
+      "confidence": 0.8657
+    },
+    {
+      "name": "SR",
+      "price": "89.00",
+      "confidence": 0.8667
+    }
+  ],
+  "total_amount": {
+    "value": "34",
+    "confidence": 0.6315,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

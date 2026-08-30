@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "ae",
+    "confidence": 0.7362,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "14/03/2018",
+    "confidence": 0.7362,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1 WALK 0,90",
+      "price": "0.90",
+      "confidence": 0.8426
+    },
+    {
+      "name": "ZRL=0%",
+      "price": "0.90",
+      "confidence": 0.8667
+    }
+  ],
+  "total_amount": {
+    "value": "0.90",
+    "confidence": 0.9362,
+    "flag": false,
+    "reason": null
+  }
+}

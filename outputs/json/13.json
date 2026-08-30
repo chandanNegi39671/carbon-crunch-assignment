@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Walmart",
+    "confidence": 0.7934,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "8/11/17 19:19:31",
+    "confidence": 0.5934,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "GIT CARD",
+      "price": "50.00",
+      "confidence": 0.733
+    },
+    {
+      "name": "SUBIO! Al",
+      "price": "50.00",
+      "confidence": 0.7
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

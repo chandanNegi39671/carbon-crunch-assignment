@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "Sy lee.",
+    "confidence": 0.7303,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "22 Mar 18",
+    "confidence": 0.4303,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "03-41",
+      "confidence": 0.5798
+    },
+    {
+      "name": "ST30",
+      "price": "13.87",
+      "confidence": 0.7658
+    },
+    {
+      "name": "HS4",
+      "price": "12.07",
+      "confidence": 0.8194
+    },
+    {
+      "name": "10% Srv Chg:",
+      "price": "2.59",
+      "confidence": 0.8775
+    },
+    {
+      "name": "Tota",
+      "price": "30.24",
+      "confidence": 0.8993
+    },
+    {
+      "name": "Rounding:",
+      "price": "0.01",
+      "confidence": 0.8749
+    },
+    {
+      "name": "INCLUSIVE",
+      "price": "0.00",
+      "confidence": 0.8886
+    }
+  ],
+  "total_amount": {
+    "value": "6",
+    "confidence": 0.6303,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

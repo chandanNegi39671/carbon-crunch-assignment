@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "3 ! 8 0 | 0",
+    "confidence": 0.411,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "20/01/2018",
+    "confidence": 0.911,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "4603-62",
+      "confidence": 0.42
+    },
+    {
+      "name": "4X",
+      "price": "55.00",
+      "confidence": 0.7817
+    },
+    {
+      "name": "1 X",
+      "price": "30.00",
+      "confidence": 0.806
+    },
+    {
+      "name": "1 X",
+      "price": "13.00",
+      "confidence": 0.806
+    },
+    {
+      "name": "1 X",
+      "price": "3.00",
+      "confidence": 0.806
+    },
+    {
+      "name": "6 X",
+      "price": "1.00",
+      "confidence": 0.8408
+    },
+    {
+      "name": "SR 6%0",
+      "price": "125.00",
+      "confidence": 0.8779
+    },
+    {
+      "name": "INV NO: CS",
+      "price": "1801-00",
+      "confidence": 0.488
+    }
+  ],
+  "total_amount": {
+    "value": "132.50",
+    "confidence": 0.911,
+    "flag": false,
+    "reason": null
+  }
+}

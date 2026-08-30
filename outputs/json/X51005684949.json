@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "STATIONERY SON. BHD",
+    "confidence": 0.7275,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "26-02-2018 14:27",
+    "confidence": 0.4275,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-40",
+      "confidence": 0.5613
+    },
+    {
+      "name": "REG",
+      "price": "26-02",
+      "confidence": 0.519
+    },
+    {
+      "name": "S R",
+      "price": "7. 42",
+      "confidence": 0.53
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

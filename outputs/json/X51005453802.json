@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "3180303 OS",
+    "confidence": 0.7411,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Duratile +399 (110 x 95nim) 200 S",
+      "price": "116.60",
+      "confidence": 0.8212
+    },
+    {
+      "name": "Narne Badge (H) @",
+      "price": "0.55",
+      "confidence": 0.8741
+    }
+  ],
+  "total_amount": {
+    "value": "189.00",
+    "confidence": 0.9411,
+    "flag": false,
+    "reason": null
+  }
+}

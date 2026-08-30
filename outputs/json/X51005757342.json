@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "3180304",
+    "confidence": 0.4237,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "23-03-18 10:43",
+    "confidence": 0.4237,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "ANG",
+      "price": "2-72",
+      "confidence": 0.5801
+    },
+    {
+      "name": "9064234 1 X",
+      "price": "1.80",
+      "confidence": 0.8784
+    },
+    {
+      "name": "WA",
+      "price": "50 - 20",
+      "confidence": 0.55
+    },
+    {
+      "name": "9555221303658 2X",
+      "price": "2.10",
+      "confidence": 0.8525
+    },
+    {
+      "name": "99999 1X",
+      "price": "0.20",
+      "confidence": 0.8612
+    }
+  ],
+  "total_amount": {
+    "value": "6.20",
+    "confidence": 0.9237,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "PappaRi ch BMC",
+    "confidence": 0.7373,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "24 Mar 18",
+    "confidence": 0.4373,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "1 D28 MILO DI NOC)",
+      "price": "7.45",
+      "confidence": 0.7486
+    },
+    {
+      "name": "2 RO3 N' LEMAK+fc E @17..83",
+      "price": "35. 66",
+      "confidence": 0.454
+    },
+    {
+      "name": "1 N22 SPRG NOL+sutcr E",
+      "price": "9.34",
+      "confidence": 0.7571
+    },
+    {
+      "name": "1 BO2 HALF BL EGG E",
+      "price": "4.53",
+      "confidence": 0.8131
+    },
+    {
+      "name": "1 DI9 CHAM (1) E",
+      "price": "5.57",
+      "confidence": 0.7521
+    },
+    {
+      "name": "10% Srv Chg",
+      "price": "6.25",
+      "confidence": 0.875
+    },
+    {
+      "name": "RND ADJ",
+      "price": "0.02",
+      "confidence": 0.87
+    },
+    {
+      "name": "TTL ATF RND",
+      "price": "72. 95",
+      "confidence": 0.561
+    },
+    {
+      "name": "Payment",
+      "price": "73.00",
+      "confidence": 0.87
+    }
+  ],
+  "total_amount": {
+    "value": "72.93",
+    "confidence": 0.9373,
+    "flag": false,
+    "reason": null
+  }
+}

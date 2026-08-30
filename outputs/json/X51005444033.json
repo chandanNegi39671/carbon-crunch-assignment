@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "BLC",
+    "confidence": 0.7217,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "12/03/18",
+    "confidence": 0.7217,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "T:",
+      "price": "03-20",
+      "confidence": 0.5664
+    },
+    {
+      "name": "3068320113784 53,.50*1",
+      "price": "53.50",
+      "confidence": 0.8
+    },
+    {
+      "name": "S =6%",
+      "price": "50.47",
+      "confidence": 0.785
+    },
+    {
+      "name": "Z = 0%",
+      "price": "23.70",
+      "confidence": 0.794
+    }
+  ],
+  "total_amount": {
+    "value": "77.20",
+    "confidence": 0.9217,
+    "flag": false,
+    "reason": null
+  }
+}

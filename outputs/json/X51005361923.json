@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "SWC ENTERPRISE SDN BAD",
+    "confidence": 0.6835,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "92/01/2018",
+    "confidence": 0.3835,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "SXB 5006",
+      "price": "4.20",
+      "confidence": 0.748
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

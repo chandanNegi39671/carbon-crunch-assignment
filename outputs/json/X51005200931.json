@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "Kane ae",
+    "confidence": 0.6811,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "09/02/2018",
+    "confidence": 0.8811,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "07-38",
+      "confidence": 0.4643
+    },
+    {
+      "name": "6783 oF",
+      "price": "3.60",
+      "confidence": 0.704
+    },
+    {
+      "name": "1760 GA",
+      "price": "55.00",
+      "confidence": 0.8077
+    },
+    {
+      "name": "3496 Ga",
+      "price": "33.00",
+      "confidence": 0.7963
+    },
+    {
+      "name": "2460 GA",
+      "price": "43.00",
+      "confidence": 0.8085
+    },
+    {
+      "name": "9428 Gg",
+      "price": "10.00",
+      "confidence": 0.7672
+    },
+    {
+      "name": "Rounding (RM)",
+      "price": "0.01",
+      "confidence": 0.8681
+    },
+    {
+      "name": "Ghange (RM) :",
+      "price": "0.00",
+      "confidence": 0.795
+    },
+    {
+      "name": "SR 41T50",
+      "price": "24.89",
+      "confidence": 0.7614
+    }
+  ],
+  "total_amount": {
+    "value": "24.69",
+    "confidence": 0.8811,
+    "flag": false,
+    "reason": null
+  }
+}

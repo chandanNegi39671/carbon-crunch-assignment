@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "Banh Mi CafE",
+    "confidence": 0.7215,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "29-10-2017 18:31:45",
+    "confidence": 0.6215,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Date =:",
+      "price": "29-10",
+      "confidence": 0.4487
+    },
+    {
+      "name": "1 205 SUONG NON RAM CHUA",
+      "price": "9.90",
+      "confidence": 0.7944
+    },
+    {
+      "name": "1 217 Tau Hu Gon Thit Chi",
+      "price": "9.90",
+      "confidence": 0.7833
+    },
+    {
+      "name": "1 605 TRA DA",
+      "price": "1.50",
+      "confidence": 0.7867
+    },
+    {
+      "name": "Rounding Adj: ~",
+      "price": "0.01",
+      "confidence": 0.8233
+    },
+    {
+      "name": "Closed;",
+      "price": "29-10",
+      "confidence": 0.5612
+    },
+    {
+      "name": "Inquries:",
+      "price": "012-32",
+      "confidence": 0.51
+    }
+  ],
+  "total_amount": {
+    "value": "21.30",
+    "confidence": 0.7215,
+    "flag": false,
+    "reason": null
+  }
+}

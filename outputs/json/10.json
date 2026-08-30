@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "SPAR",
+    "confidence": 0.6921,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Te]",
+      "price": "036-44",
+      "confidence": 0.4621
+    },
+    {
+      "name": "LAZENBY MORCESTER SAUCE   12SML MiLkY BAR CHOC MEDITERRANEAN MiX SMOKED  VIENNAS PEALED PEACHES SPAR COOKING OIL GRAPES MIXED TUB F/L ENGLISH CUCUMB CADBURY DAIRY MI NESTLE AERO SOOGR 8OGR 40OG IKG 375ML 85GR 8OGR TUB 1\"$ 17,,99 A 16,99",
+      "price": "33. 99",
+      "confidence": 0.4639
+    },
+    {
+      "name": "TASTIC RICE SOOG",
+      "price": "11.99",
+      "confidence": 0.7473
+    },
+    {
+      "name": "CARRIER BAG 24L 1\"S",
+      "price": "0.75",
+      "confidence": 0.7508
+    },
+    {
+      "name": "3780 005 101 23",
+      "price": "02.21",
+      "confidence": 0.8569
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

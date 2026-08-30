@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "RESTORAN HASSANBISTRO",
+    "confidence": 0.6388,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "12/28/2017 10:17:32 PM",
+    "confidence": 0.6388,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "0iscount R",
+      "price": "15.00",
+      "confidence": 0.8088
+    },
+    {
+      "name": "Rounding RH",
+      "price": "15.00",
+      "confidence": 0.8151
+    }
+  ],
+  "total_amount": {
+    "value": "1.00",
+    "confidence": 0.8388,
+    "flag": false,
+    "reason": null
+  }
+}

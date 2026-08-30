@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "Givu U6 Walik youl (eeabeck I /oui3/J/NXS e vov walma ( com",
+    "confidence": 0.6302,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "00/8/4235",
+    "confidence": 0.3302,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "St# 0334/ Opm (109036 Gv GV GCkI AI CRI AI GaIN ITE HaIER Haiik VAI Ui Va UL winitR ivin F 007874235191 00/8/4235191 QO 0078742062493 F 003700077007 178/4206203 E TI#\"36 TRH 05386",
+      "price": "0.98",
+      "confidence": 0.6624
+    },
+    {
+      "name": "CDBR FS 6PK MIXED COC CHIERRIF S GaIN HY RSIIEG PM BATTERIES CRNBRY   SAUCL  00313 GV 20z MINI 903000047535 00400004 004326880012 0037 035497333521H 001 007874219999 002740026499 /00082355 2800517 20001605 783",
+      "price": "12.97",
+      "confidence": 0.7738
+    },
+    {
+      "name": "M 1IFTIRD REF NET",
+      "price": "86 . 35",
+      "confidence": 0.4392
+    }
+  ],
+  "total_amount": {
+    "value": "86.35",
+    "confidence": 0.6302,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

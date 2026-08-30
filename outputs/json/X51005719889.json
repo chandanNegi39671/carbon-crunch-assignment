@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "HENG KEE DELIGHT S BAK KUT TEH .",
+    "confidence": 0.7406,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "04/01/2018",
+    "confidence": 0.9406,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "H/ P",
+      "price": "016-65",
+      "confidence": 0.5353
+    },
+    {
+      "name": "2,00 ¥",
+      "price": "1.50",
+      "confidence": 0.772
+    },
+    {
+      "name": "Voucher Discount",
+      "price": "0.00",
+      "confidence": 0.8683
+    },
+    {
+      "name": "Amount (SR)",
+      "price": "39.62",
+      "confidence": 0.7917
+    }
+  ],
+  "total_amount": {
+    "value": "00",
+    "confidence": 0.6406,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

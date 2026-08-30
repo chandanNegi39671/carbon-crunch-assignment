@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Ok",
+    "confidence": 0.7122,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "09/02/2018 12:53",
+    "confidence": 0.7122,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "SR @ 6%",
+      "price": "5.57",
+      "confidence": 0.824
+    },
+    {
+      "name": "TEL",
+      "price": "1-30",
+      "confidence": 0.5517
+    }
+  ],
+  "total_amount": {
+    "value": "5.90",
+    "confidence": 0.9122,
+    "flag": false,
+    "reason": null
+  }
+}

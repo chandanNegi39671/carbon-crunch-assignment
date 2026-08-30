@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "KEDAI BUKU NEW ACHEIVERS",
+    "confidence": 0.7566,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "28/12/2017",
+    "confidence": 0.9566,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "603-51",
+      "confidence": 0.58
+    },
+    {
+      "name": "9555078912508",
+      "price": "40.00",
+      "confidence": 0.8902
+    },
+    {
+      "name": "Discount :",
+      "price": "4.00",
+      "confidence": 0.845
+    },
+    {
+      "name": "5 Rounding",
+      "price": "0.01",
+      "confidence": 0.8621
+    },
+    {
+      "name": "S",
+      "price": "36.00",
+      "confidence": 0.8575
+    },
+    {
+      "name": "TOTQTY:",
+      "price": "42.16",
+      "confidence": 0.8533
+    }
+  ],
+  "total_amount": {
+    "value": "2.16",
+    "confidence": 0.9566,
+    "flag": false,
+    "reason": null
+  }
+}

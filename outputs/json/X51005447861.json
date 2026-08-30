@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "————= rl il",
+    "confidence": 0.7484,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "01/03/18 19:14",
+    "confidence": 0.9484,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel :",
+      "price": "03-92",
+      "confidence": 0.5663
+    },
+    {
+      "name": "pc",
+      "price": "9. 89",
+      "confidence": 0.5636
+    },
+    {
+      "name": "L1l X-VENTURE UNEXPLA[BK]",
+      "price": "12.00",
+      "confidence": 0.808
+    },
+    {
+      "name": "Member Discount",
+      "price": "1.20",
+      "confidence": 0.8583
+    },
+    {
+      "name": "PU   EXPANDING FILE-TS",
+      "price": "20.90",
+      "confidence": 0.8674
+    },
+    {
+      "name": "Member Discount",
+      "price": "2.09",
+      "confidence": 0.8583
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0 . 01",
+      "confidence": 0.5459
+    },
+    {
+      "name": "T @ 6%",
+      "price": "36. 41",
+      "confidence": 0.5133
+    },
+    {
+      "name": "Z@ 0%",
+      "price": "10.80",
+      "confidence": 0.8375
+    }
+  ],
+  "total_amount": {
+    "value": "49.39",
+    "confidence": 0.7484,
+    "flag": false,
+    "reason": null
+  }
+}

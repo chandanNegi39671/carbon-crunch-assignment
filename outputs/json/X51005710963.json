@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "TS TOOLS HARDWARE & NACHIRERY SOS DED",
+    "confidence": 0.6935,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "2017 7,00",
+      "price": "7.00",
+      "confidence": 0.7141
+    },
+    {
+      "name": "SUB-TQTAL",
+      "price": "7.00",
+      "confidence": 0.8731
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.8171
+    },
+    {
+      "name": "ROUNDING",
+      "price": "0.02",
+      "confidence": 0.7925
+    },
+    {
+      "name": "SR 7.QQ",
+      "price": "0.42",
+      "confidence": 0.8254
+    },
+    {
+      "name": "Tee:",
+      "price": "03-58",
+      "confidence": 0.4125
+    }
+  ],
+  "total_amount": {
+    "value": "1",
+    "confidence": 0.5935,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "Ao2662",
+    "confidence": 0.6693,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "03 Mar 18",
+    "confidence": 0.3693,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Te}",
+      "price": "07-35",
+      "confidence": 0.527
+    },
+    {
+      "name": "NY STRIP",
+      "price": "67.67",
+      "confidence": 0.7537
+    },
+    {
+      "name": "1 NY SLAW STRIP",
+      "price": "67.67",
+      "confidence": 0.77
+    },
+    {
+      "name": "NY STRIP",
+      "price": "67.67",
+      "confidence": 0.7537
+    },
+    {
+      "name": "7UP",
+      "price": "9.35",
+      "confidence": 0.7496
+    },
+    {
+      "name": "Tota]",
+      "price": "269.40",
+      "confidence": 0.8471
+    }
+  ],
+  "total_amount": {
+    "value": "6",
+    "confidence": 0.5693,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

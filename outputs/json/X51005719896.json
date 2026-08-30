@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "THE STORE (MALAYSIA) SDN BHD (8199K)",
+    "confidence": 0.8686,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "14-01-2018",
+    "confidence": 0.6686,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "RN",
+      "price": "1012-30",
+      "confidence": 0.5289
+    },
+    {
+      "name": "UNI  MORKER '$ CARD (",
+      "price": "1-31",
+      "confidence": 0.2987
+    },
+    {
+      "name": "UNI UNT WORKER'S A6 NOTE CARD BOOK i’ oa? § 100'S",
+      "price": "5.10",
+      "confidence": 0.7708
+    },
+    {
+      "name": "2000001592021 18@",
+      "price": "1.30",
+      "confidence": 0.7444
+    },
+    {
+      "name": "2: OST 0%",
+      "price": "0.00",
+      "confidence": 0.82
+    }
+  ],
+  "total_amount": {
+    "value": "2",
+    "confidence": 0.5686,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

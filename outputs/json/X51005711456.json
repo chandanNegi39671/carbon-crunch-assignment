@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "SUSHI  MENTAI MAHKOTA CHERAS",
+    "confidence": 0.735,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "31-03-2018",
+    "confidence": 0.935,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Bill#: V",
+      "price": "042- 51",
+      "confidence": 0.49
+    },
+    {
+      "name": "Date",
+      "price": "31-03",
+      "confidence": 0.4848
+    },
+    {
+      "name": "1 X",
+      "price": "12.80",
+      "confidence": 0.8776
+    },
+    {
+      "name": "1x",
+      "price": "19.80",
+      "confidence": 0.8387
+    },
+    {
+      "name": "1x",
+      "price": "8.80",
+      "confidence": 0.8387
+    },
+    {
+      "name": "Rounding Adj:",
+      "price": "0.02",
+      "confidence": 0.8733
+    },
+    {
+      "name": "Closed:",
+      "price": "31-03",
+      "confidence": 0.5382
+    },
+    {
+      "name": "VISA",
+      "price": "65.55",
+      "confidence": 0.875
+    }
+  ],
+  "total_amount": {
+    "value": "66.20",
+    "confidence": 0.935,
+    "flag": false,
+    "reason": null
+  }
+}

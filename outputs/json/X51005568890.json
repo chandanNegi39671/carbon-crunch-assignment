@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "HON HWA HARDWARE TRADING",
+    "confidence": 0.6704,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "+",
+      "price": "603-91",
+      "confidence": 0.555
+    },
+    {
+      "name": "CB#: 66549 0512017 4:",
+      "price": "47.61",
+      "confidence": 0.747
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0.00",
+      "confidence": 0.795
+    },
+    {
+      "name": "SR S",
+      "price": "4.72",
+      "confidence": 0.7849
+    }
+  ],
+  "total_amount": {
+    "value": "5.00",
+    "confidence": 0.8704,
+    "flag": false,
+    "reason": null
+  }
+}

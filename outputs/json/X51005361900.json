@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "TED NO. HENG 53, JALAN STATIONERY BESAR, (001451637-1 45600 BATANG & BERJUNTAL BOOKS",
+    "confidence": 0.728,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "23/01/2018",
+    "confidence": 0.728,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "5",
+      "price": "1.32",
+      "confidence": 0.8085
+    },
+    {
+      "name": "9557546631393",
+      "price": "2.08",
+      "confidence": 0.8566
+    },
+    {
+      "name": "ROUNDING Ay",
+      "price": "0.00",
+      "confidence": 0.825
+    },
+    {
+      "name": "S",
+      "price": "6.00",
+      "confidence": 0.8085
+    }
+  ],
+  "total_amount": {
+    "value": "16.98",
+    "confidence": 0.928,
+    "flag": false,
+    "reason": null
+  }
+}

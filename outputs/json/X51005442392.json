@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "83o3i3y",
+    "confidence": 0.6862,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "29 Mar 2013",
+    "confidence": 0.6862,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "Nett Totai:",
+      "price": "7.10",
+      "confidence": 0.83
+    }
+  ],
+  "total_amount": {
+    "value": "7.40",
+    "confidence": 0.8862,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Co. (M) SDN BHD",
+    "confidence": 0.7274,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "20/08/17 12:48",
+    "confidence": 0.7274,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel :",
+      "price": "03-91",
+      "confidence": 0.5267
+    },
+    {
+      "name": "4pc",
+      "price": "1.40",
+      "confidence": 0.8824
+    },
+    {
+      "name": "Menber Discount ~",
+      "price": "0. 56",
+      "confidence": 0.4779
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0. 01",
+      "confidence": 0.5794
+    },
+    {
+      "name": "T @ 6%",
+      "price": "4.75",
+      "confidence": 0.84
+    }
+  ],
+  "total_amount": {
+    "value": "5.04",
+    "confidence": 0.7274,
+    "flag": false,
+    "reason": null
+  }
+}

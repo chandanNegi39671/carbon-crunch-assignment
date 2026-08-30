@@ -1,0 +1,132 @@
+{
+  "store_name": {
+    "value": "CO. (M) SDN BHD",
+    "confidence": 0.7228,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "23/12/17 15:53",
+    "confidence": 0.9228,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Te |",
+      "price": "03-91",
+      "confidence": 0.5196
+    },
+    {
+      "name": "Shoe White SWA6 \"S",
+      "price": "4.29",
+      "confidence": 0.7239
+    },
+    {
+      "name": "Shoe MR C. TAPE White REF SWI101#2S WH624R",
+      "price": "31.99",
+      "confidence": 0.7595
+    },
+    {
+      "name": "KIT KAT 2F (PM)",
+      "price": "1.35",
+      "confidence": 0.7879
+    },
+    {
+      "name": "FC GRIP BPO.5 BLK PK",
+      "price": "4.20",
+      "confidence": 0.8386
+    },
+    {
+      "name": "Member Discount",
+      "price": "0.42",
+      "confidence": 0.8083
+    },
+    {
+      "name": "FC GRIP BPO.5 BLU PK",
+      "price": "4.20",
+      "confidence": 0.845
+    },
+    {
+      "name": "Member Discount",
+      "price": "0.42",
+      "confidence": 0.8083
+    },
+    {
+      "name": "3M GlueStick 7gn 4's",
+      "price": "10.59",
+      "confidence": 0.835
+    },
+    {
+      "name": "STAT-PROMO SPECIAL ~",
+      "price": "3. 69",
+      "confidence": 0.5463
+    },
+    {
+      "name": "PU F/C B/L A4 450's",
+      "price": "16.99",
+      "confidence": 0.8536
+    },
+    {
+      "name": "STAT-PROMO SPECIAL",
+      "price": "2.99",
+      "confidence": 0.8463
+    },
+    {
+      "name": "PLUS stapler set O10E",
+      "price": "8.89",
+      "confidence": 0.8458
+    },
+    {
+      "name": "STAT-PROMO SPECIAL",
+      "price": "3. 89",
+      "confidence": 0.5463
+    },
+    {
+      "name": "FC EXM.ERS 4S",
+      "price": "3.90",
+      "confidence": 0.8517
+    },
+    {
+      "name": "STAT-PROMO SPEGIAL",
+      "price": "0.91",
+      "confidence": 0.84
+    },
+    {
+      "name": "S4 SUPER S M AKT SPM [BK]",
+      "price": "9.90",
+      "confidence": 0.8567
+    },
+    {
+      "name": "Rev-BTS Promotion",
+      "price": "1.49",
+      "confidence": 0.85
+    },
+    {
+      "name": "SUCCESS SPM ADD MATHS[BK]",
+      "price": "37.00",
+      "confidence": 0.8525
+    },
+    {
+      "name": "Rev-BTS Pronot ion ~",
+      "price": "7.40",
+      "confidence": 0.7709
+    },
+    {
+      "name": "SUCCESS SPM SCI [BK]",
+      "price": "35.70",
+      "confidence": 0.835
+    },
+    {
+      "name": "Mastercard",
+      "price": "140. 65",
+      "confidence": 0.4957
+    }
+  ],
+  "total_amount": {
+    "value": "140.65",
+    "confidence": 0.9228,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "store_name": {
+    "value": "GREAT ZONE HOUSEHOLD CENTRE SDN BHD",
+    "confidence": 0.7635,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "18/02/2018 06:08:59 PM",
+    "confidence": 0.9635,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1 PC",
+      "price": "3.30",
+      "confidence": 0.7958
+    },
+    {
+      "name": "12006 *",
+      "price": "3.60",
+      "confidence": 0.8292
+    },
+    {
+      "name": "1200G ~",
+      "price": "2.50",
+      "confidence": 0.81
+    },
+    {
+      "name": "1 PC",
+      "price": "8.60",
+      "confidence": 0.7958
+    },
+    {
+      "name": "1 PC",
+      "price": "49.90",
+      "confidence": 0.7958
+    },
+    {
+      "name": "20 PC",
+      "price": "10.90",
+      "confidence": 0.8552
+    },
+    {
+      "name": "6 PC",
+      "price": "6.00",
+      "confidence": 0.8629
+    },
+    {
+      "name": "1 PC",
+      "price": "19.90",
+      "confidence": 0.7958
+    },
+    {
+      "name": "Service Charge",
+      "price": "0.00",
+      "confidence": 0.8982
+    },
+    {
+      "name": "Rounding Adjustment :",
+      "price": "0.00",
+      "confidence": 0.865
+    },
+    {
+      "name": "Credit Card",
+      "price": "367.30",
+      "confidence": 0.87
+    },
+    {
+      "name": "SR 6%",
+      "price": "346.51",
+      "confidence": 0.8372
+    }
+  ],
+  "total_amount": {
+    "value": "367.30",
+    "confidence": 0.9635,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "( O^ OW\"",
+    "confidence": 0.695,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-87",
+      "confidence": 0.5475
+    },
+    {
+      "name": "101870",
+      "price": "65.00",
+      "confidence": 0.87
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.88
+    }
+  ],
+  "total_amount": {
+    "value": "312.70",
+    "confidence": 0.895,
+    "flag": false,
+    "reason": null
+  }
+}

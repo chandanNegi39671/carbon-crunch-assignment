@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "?E",
+    "confidence": 0.7112,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "14/03/2018 12:43",
+    "confidence": 0.7112,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Ix",
+      "price": "5 .60",
+      "confidence": 0.429
+    },
+    {
+      "name": "SR & 6%",
+      "price": "11.55",
+      "confidence": 0.819
+    }
+  ],
+  "total_amount": {
+    "value": "12.25",
+    "confidence": 0.9112,
+    "flag": false,
+    "reason": null
+  }
+}

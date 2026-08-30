@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Anz V2-",
+    "confidence": 0.6966,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "25 Mar 2018",
+    "confidence": 0.6966,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "@ST @6%:",
+      "price": "0.48",
+      "confidence": 0.6867
+    }
+  ],
+  "total_amount": {
+    "value": "8.50",
+    "confidence": 0.8966,
+    "flag": false,
+    "reason": null
+  }
+}

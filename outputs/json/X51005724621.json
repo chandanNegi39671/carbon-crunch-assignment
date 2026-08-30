@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "R",
+    "confidence": 0.4556,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "06/03/2018",
+    "confidence": 0.9556,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL ;",
+      "price": "03-87",
+      "confidence": 0.5919
+    },
+    {
+      "name": "101869",
+      "price": "60.00",
+      "confidence": 0.8754
+    },
+    {
+      "name": "SR",
+      "price": "120.00",
+      "confidence": 0.8754
+    }
+  ],
+  "total_amount": {
+    "value": "127.20",
+    "confidence": 0.9556,
+    "flag": false,
+    "reason": null
+  }
+}

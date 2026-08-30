@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "Hozosv",
+    "confidence": 0.6987,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "14 Mar 2016",
+    "confidence": 0.6987,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.8987,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "R",
+    "confidence": 0.4534,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "21/03/2078",
+    "confidence": 0.9534,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-87",
+      "confidence": 0.5017
+    },
+    {
+      "name": "101870",
+      "price": "65.00",
+      "confidence": 0.8792
+    },
+    {
+      "name": "SR 6 65,00",
+      "price": "3.90",
+      "confidence": 0.8553
+    }
+  ],
+  "total_amount": {
+    "value": "00",
+    "confidence": 0.6534,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

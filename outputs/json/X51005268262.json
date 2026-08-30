@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "HOnE MASTER HARDWARE &",
+    "confidence": 0.6819,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Date 22/1222017",
+      "price": "14.03",
+      "confidence": 0.8191
+    },
+    {
+      "name": "Payment :",
+      "price": "50.00",
+      "confidence": 0.8183
+    }
+  ],
+  "total_amount": {
+    "value": "5.00",
+    "confidence": 0.8819,
+    "flag": false,
+    "reason": null
+  }
+}

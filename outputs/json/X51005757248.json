@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "JLN JE,AKA , TAMAN MALURI",
+    "confidence": 0.6327,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "12/03/2118 13:07",
+    "confidence": 0.6327,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "Ix uf",
+      "price": "0. 06",
+      "confidence": 0.372
+    },
+    {
+      "name": "Rounding Ady",
+      "price": "0.92",
+      "confidence": 0.8133
+    },
+    {
+      "name": "9 6% 0,19",
+      "price": "0.41",
+      "confidence": 0.7254
+    },
+    {
+      "name": "ZR & 0%",
+      "price": "42.28",
+      "confidence": 0.816
+    },
+    {
+      "name": "itl",
+      "price": "1-30",
+      "confidence": 0.3617
+    }
+  ],
+  "total_amount": {
+    "value": "42.46",
+    "confidence": 0.8327,
+    "flag": false,
+    "reason": null
+  }
+}

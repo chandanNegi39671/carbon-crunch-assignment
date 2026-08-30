@@ -1,0 +1,82 @@
+{
+  "store_name": {
+    "value": "MR D, [, Y. (KUCHAI)  SDN BHD",
+    "confidence": 0.7067,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "11/3-21",
+    "confidence": 0.4067,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "9555075106825 1X",
+      "price": "8.50",
+      "confidence": 0.8525
+    },
+    {
+      "name": "MI11",
+      "price": "3-21",
+      "confidence": 0.5533
+    },
+    {
+      "name": "9082115 1X",
+      "price": "2.50",
+      "confidence": 0.8412
+    },
+    {
+      "name": "DC11",
+      "price": "2 - 20",
+      "confidence": 0.5333
+    },
+    {
+      "name": "6946759900212 1 X",
+      "price": "2.50",
+      "confidence": 0.7932
+    },
+    {
+      "name": "TJ",
+      "price": "12 - 10",
+      "confidence": 0.55
+    },
+    {
+      "name": "9002148 3X",
+      "price": "4.50",
+      "confidence": 0.8488
+    },
+    {
+      "name": "9750009 1X",
+      "price": "6.30",
+      "confidence": 0.84
+    },
+    {
+      "name": "O",
+      "price": "100 - 12",
+      "confidence": 0.5537
+    },
+    {
+      "name": "9045734 1 X 7,50",
+      "price": "7.50",
+      "confidence": 0.7785
+    },
+    {
+      "name": "9002107 2X",
+      "price": "4.90",
+      "confidence": 0.8488
+    },
+    {
+      "name": "RW",
+      "price": "53.30",
+      "confidence": 0.79
+    }
+  ],
+  "total_amount": {
+    "value": "53.30",
+    "confidence": 0.7067,
+    "flag": false,
+    "reason": null
+  }
+}

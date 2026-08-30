@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "Bandar menjalara,",
+    "confidence": 0.7459,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "25 Mar 2018",
+    "confidence": 0.9459,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1 Saba shioyaki wazen (2@mins)",
+      "price": "26.00",
+      "confidence": 0.8571
+    },
+    {
+      "name": "1 Unagi don",
+      "price": "28.00",
+      "confidence": 0.838
+    },
+    {
+      "name": "1 Spicy ASARI Pasta",
+      "price": "19.00",
+      "confidence": 0.8526
+    },
+    {
+      "name": "1 Ebi Mentai Pasta",
+      "price": "22.00",
+      "confidence": 0.8633
+    },
+    {
+      "name": "1 Jasmine Green Tea",
+      "price": "10.00",
+      "confidence": 0.8542
+    },
+    {
+      "name": "S @68",
+      "price": "99.05",
+      "confidence": 0.8172
+    },
+    {
+      "name": "Tel:",
+      "price": "03-62",
+      "confidence": 0.5888
+    }
+  ],
+  "total_amount": {
+    "value": "105.00",
+    "confidence": 0.9459,
+    "flag": false,
+    "reason": null
+  }
+}

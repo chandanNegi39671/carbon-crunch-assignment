@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "A psez.",
+    "confidence": 0.7478,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "18/01/2018 17:09:21",
+    "confidence": 0.7478,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel No. :",
+      "price": "03-41",
+      "confidence": 0.5587
+    },
+    {
+      "name": "ORD #90 -REG #",
+      "price": "19- 18",
+      "confidence": 0.545
+    },
+    {
+      "name": "2 M SpicyDeluxe",
+      "price": "25 .40",
+      "confidence": 0.4986
+    },
+    {
+      "name": "M Gri ChicBg",
+      "price": "12.50",
+      "confidence": 0.8494
+    },
+    {
+      "name": "Smal Cone",
+      "price": "1.00",
+      "confidence": 0.826
+    },
+    {
+      "name": "ustomer Service Hotline :",
+      "price": "03-27",
+      "confidence": 0.535
+    }
+  ],
+  "total_amount": {
+    "value": "38.90",
+    "confidence": 0.9478,
+    "flag": false,
+    "reason": null
+  }
+}

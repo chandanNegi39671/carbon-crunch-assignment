@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "SDN BHD",
+    "confidence": 0.7422,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "04/03/2018",
+    "confidence": 0.7422,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "04/03/2018",
+      "price": "41.52",
+      "confidence": 0.8249
+    },
+    {
+      "name": "1 WALk",
+      "price": "3.20",
+      "confidence": 0.8075
+    },
+    {
+      "name": "ZRL=0%",
+      "price": "3.20",
+      "confidence": 0.8533
+    }
+  ],
+  "total_amount": {
+    "value": "1.00",
+    "confidence": 0.9422,
+    "flag": false,
+    "reason": null
+  }
+}

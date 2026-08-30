@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "A63064",
+    "confidence": 0.7071,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "11/03/2018",
+    "confidence": 0.7071,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1",
+      "price": "1.50",
+      "confidence": 0.8467
+    },
+    {
+      "name": "FG-YOOOSO",
+      "price": "12.80",
+      "confidence": 0.7953
+    },
+    {
+      "name": "FG-¥00102",
+      "price": "3.60",
+      "confidence": 0.821
+    },
+    {
+      "name": "FG-YO0254 0,30",
+      "price": "0.00",
+      "confidence": 0.7261
+    }
+  ],
+  "total_amount": {
+    "value": "49.70",
+    "confidence": 0.9071,
+    "flag": false,
+    "reason": null
+  }
+}

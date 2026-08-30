@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "OE",
+    "confidence": 0.6512,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "22/03/18 10:17",
+    "confidence": 0.6512,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "(NR)es CHOICE SOFT",
+      "price": "4.20",
+      "confidence": 0.7465
+    },
+    {
+      "name": "(NR)ES ICE COcL  HI",
+      "price": "0.95",
+      "confidence": 0.6974
+    },
+    {
+      "name": "S",
+      "price": "4.86",
+      "confidence": 0.7836
+    }
+  ],
+  "total_amount": {
+    "value": "56",
+    "confidence": 0.5512,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "78G , JALAN SS21/62,",
+    "confidence": 0.7186,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "10-03-2018 23:03:06",
+    "confidence": 0.6186,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Date",
+      "price": "10-03",
+      "confidence": 0.5877
+    },
+    {
+      "name": "2 X",
+      "price": "95. 00",
+      "confidence": 0.5316
+    },
+    {
+      "name": "Closed: 2 “",
+      "price": "11-03",
+      "confidence": 0.5083
+    },
+    {
+      "name": "SR (@ 6%)",
+      "price": "171.95",
+      "confidence": 0.811
+    }
+  ],
+  "total_amount": {
+    "value": "74.25",
+    "confidence": 0.9186,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "3J JLN BANCAU 1,KEPONG BARU;",
+    "confidence": 0.6933,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "1/8/2018",
+    "confidence": 0.8933,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Inv No :",
+      "price": "18-00",
+      "confidence": 0.5025
+    },
+    {
+      "name": "DATE 1/8/2018",
+      "price": "42.41",
+      "confidence": 0.6913
+    },
+    {
+      "name": "> MASTE",
+      "price": "34.80",
+      "confidence": 0.8517
+    },
+    {
+      "name": "X:67",
+      "price": "8.50",
+      "confidence": 0.7708
+    }
+  ],
+  "total_amount": {
+    "value": "34.80",
+    "confidence": 0.8933,
+    "flag": false,
+    "reason": null
+  }
+}

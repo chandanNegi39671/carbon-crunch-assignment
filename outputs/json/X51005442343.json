@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "H26a}",
+    "confidence": 0.6839,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "13/03/2018",
+    "confidence": 0.8839,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "07-25",
+      "confidence": 0.4164
+    },
+    {
+      "name": "0603",
+      "price": "1.00",
+      "confidence": 0.7529
+    },
+    {
+      "name": "Discount ;",
+      "price": "0.00",
+      "confidence": 0.785
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8775
+    },
+    {
+      "name": "SR",
+      "price": "67.92",
+      "confidence": 0.7529
+    }
+  ],
+  "total_amount": {
+    "value": "67.92",
+    "confidence": 0.8839,
+    "flag": false,
+    "reason": null
+  }
+}

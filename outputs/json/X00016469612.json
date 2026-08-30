@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "tan woon yann",
+    "confidence": 0.6589,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "25/12/2018 8:13",
+    "confidence": 0.8589,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Date 25/12/2018 8:",
+      "price": "13.39",
+      "confidence": 0.8337
+    },
+    {
+      "name": "1 PC :",
+      "price": "9.00",
+      "confidence": 0.7417
+    },
+    {
+      "name": "Rour ‘ing Adjustment",
+      "price": "0.00",
+      "confidence": 0.7675
+    }
+  ],
+  "total_amount": {
+    "value": "91.00",
+    "confidence": 0.8589,
+    "flag": false,
+    "reason": null
+  }
+}

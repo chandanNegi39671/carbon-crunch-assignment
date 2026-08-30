@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "ropbins",
+    "confidence": 0.7484,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "16/02/2018 12:04",
+    "confidence": 0.9484,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Invoice No : DPC11",
+      "price": "53409-00",
+      "confidence": 0.53
+    },
+    {
+      "name": "Date & time : 16/02/2018 12:",
+      "price": "04.58",
+      "confidence": 0.7875
+    },
+    {
+      "name": "Double Rg. Cup",
+      "price": "20.60",
+      "confidence": 0.8383
+    },
+    {
+      "name": "Colour Rice",
+      "price": "1.50",
+      "confidence": 0.864
+    },
+    {
+      "name": "SR 6.0%",
+      "price": "20.28",
+      "confidence": 0.865
+    }
+  ],
+  "total_amount": {
+    "value": "21.50",
+    "confidence": 0.9484,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Ko W (2 2) Ds)",
+    "confidence": 0.7347,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "25-03-2018",
+    "confidence": 0.9347,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel :",
+      "price": "016-75",
+      "confidence": 0.472
+    },
+    {
+      "name": "Date: Receipt",
+      "price": "25-03",
+      "confidence": 0.5314
+    },
+    {
+      "name": "2x Hey Song",
+      "price": "4.30",
+      "confidence": 0.7932
+    },
+    {
+      "name": "(Dise:",
+      "price": "1.00",
+      "confidence": 0.8225
+    },
+    {
+      "name": "Totai Arrount",
+      "price": "7.60",
+      "confidence": 0.8814
+    }
+  ],
+  "total_amount": {
+    "value": "7.60",
+    "confidence": 0.7347,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "were er",
+    "confidence": 0.6744,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "31-03-18",
+    "confidence": 0.3744,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "04:06PM",
+      "price": "31-03",
+      "confidence": 0.5217
+    },
+    {
+      "name": "$03 100 PLUS CAN 32SML (ICE R",
+      "price": "1.49",
+      "confidence": 0.8363
+    },
+    {
+      "name": "| 501 MALTA CAN 320ML (ICE) R",
+      "price": "2.50",
+      "confidence": 0.7636
+    },
+    {
+      "name": "Rounding RH",
+      "price": "4.00",
+      "confidence": 0.837
+    },
+    {
+      "name": "$ :",
+      "price": "3.77",
+      "confidence": 0.798
+    }
+  ],
+  "total_amount": {
+    "value": "3.99",
+    "confidence": 0.8744,
+    "flag": false,
+    "reason": null
+  }
+}

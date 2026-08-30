@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "MR. D.1.¥.(KUCHAT) SDN BHD",
+    "confidence": 0.7203,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "19-03-18",
+    "confidence": 0.4203,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "9064525 1X",
+      "price": "11.90",
+      "confidence": 0.8187
+    }
+  ],
+  "total_amount": {
+    "value": "11.90",
+    "confidence": 0.9203,
+    "flag": false,
+    "reason": null
+  }
+}

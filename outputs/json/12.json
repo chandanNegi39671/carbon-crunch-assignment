@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "WAL*MART",
+    "confidence": 0.7028,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "10/20/07 13:48:43",
+    "confidence": 0.7028,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Su FIGURES",
+      "price": "6.63",
+      "confidence": 0.7847
+    },
+    {
+      "name": "WOMEN SLIPPE",
+      "price": "9.86",
+      "confidence": 0.8552
+    },
+    {
+      "name": "MCARD TEND",
+      "price": "18.75",
+      "confidence": 0.8683
+    },
+    {
+      "name": "SW ST# FIGURES 2600 QP# 0653569201 TEE 44 17 TRE",
+      "price": "6.63",
+      "confidence": 0.7135
+    }
+  ],
+  "total_amount": {
+    "value": "76",
+    "confidence": 0.6028,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

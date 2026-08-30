@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "nozasz",
+    "confidence": 0.6791,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "S",
+      "price": "7.10",
+      "confidence": 0.7923
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.8791,
+    "flag": false,
+    "reason": null
+  }
+}

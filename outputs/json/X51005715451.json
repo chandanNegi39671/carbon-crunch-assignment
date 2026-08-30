@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "3-1708032",
+    "confidence": 0.4024,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "06/02/18",
+    "confidence": 0.7024,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Te}",
+      "price": "017-77",
+      "confidence": 0.4398
+    },
+    {
+      "name": "06/02/18",
+      "price": "18.47",
+      "confidence": 0.8144
+    },
+    {
+      "name": "CORR. PEN",
+      "price": "7.65",
+      "confidence": 0.7925
+    },
+    {
+      "name": "PBR RING FILE @/7CLI",
+      "price": "6.99",
+      "confidence": 0.73
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0.01",
+      "confidence": 0.8786
+    },
+    {
+      "name": "T 6% 13. 8",
+      "price": "0.83",
+      "confidence": 0.8378
+    }
+  ],
+  "total_amount": {
+    "value": "14.64",
+    "confidence": 0.9024,
+    "flag": false,
+    "reason": null
+  }
+}

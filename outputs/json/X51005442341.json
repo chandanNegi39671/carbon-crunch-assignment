@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "REST AURART stu'\"",
+    "confidence": 0.6616,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "09/03/2018",
+    "confidence": 0.6616,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "K",
+      "price": "3-11",
+      "confidence": 0.495
+    },
+    {
+      "name": "HZP:",
+      "price": "019-75",
+      "confidence": 0.3699
+    },
+    {
+      "name": "Q",
+      "price": "16-78",
+      "confidence": 0.4696
+    },
+    {
+      "name": "OPT.O& — RH",
+      "price": "149.00",
+      "confidence": 0.7325
+    },
+    {
+      "name": "DPT.04 RH",
+      "price": "21. 00",
+      "confidence": 0.4525
+    },
+    {
+      "name": "R",
+      "price": "170. 00",
+      "confidence": 0.3049
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

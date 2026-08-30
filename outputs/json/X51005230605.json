@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "ALSERKAM ENTERPRISE",
+    "confidence": 0.75,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "01/02/2018 4:43:17 PM",
+    "confidence": 0.75,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "03-61",
+      "confidence": 0.5417
+    },
+    {
+      "name": "& 2 double ,mint te",
+      "price": "3.00",
+      "confidence": 0.7817
+    },
+    {
+      "name": "1 sandwich vanill",
+      "price": "1.90",
+      "confidence": 0.8425
+    },
+    {
+      "name": "A=",
+      "price": "6.00",
+      "confidence": 0.8083
+    }
+  ],
+  "total_amount": {
+    "value": "4.90",
+    "confidence": 0.95,
+    "flag": false,
+    "reason": null
+  }
+}

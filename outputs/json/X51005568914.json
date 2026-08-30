@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "(1074617K)",
+    "confidence": 0.6909,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "09/08/17",
+    "confidence": 0.8909,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "2 pc @ 4,90",
+      "price": "9.80",
+      "confidence": 0.8533
+    },
+    {
+      "name": "Mastercard",
+      "price": "99.80",
+      "confidence": 0.7559
+    }
+  ],
+  "total_amount": {
+    "value": "80",
+    "confidence": 0.5909,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

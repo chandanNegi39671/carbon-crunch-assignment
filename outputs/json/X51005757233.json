@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "31803016",
+    "confidence": 0.3101,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "9/03/18",
+    "confidence": 0.6101,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "305-58",
+      "confidence": 0.3933
+    },
+    {
+      "name": "828048383 GH WR F9S Aorzo",
+      "price": "9.95",
+      "confidence": 0.6241
+    },
+    {
+      "name": "SuxT UTAL",
+      "price": "9.95",
+      "confidence": 0.6727
+    },
+    {
+      "name": "CAGH",
+      "price": "1.00",
+      "confidence": 0.645
+    },
+    {
+      "name": "§",
+      "price": "9.59",
+      "confidence": 0.76
+    }
+  ],
+  "total_amount": {
+    "value": "9.95",
+    "confidence": 0.8101,
+    "flag": false,
+    "reason": null
+  }
+}

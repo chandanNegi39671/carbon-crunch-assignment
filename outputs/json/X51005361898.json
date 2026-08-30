@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "TEO HENG STATIONERY & BOOKS",
+    "confidence": 0.7122,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "15/01/2018",
+    "confidence": 0.7122,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "9556655864036",
+      "price": "26.42",
+      "confidence": 0.8494
+    },
+    {
+      "name": "9555535000663 28",
+      "price": "0.00",
+      "confidence": 0.8534
+    },
+    {
+      "name": "CASII PAI;",
+      "price": "55.10",
+      "confidence": 0.7085
+    },
+    {
+      "name": "S",
+      "price": "6.00",
+      "confidence": 0.812
+    }
+  ],
+  "total_amount": {
+    "value": "55.10",
+    "confidence": 0.9122,
+    "flag": false,
+    "reason": null
+  }
+}

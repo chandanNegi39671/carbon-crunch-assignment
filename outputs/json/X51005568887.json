@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "KON KWA KARDWARE TRADING",
+    "confidence": 0.6932,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "+",
+      "price": "603-91",
+      "confidence": 0.56
+    },
+    {
+      "name": "1.2 304\" ALUIMINIUM ROD",
+      "price": "6.00",
+      "confidence": 0.7151
+    }
+  ],
+  "total_amount": {
+    "value": "7.20",
+    "confidence": 0.8932,
+    "flag": false,
+    "reason": null
+  }
+}

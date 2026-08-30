@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Ac3o96",
+    "confidence": 0.6911,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "18-03-23",
+    "confidence": 0.5911,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Date;",
+      "price": "2018-03",
+      "confidence": 0.5844
+    },
+    {
+      "name": "Slab Apple Sour Apple Mojito",
+      "price": "13.90",
+      "confidence": 0.8644
+    }
+  ],
+  "total_amount": {
+    "value": "35",
+    "confidence": 0.5911,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

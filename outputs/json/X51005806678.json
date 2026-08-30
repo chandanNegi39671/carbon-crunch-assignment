@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "UP2-01, Melawati Mall,",
+    "confidence": 0.9423,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "29-01-18 20:38",
+    "confidence": 0.6423,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "(",
+      "price": "4-17",
+      "confidence": 0.4988
+    },
+    {
+      "name": "UP",
+      "price": "2-01",
+      "confidence": 0.5367
+    },
+    {
+      "name": "Tel:",
+      "price": "03 - 41",
+      "confidence": 0.5688
+    },
+    {
+      "name": "Date:",
+      "price": "29-01",
+      "confidence": 0.5828
+    },
+    {
+      "name": "122 pes @",
+      "price": "18.90",
+      "confidence": 0.8658
+    },
+    {
+      "name": "240 pes @",
+      "price": "13.90",
+      "confidence": 0.8342
+    },
+    {
+      "name": "130 pes @",
+      "price": "16.90",
+      "confidence": 0.867
+    },
+    {
+      "name": "SR 7,395,09 443,71 7",
+      "price": "838. 80",
+      "confidence": 0.5754
+    }
+  ],
+  "total_amount": {
+    "value": "838.80",
+    "confidence": 0.9423,
+    "flag": false,
+    "reason": null
+  }
+}

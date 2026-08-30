@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "EVERGREEN LIGHT SDN BHD",
+    "confidence": 0.6531,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TELFAX:",
+      "price": "03-80",
+      "confidence": 0.294
+    },
+    {
+      "name": "EDDIE #",
+      "price": "01-01",
+      "confidence": 0.42
+    },
+    {
+      "name": "ROUNDING ADIVET",
+      "price": "0.04",
+      "confidence": 0.6783
+    }
+  ],
+  "total_amount": {
+    "value": "24.52",
+    "confidence": 0.6531,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

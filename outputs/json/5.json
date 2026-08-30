@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "WHOLE FOODS",
+    "confidence": 0.9301,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "9/15/2020",
+    "confidence": 0.7301,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Sunnyvale SVL",
+      "price": "408-41",
+      "confidence": 0.5317
+    },
+    {
+      "name": "BRATDED BRIOCHE",
+      "price": "6.99",
+      "confidence": 0.8533
+    },
+    {
+      "name": "2",
+      "price": "10.00",
+      "confidence": 0.8317
+    },
+    {
+      "name": "Net Sales:",
+      "price": "28.28",
+      "confidence": 0.8633
+    }
+  ],
+  "total_amount": {
+    "value": "528",
+    "confidence": 0.6301,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

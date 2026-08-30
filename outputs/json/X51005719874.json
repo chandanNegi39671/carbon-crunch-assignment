@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "NADEJE PRESTIGE SDN BHD",
+    "confidence": 0.6976,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "18/02/22 13:34:14",
+    "confidence": 0.8976,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "LOT NO.:G",
+      "price": "1.11",
+      "confidence": 0.7967
+    },
+    {
+      "name": "Invoice:",
+      "price": "000-07",
+      "confidence": 0.5675
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

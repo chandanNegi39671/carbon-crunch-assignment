@@ -1,0 +1,92 @@
+{
+  "store_name": {
+    "value": "SUPER SEVEN CASH & CARRY SDN BHD",
+    "confidence": 0.7267,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "21-03-2018 11:25:07 AM",
+    "confidence": 0.4267,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-78",
+      "confidence": 0.5698
+    },
+    {
+      "name": "FAX",
+      "price": "03-78",
+      "confidence": 0.5985
+    },
+    {
+      "name": "FRUIT (FP) @",
+      "price": "2.99",
+      "confidence": 0.8317
+    },
+    {
+      "name": "41595 *1",
+      "price": "2.99",
+      "confidence": 0.8779
+    },
+    {
+      "name": "NANGKA PINGGAN @",
+      "price": "2 . 00",
+      "confidence": 0.5248
+    },
+    {
+      "name": "FM415000303 *1",
+      "price": "2.00",
+      "confidence": 0.7927
+    },
+    {
+      "name": "9556191030230 *1",
+      "price": "3.80",
+      "confidence": 0.8084
+    },
+    {
+      "name": "9556191030230 *1",
+      "price": "3.80",
+      "confidence": 0.8084
+    },
+    {
+      "name": "URO MUSHROOM 425G @",
+      "price": "2.80",
+      "confidence": 0.8075
+    },
+    {
+      "name": "9555227500563 *1",
+      "price": "2.80",
+      "confidence": 0.8346
+    },
+    {
+      "name": "YOUNG CORN 425G (MS) @",
+      "price": "2.90",
+      "confidence": 0.789
+    },
+    {
+      "name": "95556544005/3 *1",
+      "price": "2.90",
+      "confidence": 0.7699
+    },
+    {
+      "name": "IR (0%) 4,99",
+      "price": "0.90",
+      "confidence": 0.83
+    },
+    {
+      "name": "SR (€ ')",
+      "price": "12.54",
+      "confidence": 0.7892
+    }
+  ],
+  "total_amount": {
+    "value": "18.29",
+    "confidence": 0.9267,
+    "flag": false,
+    "reason": null
+  }
+}

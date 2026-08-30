@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "Fr EAGLE ENTERPRISE",
+    "confidence": 0.6452,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "04/12/2017",
+    "confidence": 0.8452,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "03-89",
+      "confidence": 0.24
+    },
+    {
+      "name": "12089",
+      "price": "3.50",
+      "confidence": 0.8447
+    },
+    {
+      "name": "63",
+      "price": "0.40",
+      "confidence": 0.6724
+    },
+    {
+      "name": "S",
+      "price": "6.60",
+      "confidence": 0.8161
+    }
+  ],
+  "total_amount": {
+    "value": "2",
+    "confidence": 0.5452,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

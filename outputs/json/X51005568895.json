@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "Mm, 'vivopac com",
+    "confidence": 0.7503,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "13/09/2017 01:13:09 PM",
+    "confidence": 0.9503,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "03-91",
+      "confidence": 0.5513
+    },
+    {
+      "name": "PP - 16x26",
+      "price": "0.04",
+      "confidence": 0.8575
+    },
+    {
+      "name": "1,00 PKT *",
+      "price": "15.00",
+      "confidence": 0.8533
+    },
+    {
+      "name": "PP - 14x20",
+      "price": "0.04",
+      "confidence": 0.8412
+    },
+    {
+      "name": "Rounding Ad}. :",
+      "price": "0.02",
+      "confidence": 0.8163
+    },
+    {
+      "name": "SR @ 6 %",
+      "price": "49.50",
+      "confidence": 0.8689
+    }
+  ],
+  "total_amount": {
+    "value": "52.45",
+    "confidence": 0.9503,
+    "flag": false,
+    "reason": null
+  }
+}

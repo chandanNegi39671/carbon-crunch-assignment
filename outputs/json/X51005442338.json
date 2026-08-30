@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "Ho:iss",
+    "confidence": 0.6228,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "18/03/18",
+    "confidence": 0.6228,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "07-38",
+      "confidence": 0.4963
+    },
+    {
+      "name": "VECETABLES",
+      "price": "2.20",
+      "confidence": 0.7495
+    },
+    {
+      "name": "LTK ONFGA PLUS WS",
+      "price": "5.70",
+      "confidence": 0.7003
+    },
+    {
+      "name": "3EAFGIQD",
+      "price": "8.50",
+      "confidence": 0.7156
+    },
+    {
+      "name": "TL:R",
+      "price": "28.60",
+      "confidence": 0.7459
+    },
+    {
+      "name": "(863)",
+      "price": "0.07",
+      "confidence": 0.7775
+    },
+    {
+      "name": "1 VEGETABLES",
+      "price": "4.00",
+      "confidence": 0.6433
+    }
+  ],
+  "total_amount": {
+    "value": "420",
+    "confidence": 0.3228,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

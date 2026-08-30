@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "318 03054.",
+    "confidence": 0.4242,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "23-33-53",
+    "confidence": 0.4242,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "9555221300282 2X",
+      "price": "6.50",
+      "confidence": 0.8762
+    },
+    {
+      "name": "KE",
+      "price": "23-33",
+      "confidence": 0.5637
+    },
+    {
+      "name": "9074333 1X",
+      "price": "1.90",
+      "confidence": 0.8688
+    }
+  ],
+  "total_amount": {
+    "value": "14.90",
+    "confidence": 0.9242,
+    "flag": false,
+    "reason": null
+  }
+}

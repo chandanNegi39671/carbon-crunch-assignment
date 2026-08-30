@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "02?2",
+    "confidence": 0.3479,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "13/03/2018",
+    "confidence": 0.8479,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "07-26",
+      "confidence": 0.388
+    },
+    {
+      "name": "8738 2-3/4\" 12PCS 40oser HOLLOW 2 PUNCH",
+      "price": "47.17",
+      "confidence": 0.6853
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.8725
+    },
+    {
+      "name": "Roundlrg",
+      "price": "0.02",
+      "confidence": 0.8942
+    }
+  ],
+  "total_amount": {
+    "value": "95.17",
+    "confidence": 0.8479,
+    "flag": false,
+    "reason": null
+  }
+}

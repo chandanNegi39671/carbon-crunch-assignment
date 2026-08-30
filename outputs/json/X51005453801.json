@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "3180303",
+    "confidence": 0.3887,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "20/03/2012 13:01",
+    "confidence": 0.8887,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "§.0080R8 ¥",
+      "price": "17.00",
+      "confidence": 0.7658
+    },
+    {
+      "name": "Payment",
+      "price": "102.00",
+      "confidence": 0.8367
+    },
+    {
+      "name": "SR 96",
+      "price": "5.77",
+      "confidence": 0.7387
+    }
+  ],
+  "total_amount": {
+    "value": "102.00",
+    "confidence": 0.8887,
+    "flag": false,
+    "reason": null
+  }
+}

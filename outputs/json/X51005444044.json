@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "99 SPEED MORT S/B (519537-X)",
+    "confidence": 0.6919,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "10-03-18",
+    "confidence": 0.3919,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "LOT P",
+      "price": "7. 28",
+      "confidence": 0.527
+    },
+    {
+      "name": "02:27PH",
+      "price": "10-03",
+      "confidence": 0.5244
+    },
+    {
+      "name": "= by",
+      "price": "5.05",
+      "confidence": 0.682
+    }
+  ],
+  "total_amount": {
+    "value": "5.35",
+    "confidence": 0.8919,
+    "flag": false,
+    "reason": null
+  }
+}

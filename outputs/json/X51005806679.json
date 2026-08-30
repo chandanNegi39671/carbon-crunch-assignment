@@ -1,0 +1,92 @@
+{
+  "store_name": {
+    "value": "LEE WAH FLORIST SDN BHD",
+    "confidence": 0.7067,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "92/02/2018",
+    "confidence": 0.6067,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-20",
+      "confidence": 0.4125
+    },
+    {
+      "name": "1015 I",
+      "price": "2.40",
+      "confidence": 0.7235
+    },
+    {
+      "name": "1012 34.0j 33",
+      "price": "144.16",
+      "confidence": 0.7405
+    },
+    {
+      "name": "1145",
+      "price": "98.00",
+      "confidence": 0.712
+    },
+    {
+      "name": "1037 6 Co",
+      "price": "6.36",
+      "confidence": 0.8389
+    },
+    {
+      "name": "1050 3 E0",
+      "price": "3.71",
+      "confidence": 0.7943
+    },
+    {
+      "name": "1097 4",
+      "price": "6.54",
+      "confidence": 0.7492
+    },
+    {
+      "name": "1098",
+      "price": "4.77",
+      "confidence": 0.8062
+    },
+    {
+      "name": "1006",
+      "price": "22.00",
+      "confidence": 0.8028
+    },
+    {
+      "name": "2748 12.0]",
+      "price": "12.72",
+      "confidence": 0.8047
+    },
+    {
+      "name": "Trolal Qly:",
+      "price": "374.78",
+      "confidence": 0.7338
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.8797
+    },
+    {
+      "name": "Rounding",
+      "price": "0.02",
+      "confidence": 0.865
+    },
+    {
+      "name": "SR 353.0C",
+      "price": "21.18",
+      "confidence": 0.8105
+    }
+  ],
+  "total_amount": {
+    "value": "353.00",
+    "confidence": 0.9067,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "TEL: 03-91334364 FAX: 03-91310522",
+    "confidence": 0.7338,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "30/05/2017 10:18:02 AM",
+    "confidence": 0.7338,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "03-91",
+      "confidence": 0.5289
+    },
+    {
+      "name": "m Count: 4 Ttem Qty:",
+      "price": "5.00",
+      "confidence": 0.8475
+    },
+    {
+      "name": "SR 6 %0",
+      "price": "17.75",
+      "confidence": 0.8199
+    }
+  ],
+  "total_amount": {
+    "value": "18.80",
+    "confidence": 0.9338,
+    "flag": false,
+    "reason": null
+  }
+}

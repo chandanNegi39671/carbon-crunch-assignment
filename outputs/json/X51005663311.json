@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "21% 02013:",
+    "confidence": 0.4329,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "09/02/2018",
+    "confidence": 0.9329,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel & Fax No",
+      "price": "03-62",
+      "confidence": 0.5533
+    }
+  ],
+  "total_amount": {
+    "value": "700",
+    "confidence": 0.6329,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

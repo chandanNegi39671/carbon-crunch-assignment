@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "EVERGREEN LIGHT SDN BHD",
+    "confidence": 0.6584,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TELFAX:",
+      "price": "03-80",
+      "confidence": 0.4625
+    },
+    {
+      "name": "EDDIE #",
+      "price": "01-01",
+      "confidence": 0.4735
+    },
+    {
+      "name": "11598",
+      "price": "13.27",
+      "confidence": 0.8167
+    },
+    {
+      "name": "Tobl OBT(E}",
+      "price": "3.17",
+      "confidence": 0.6682
+    },
+    {
+      "name": "ROUNDINGADJUBT ~",
+      "price": "0.01",
+      "confidence": 0.7796
+    }
+  ],
+  "total_amount": {
+    "value": "1",
+    "confidence": 0.5584,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

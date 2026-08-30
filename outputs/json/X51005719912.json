@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "Berea BAe fen Sen Ba",
+    "confidence": 0.6989,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "04/03/18",
+    "confidence": 0.6989,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "03-62",
+      "confidence": 0.5092
+    },
+    {
+      "name": "121095079 GDN MC HN ENC  RO",
+      "price": "5.90",
+      "confidence": 0.7463
+    },
+    {
+      "name": "121095081 GDN NC H/W N/DREAH",
+      "price": "5.90",
+      "confidence": 0.7751
+    },
+    {
+      "name": "121095081 GDN MC H/W N/DREAH =",
+      "price": "5.90",
+      "confidence": 0.6994
+    },
+    {
+      "name": "P3 KIP 6 HM",
+      "price": "11.60",
+      "confidence": 0.7039
+    },
+    {
+      "name": "YOUR SAVINGS FOR TODAY",
+      "price": "11.60",
+      "confidence": 0.836
+    },
+    {
+      "name": "0 6x",
+      "price": "11.32",
+      "confidence": 0.6977
+    }
+  ],
+  "total_amount": {
+    "value": "12.00",
+    "confidence": 0.8989,
+    "flag": false,
+    "reason": null
+  }
+}

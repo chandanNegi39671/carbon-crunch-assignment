@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "<w )",
+    "confidence": 0.7048,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "25-01-2018",
+    "confidence": 0.9048,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "03-78",
+      "confidence": 0.5318
+    },
+    {
+      "name": "Date",
+      "price": "25-01",
+      "confidence": 0.4825
+    },
+    {
+      "name": "lx",
+      "price": "35.00",
+      "confidence": 0.798
+    },
+    {
+      "name": "10",
+      "price": "6. 25",
+      "confidence": 0.4317
+    },
+    {
+      "name": "lx",
+      "price": "108.00",
+      "confidence": 0.798
+    },
+    {
+      "name": "SR (@ 6%) 193",
+      "price": "11.63",
+      "confidence": 0.8207
+    }
+  ],
+  "total_amount": {
+    "value": "7",
+    "confidence": 0.6048,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "3",
+    "confidence": 0.4295,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "13/01/2018",
+    "confidence": 0.9295,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5151
+    },
+    {
+      "name": "Casnier USER Time",
+      "price": "53.00",
+      "confidence": 0.8569
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8775
+    },
+    {
+      "name": "SR",
+      "price": "6.00",
+      "confidence": 0.832
+    }
+  ],
+  "total_amount": {
+    "value": "36",
+    "confidence": 0.6295,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

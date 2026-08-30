@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "NYONYA COLORS @ 1 UTAMA",
+    "confidence": 0.7189,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "18-03-2018 11:23",
+    "confidence": 0.4189,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "KUIH KETAYAP R",
+      "price": "2. 70",
+      "confidence": 0.5655
+    },
+    {
+      "name": "ONDEH ONDEH R",
+      "price": "2.95",
+      "confidence": 0.835
+    },
+    {
+      "name": "YELLOW LAKSA R",
+      "price": "11.60",
+      "confidence": 0.845
+    },
+    {
+      "name": "YELLOW LAKSA R",
+      "price": "11.60",
+      "confidence": 0.845
+    },
+    {
+      "name": "CHEE CHEONG FUN (SOS) = R",
+      "price": "7. 20",
+      "confidence": 0.4706
+    }
+  ],
+  "total_amount": {
+    "value": "53.60",
+    "confidence": 0.7189,
+    "flag": false,
+    "reason": null
+  }
+}

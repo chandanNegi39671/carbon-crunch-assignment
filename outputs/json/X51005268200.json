@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "ISE (SETIA",
+    "confidence": 0.6334,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "20\" 1.6KG X SOOMM «= 1 BIG SIRETCH",
+      "price": "15.00",
+      "confidence": 0.6354
+    },
+    {
+      "name": "DISC",
+      "price": "9.00",
+      "confidence": 0.78
+    },
+    {
+      "name": "ROUNDING",
+      "price": "0.00",
+      "confidence": 0.8625
+    },
+    {
+      "name": "S",
+      "price": "14.15",
+      "confidence": 0.845
+    }
+  ],
+  "total_amount": {
+    "value": "15.00",
+    "confidence": 0.8334,
+    "flag": false,
+    "reason": null
+  }
+}

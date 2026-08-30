@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "31803033",
+    "confidence": 0.4007,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "12-03-18 14:37",
+    "confidence": 0.4007,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "PYEDRAIN CLOG FREE CLORO",
+      "price": "2 - 10",
+      "confidence": 0.52
+    },
+    {
+      "name": "WAO",
+      "price": "5 - 12",
+      "confidence": 0.5117
+    },
+    {
+      "name": "9556268000210 3X",
+      "price": "15.00",
+      "confidence": 0.815
+    },
+    {
+      "name": "CARD R",
+      "price": "45.00",
+      "confidence": 0.875
+    }
+  ],
+  "total_amount": {
+    "value": "45.00",
+    "confidence": 0.9007,
+    "flag": false,
+    "reason": null
+  }
+}

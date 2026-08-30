@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "L TWO FLORIST & HANDICRAFT",
+    "confidence": 0.7592,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "21/03/2018",
+    "confidence": 0.9592,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "012-32",
+      "confidence": 0.5998
+    },
+    {
+      "name": "SALESPERSON: 001 TIME:",
+      "price": "11.01",
+      "confidence": 0.8808
+    },
+    {
+      "name": "NE3555",
+      "price": "1.00",
+      "confidence": 0.8781
+    },
+    {
+      "name": "SB/01-3",
+      "price": "7.00",
+      "confidence": 0.7775
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.8967
+    },
+    {
+      "name": "ROUNDING",
+      "price": "0.00",
+      "confidence": 0.899
+    }
+  ],
+  "total_amount": {
+    "value": "12",
+    "confidence": 0.6592,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "See to uin bock 51000 id of recelet 7NsnIvixcqdq for your chance",
+    "confidence": 0.6243,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "04/27/19 12:69:46",
+    "confidence": 0.3243,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "HRRD/PROV/oc ACK TCL CHS BARS 003120506 26F F F",
+      "price": "5.88",
+      "confidence": 0.7271
+    },
+    {
+      "name": "BTS AVO ROLLS PEANUT DRY VERDE LT BUTTR BLON SWT 007874219415 601072452746 061611 004 F",
+      "price": "2.98",
+      "confidence": 0.7977
+    },
+    {
+      "name": "GALE TR HS FRM 4 002240062190 000! 0003K",
+      "price": "32.00",
+      "confidence": 0.7687
+    },
+    {
+      "name": "GV SLIDERS 007874201525 001376402801 F",
+      "price": "2.98",
+      "confidence": 0.835
+    },
+    {
+      "name": "ACCESSORY",
+      "price": "0.97",
+      "confidence": 0.8087
+    },
+    {
+      "name": "CHEEZE IT",
+      "price": "4.00",
+      "confidence": 0.8385
+    },
+    {
+      "name": "WAS",
+      "price": "4.54",
+      "confidence": 0.853
+    },
+    {
+      "name": "TCI",
+      "price": "0783.60",
+      "confidence": 0.6069
+    },
+    {
+      "name": "RITZ 004400088210 F",
+      "price": "2.78",
+      "confidence": 0.824
+    }
+  ],
+  "total_amount": {
+    "value": "144.02",
+    "confidence": 0.6243,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

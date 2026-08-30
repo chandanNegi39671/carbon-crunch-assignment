@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Lot 1626, Mukim Kampung Laut",
+    "confidence": 0.7359,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "24-03-2018 22:02:55",
+    "confidence": 0.4359,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Transaction No:",
+      "price": "1-80",
+      "confidence": 0.5827
+    },
+    {
+      "name": "Customer Service",
+      "price": "1-30",
+      "confidence": 0.5417
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

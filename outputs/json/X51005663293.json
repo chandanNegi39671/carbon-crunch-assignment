@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "2, 1802013",
+    "confidence": 0.4298,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "14-02-2018 13:02:42",
+    "confidence": 0.6298,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Date",
+      "price": "14-02",
+      "confidence": 0.534
+    },
+    {
+      "name": "1x",
+      "price": "12.58",
+      "confidence": 0.8375
+    },
+    {
+      "name": "1x",
+      "price": "3.60",
+      "confidence": 0.8375
+    },
+    {
+      "name": "1 X",
+      "price": "4.90",
+      "confidence": 0.8224
+    },
+    {
+      "name": "1 X",
+      "price": "9.90",
+      "confidence": 0.8224
+    },
+    {
+      "name": "Closed:",
+      "price": "14-02",
+      "confidence": 0.5719
+    },
+    {
+      "name": "SR (@ 6%)",
+      "price": "28.58",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": "4",
+    "confidence": 0.6298,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

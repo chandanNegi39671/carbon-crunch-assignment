@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Hlozns",
+    "confidence": 0.6624,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "23/03/2018 9:34:40 AM",
+    "confidence": 0.6624,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "GILL",
+      "price": "18550 - 38",
+      "confidence": 0.5006
+    }
+  ],
+  "total_amount": {
+    "value": "1000",
+    "confidence": 0.5624,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

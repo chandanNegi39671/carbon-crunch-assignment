@@ -1,0 +1,82 @@
+{
+  "store_name": {
+    "value": "DollaR TnEe StoRes, Inc .",
+    "confidence": 0.7783,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "2/20/14 19:52",
+    "confidence": 0.5783,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "Storer 4561 (305)",
+      "price": "835-82",
+      "confidence": 0.4745
+    },
+    {
+      "name": "Fimdi FL",
+      "price": "33147-49",
+      "confidence": 0.4044
+    },
+    {
+      "name": "CLIF BAR P3",
+      "price": "1.00",
+      "confidence": 0.7382
+    },
+    {
+      "name": "CLIF Bar P3",
+      "price": "1.00",
+      "confidence": 0.66
+    },
+    {
+      "name": "SLICED PEPPERONI3Z",
+      "price": "1.00",
+      "confidence": 0.7547
+    },
+    {
+      "name": "CONDITIONE",
+      "price": "1.00",
+      "confidence": 0.6968
+    },
+    {
+      "name": "GINSENG Ta3 sooMG",
+      "price": "1.00",
+      "confidence": 0.6442
+    },
+    {
+      "name": "GINSENG Ta3 soohg",
+      "price": "1.00",
+      "confidence": 0.824
+    },
+    {
+      "name": "ScRu Sponse",
+      "price": "1.00",
+      "confidence": 0.6153
+    },
+    {
+      "name": "GZNERAL EXEH S",
+      "price": "0.00",
+      "confidence": 0.7172
+    },
+    {
+      "name": "C-IANGE",
+      "price": "6-10",
+      "confidence": 0.4957
+    },
+    {
+      "name": "Whare Evervthing\"",
+      "price": "1.00",
+      "confidence": 0.6924
+    }
+  ],
+  "total_amount": {
+    "value": "0",
+    "confidence": 0.4783,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

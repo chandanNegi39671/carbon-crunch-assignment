@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "3-1707067",
+    "confidence": 0.4416,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "01-03-18",
+    "confidence": 0.6416,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "03-89",
+      "confidence": 0.5861
+    },
+    {
+      "name": "Date",
+      "price": "01-03",
+      "confidence": 0.5903
+    },
+    {
+      "name": "Printed Date",
+      "price": "01-03",
+      "confidence": 0.5258
+    },
+    {
+      "name": "5",
+      "price": "4.00",
+      "confidence": 0.8987
+    },
+    {
+      "name": "Rounding Adj. :",
+      "price": "0.00",
+      "confidence": 0.8675
+    },
+    {
+      "name": "SR @ 6%",
+      "price": "20.00",
+      "confidence": 0.8517
+    }
+  ],
+  "total_amount": {
+    "value": "20.00",
+    "confidence": 0.9416,
+    "flag": false,
+    "reason": null
+  }
+}

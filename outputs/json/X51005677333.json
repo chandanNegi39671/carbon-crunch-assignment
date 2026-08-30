@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "2 LROdOIG. 7",
+    "confidence": 0.7469,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "31/01/2018",
+    "confidence": 0.9469,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5428
+    },
+    {
+      "name": "3122",
+      "price": "29.68",
+      "confidence": 0.8833
+    },
+    {
+      "name": "3383 10 3",
+      "price": "31.80",
+      "confidence": 0.8977
+    },
+    {
+      "name": "1512 10",
+      "price": "10.60",
+      "confidence": 0.8522
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.8936
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.88
+    }
+  ],
+  "total_amount": {
+    "value": "101.76",
+    "confidence": 0.9469,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "3180207",
+    "confidence": 0.4141,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "25-03-18 18:47",
+    "confidence": 0.4141,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "WA",
+      "price": "10 - 12",
+      "confidence": 0.5583
+    },
+    {
+      "name": "9555493002853 ]",
+      "price": "26.90",
+      "confidence": 0.8437
+    },
+    {
+      "name": "JD",
+      "price": "52-63",
+      "confidence": 0.5799
+    },
+    {
+      "name": "9034713 1 X",
+      "price": "23.90",
+      "confidence": 0.855
+    }
+  ],
+  "total_amount": {
+    "value": "50.80",
+    "confidence": 0.9141,
+    "flag": false,
+    "reason": null
+  }
+}

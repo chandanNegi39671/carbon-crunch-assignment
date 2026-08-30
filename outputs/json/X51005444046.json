@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "55100 Kuala Lumpur",
+    "confidence": 0.7515,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "25/03/18",
+    "confidence": 0.7515,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "1800001501",
+      "price": "1.59",
+      "confidence": 0.8538
+    },
+    {
+      "name": "200033100148002149",
+      "price": "6.92",
+      "confidence": 0.795
+    },
+    {
+      "name": "204010800259005280",
+      "price": "4.91",
+      "confidence": 0.7775
+    },
+    {
+      "name": "1810064501",
+      "price": "8.60",
+      "confidence": 0.8237
+    },
+    {
+      "name": "1810078202",
+      "price": "7.50",
+      "confidence": 0.8287
+    },
+    {
+      "name": "1810061602 5 90*4",
+      "price": "23.60",
+      "confidence": 0.8694
+    },
+    {
+      "name": "S = 6%",
+      "price": "0.00",
+      "confidence": 0.844
+    },
+    {
+      "name": "Z = 0%",
+      "price": "66.17",
+      "confidence": 0.789
+    }
+  ],
+  "total_amount": {
+    "value": "17",
+    "confidence": 0.6515,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

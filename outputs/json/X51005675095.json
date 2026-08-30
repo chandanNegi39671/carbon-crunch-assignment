@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "3 ' 8 0 0 7",
+    "confidence": 0.3638,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "14/01/2018",
+    "confidence": 0.8638,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "08-62",
+      "confidence": 0.31
+    },
+    {
+      "name": "Parking Fee Rate A R",
+      "price": "4. 00",
+      "confidence": 0.5275
+    }
+  ],
+  "total_amount": {
+    "value": "0",
+    "confidence": 0.5638,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

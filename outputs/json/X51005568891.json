@@ -1,0 +1,97 @@
+{
+  "store_name": {
+    "value": "Company Reg: Na; 001056194X",
+    "confidence": 0.7381,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "08/02/2017 3:43:01 PM",
+    "confidence": 0.7381,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "+",
+      "price": "603-91",
+      "confidence": 0.5683
+    },
+    {
+      "name": "2 1 TOWEL ROD",
+      "price": "6.00",
+      "confidence": 0.8421
+    },
+    {
+      "name": "2 314\" TOWEL ROD",
+      "price": "4.00",
+      "confidence": 0.7887
+    },
+    {
+      "name": "§ ROD",
+      "price": "4.00",
+      "confidence": 0.8212
+    },
+    {
+      "name": "4 3/4\"TOWEL ROD §50",
+      "price": "22.00",
+      "confidence": 0.76
+    },
+    {
+      "name": "25MMX 10 WALL PLUG",
+      "price": "3.50",
+      "confidence": 0.8205
+    },
+    {
+      "name": "SANDFLEX SAW",
+      "price": "4.50",
+      "confidence": 0.8483
+    },
+    {
+      "name": "SCREW",
+      "price": "7.00",
+      "confidence": 0.8868
+    },
+    {
+      "name": "5 3/4\"V BRACKET",
+      "price": "1.50",
+      "confidence": 0.7984
+    },
+    {
+      "name": "6 1\" SSTEEL ROD",
+      "price": "15.80",
+      "confidence": 0.834
+    },
+    {
+      "name": "Item Discount",
+      "price": "0.00",
+      "confidence": 0.8367
+    },
+    {
+      "name": "17 3/4\" ALUMINIUM ROD",
+      "price": "5.80",
+      "confidence": 0.8371
+    },
+    {
+      "name": "Discount:",
+      "price": "0.90",
+      "confidence": 0.82
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0.00",
+      "confidence": 0.88
+    },
+    {
+      "name": "SR S",
+      "price": "261.32",
+      "confidence": 0.8455
+    }
+  ],
+  "total_amount": {
+    "value": "277.90",
+    "confidence": 0.9381,
+    "flag": false,
+    "reason": null
+  }
+}

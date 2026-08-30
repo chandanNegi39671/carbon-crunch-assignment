@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "THREE STOOGES",
+    "confidence": 0.7305,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "03/03/2018",
+    "confidence": 0.9305,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "SVC SERVICE CHARGE",
+      "price": "150.00",
+      "confidence": 0.8533
+    }
+  ],
+  "total_amount": {
+    "value": "114.9",
+    "confidence": 0.9305,
+    "flag": false,
+    "reason": null
+  }
+}

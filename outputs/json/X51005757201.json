@@ -1,0 +1,87 @@
+{
+  "store_name": {
+    "value": "ary SRU FLR, CO. (M) BHD, TAMAN (126926-H) HALURT SC",
+    "confidence": 0.6819,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "28/02/2018 20:11",
+    "confidence": 0.6819,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "1x",
+      "price": "16.90",
+      "confidence": 0.8167
+    },
+    {
+      "name": "1x",
+      "price": "10.45",
+      "confidence": 0.8167
+    },
+    {
+      "name": "Ix",
+      "price": "7 . 90",
+      "confidence": 0.4415
+    },
+    {
+      "name": "1x",
+      "price": "8.90",
+      "confidence": 0.8167
+    },
+    {
+      "name": "DISC 10%",
+      "price": "48.91",
+      "confidence": 0.8225
+    },
+    {
+      "name": "1x",
+      "price": "7.30",
+      "confidence": 0.8167
+    },
+    {
+      "name": "1x",
+      "price": "2.50",
+      "confidence": 0.8167
+    },
+    {
+      "name": "OISC 10%",
+      "price": "42.25",
+      "confidence": 0.8075
+    },
+    {
+      "name": "OISC 41% @",
+      "price": "11.16",
+      "confidence": 0.755
+    },
+    {
+      "name": "Ix",
+      "price": "0.20",
+      "confidence": 0.7415
+    },
+    {
+      "name": "Item Count 12 Charye Ant",
+      "price": "11.05",
+      "confidence": 0.7825
+    },
+    {
+      "name": "SR # 6%",
+      "price": "83.93",
+      "confidence": 0.801
+    },
+    {
+      "name": "TEL",
+      "price": "1-30",
+      "confidence": 0.5267
+    }
+  ],
+  "total_amount": {
+    "value": "88.97",
+    "confidence": 0.8819,
+    "flag": false,
+    "reason": null
+  }
+}

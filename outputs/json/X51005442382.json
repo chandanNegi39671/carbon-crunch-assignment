@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "Aozpi9",
+    "confidence": 0.6946,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "20 Mar 2018",
+    "confidence": 0.6946,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "56.60",
+    "confidence": 0.8946,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "RESTORAN IBRAHIM MAJU SB",
+    "confidence": 0.725,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "19/03/2018 03:43:44 PM",
+    "confidence": 0.925,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-87",
+      "confidence": 0.5267
+    },
+    {
+      "name": "INVOICE # :",
+      "price": "1-16",
+      "confidence": 0.5025
+    },
+    {
+      "name": "| MAKANAN",
+      "price": "2.30",
+      "confidence": 0.754
+    },
+    {
+      "name": "MAKANAN 1,40",
+      "price": "1.40",
+      "confidence": 0.7977
+    },
+    {
+      "name": "| MAKANAN",
+      "price": "1.60",
+      "confidence": 0.754
+    },
+    {
+      "name": "7=0%",
+      "price": "0.00",
+      "confidence": 0.8117
+    }
+  ],
+  "total_amount": {
+    "value": "5.30",
+    "confidence": 0.925,
+    "flag": false,
+    "reason": null
+  }
+}

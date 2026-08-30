@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "tan woon yann",
+    "confidence": 0.713,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "19/10/2018 20:49:59",
+    "confidence": 0.713,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "07-35",
+      "confidence": 0.5722
+    },
+    {
+      "name": "88888",
+      "price": "10.00",
+      "confidence": 0.83
+    },
+    {
+      "name": "62483",
+      "price": "55.90",
+      "confidence": 0.8475
+    },
+    {
+      "name": "ROUNDING ADJ........ ae",
+      "price": "0.01",
+      "confidence": 0.7062
+    }
+  ],
+  "total_amount": {
+    "value": "2",
+    "confidence": 0.613,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

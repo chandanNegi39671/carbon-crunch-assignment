@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "PrIMio",
+    "confidence": 0.7282,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "20/03/2018 3:20:16 PM",
+    "confidence": 0.9282,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Invoice No SS",
+      "price": "3-15",
+      "confidence": 0.5371
+    },
+    {
+      "name": "1 SR ENERGIZER",
+      "price": "13.40",
+      "confidence": 0.825
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.8775
+    },
+    {
+      "name": "S",
+      "price": "12.64",
+      "confidence": 0.8793
+    }
+  ],
+  "total_amount": {
+    "value": "13.40",
+    "confidence": 0.7282,
+    "flag": false,
+    "reason": null
+  }
+}

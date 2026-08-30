@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Ab302-",
+    "confidence": 0.6987,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "03 Mar 2018",
+    "confidence": 0.6987,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "03 Mar",
+      "price": "18.22",
+      "confidence": 0.7804
+    },
+    {
+      "name": "Nett Fotai:",
+      "price": "8.20",
+      "confidence": 0.7817
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.8987,
+    "flag": false,
+    "reason": null
+  }
+}

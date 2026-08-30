@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "MR. D.I.¥. (M) SDN BHD",
+    "confidence": 0.7346,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "28-03-18",
+    "confidence": 0.4346,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Jao",
+      "price": "1-04",
+      "confidence": 0.4561
+    },
+    {
+      "name": "9072363 1X",
+      "price": "29.90",
+      "confidence": 0.8425
+    },
+    {
+      "name": "6942131561408 1 X",
+      "price": "8 . 90",
+      "confidence": 0.4893
+    }
+  ],
+  "total_amount": {
+    "value": "38.80",
+    "confidence": 0.9346,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "PETRODELI ENIERPRISE",
+    "confidence": 0.7166,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "26/02/18",
+    "confidence": 0.7166,
+    "flag": false,
+    "reason": null
+  },
+  "items": [],
+  "total_amount": {
+    "value": "54",
+    "confidence": 0.6166,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

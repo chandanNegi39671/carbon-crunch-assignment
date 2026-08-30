@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "Kr, Dkgal Solaris",
+    "confidence": 0.7205,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "18-01-05 22:55:25",
+    "confidence": 0.4205,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "[Sales]",
+      "price": "2018-01",
+      "confidence": 0.485
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

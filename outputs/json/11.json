@@ -1,0 +1,82 @@
+{
+  "store_name": {
+    "value": "WHOLE",
+    "confidence": 0.733,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "x CAGE FREE ALL WHIT",
+      "price": "3.69",
+      "confidence": 0.85
+    },
+    {
+      "name": "BLACK BEANS",
+      "price": "1.29",
+      "confidence": 0.8662
+    },
+    {
+      "name": "\" Frozen Mansoes",
+      "price": "2.99",
+      "confidence": 0.8158
+    },
+    {
+      "name": "x Whole Strawberries",
+      "price": "2.99",
+      "confidence": 0.86
+    },
+    {
+      "name": "* OG LF COTTAGE CHEE",
+      "price": "3.49",
+      "confidence": 0.8629
+    },
+    {
+      "name": "* MAHI MAHI FILLETS",
+      "price": "8.99",
+      "confidence": 0.855
+    },
+    {
+      "name": "*VC $2 off (1) WC Fill",
+      "price": "2.00",
+      "confidence": 0.8286
+    },
+    {
+      "name": "California Harvest",
+      "price": "2.69",
+      "confidence": 0.8682
+    },
+    {
+      "name": "PLUMS BLACK CV",
+      "price": "2.15",
+      "confidence": 0.872
+    },
+    {
+      "name": "NHP SLICED OVEN RO",
+      "price": "3.99",
+      "confidence": 0.8625
+    },
+    {
+      "name": "NHP SLICED HICKORY",
+      "price": "3.99",
+      "confidence": 0.853
+    },
+    {
+      "name": "WT GALA APPLES OG",
+      "price": "3.26",
+      "confidence": 0.8258
+    }
+  ],
+  "total_amount": {
+    "value": "45.44",
+    "confidence": 0.733,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "FAIIO )",
+    "confidence": 0.6397,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "14-03-18 21:49",
+    "confidence": 0.3397,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "ADE 9064422 TRAILING = 24/360 SKT SGN+SP 2X",
+      "price": "1.50",
+      "confidence": 0.7214
+    },
+    {
+      "name": "955311446 |966 WA27 20 1 X",
+      "price": "22.40",
+      "confidence": 0.7996
+    },
+    {
+      "name": "fon",
+      "price": "14-03",
+      "confidence": 0.3189
+    }
+  ],
+  "total_amount": {
+    "value": "37.10",
+    "confidence": 0.8397,
+    "flag": false,
+    "reason": null
+  }
+}

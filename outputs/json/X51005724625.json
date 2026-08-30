@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "meb J6ho9",
+    "confidence": 0.7518,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "12/03/2018",
+    "confidence": 0.9518,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-87",
+      "confidence": 0.5463
+    },
+    {
+      "name": "101869",
+      "price": "60.00",
+      "confidence": 0.804
+    },
+    {
+      "name": "101756",
+      "price": "16.50",
+      "confidence": 0.789
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.8661
+    },
+    {
+      "name": "SR",
+      "price": "267.50",
+      "confidence": 0.804
+    }
+  ],
+  "total_amount": {
+    "value": "283.55",
+    "confidence": 0.9518,
+    "flag": false,
+    "reason": null
+  }
+}

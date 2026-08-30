@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "M216",
+    "confidence": 0.7024,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "24 Mzr",
+      "price": "18.23",
+      "confidence": 0.853
+    }
+  ],
+  "total_amount": {
+    "value": "9.20",
+    "confidence": 0.9024,
+    "flag": false,
+    "reason": null
+  }
+}

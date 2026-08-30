@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "Yozos 7",
+    "confidence": 0.6791,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "09/09/18 0:18",
+    "confidence": 0.6791,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "07-38",
+      "confidence": 0.5223
+    },
+    {
+      "name": "FAXINV: D",
+      "price": "01-15",
+      "confidence": 0.3338
+    },
+    {
+      "name": "GL STEWED PORK 266G Botan Ikan SARDIN",
+      "price": "6.80",
+      "confidence": 0.8105
+    },
+    {
+      "name": "09/09/18 0:18 #",
+      "price": "001-15",
+      "confidence": 0.3933
+    },
+    {
+      "name": "TELUR VEGETABLES GL BOTAN STEWED TABLES / IKAN TELUR PORK SARDIN NASIN 2566",
+      "price": "6.80",
+      "confidence": 0.7921
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

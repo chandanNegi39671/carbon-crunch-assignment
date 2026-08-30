@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "ADVANCO COMPANY",
+    "confidence": 0.7225,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "1 A27269",
+      "price": "6.20",
+      "confidence": 0.8497
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0.00",
+      "confidence": 0.7728
+    },
+    {
+      "name": "SR 6%",
+      "price": "6.60",
+      "confidence": 0.8676
+    }
+  ],
+  "total_amount": {
+    "value": "7.00",
+    "confidence": 0.9225,
+    "flag": false,
+    "reason": null
+  }
+}

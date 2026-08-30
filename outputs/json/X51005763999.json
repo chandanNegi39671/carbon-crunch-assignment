@@ -1,0 +1,77 @@
+{
+  "store_name": {
+    "value": "Mo",
+    "confidence": 0.6985,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "06 Jan 2018",
+    "confidence": 0.8985,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Date 06 Jan",
+      "price": "05.21",
+      "confidence": 0.7995
+    },
+    {
+      "name": "2 %",
+      "price": "9.90",
+      "confidence": 0.8166
+    },
+    {
+      "name": "1 *",
+      "price": "11.50",
+      "confidence": 0.7784
+    },
+    {
+      "name": "2x 4,51",
+      "price": "9.02",
+      "confidence": 0.7875
+    },
+    {
+      "name": "1x",
+      "price": "210.00",
+      "confidence": 0.8175
+    },
+    {
+      "name": "1x",
+      "price": "69.90",
+      "confidence": 0.8175
+    },
+    {
+      "name": "1x",
+      "price": "28.00",
+      "confidence": 0.8175
+    },
+    {
+      "name": "VISA xxxxxxxxxxnx7 118s",
+      "price": "674.00",
+      "confidence": 0.7087
+    },
+    {
+      "name": "Savings:RH",
+      "price": "1.60",
+      "confidence": 0.83
+    },
+    {
+      "name": "S @6.0Z",
+      "price": "234.63",
+      "confidence": 0.733
+    },
+    {
+      "name": "Z @0.0% 425.2",
+      "price": "6.00",
+      "confidence": 0.7987
+    }
+  ],
+  "total_amount": {
+    "value": "573.99",
+    "confidence": 0.8985,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "WANGSA MAJU (AEON BIG SHOPPING CENTER)",
+    "confidence": 0.9555,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "Invoice No RCP",
+      "price": "180228-01",
+      "confidence": 0.5786
+    },
+    {
+      "name": "1PCS",
+      "price": "4.10",
+      "confidence": 0.8737
+    },
+    {
+      "name": "S",
+      "price": "3.87",
+      "confidence": 0.855
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

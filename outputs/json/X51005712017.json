@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "(65351-M)",
+    "confidence": 0.7646,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "18/03/2018 23:02:16",
+    "confidence": 0.7646,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel No",
+      "price": "03-60",
+      "confidence": 0.5617
+    },
+    {
+      "name": "ORD #70 -REG #",
+      "price": "19- 18",
+      "confidence": 0.5675
+    },
+    {
+      "name": "L McChicken",
+      "price": "11.10",
+      "confidence": 0.852
+    },
+    {
+      "name": "~ 2 Smal] Cone",
+      "price": "2.00",
+      "confidence": 0.835
+    },
+    {
+      "name": "Guest Relations Center :",
+      "price": "1300-13",
+      "confidence": 0.567
+    }
+  ],
+  "total_amount": {
+    "value": "13.10",
+    "confidence": 0.9646,
+    "flag": false,
+    "reason": null
+  }
+}

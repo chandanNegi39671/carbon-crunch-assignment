@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "3 /812012",
+    "confidence": 0.4112,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "30 Dec 17",
+    "confidence": 0.4112,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "03-21",
+      "confidence": 0.5578
+    },
+    {
+      "name": "PINEAPPLE JUICE",
+      "price": "12.95",
+      "confidence": 0.8455
+    },
+    {
+      "name": "tostada CHIPS",
+      "price": "16.95",
+      "confidence": 0.7983
+    },
+    {
+      "name": "i CHP_BWL CK",
+      "price": "29.95",
+      "confidence": 0.829
+    },
+    {
+      "name": "MARG CK",
+      "price": "27.95",
+      "confidence": 0.8763
+    },
+    {
+      "name": "10% Srv Chg",
+      "price": "8.78",
+      "confidence": 0.8437
+    }
+  ],
+  "total_amount": {
+    "value": "102.39",
+    "confidence": 0.9112,
+    "flag": false,
+    "reason": null
+  }
+}

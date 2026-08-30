@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "A020Y7",
+    "confidence": 0.7143,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "12 Mar 2018",
+    "confidence": 0.7143,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "12 Mar",
+      "price": "18.19",
+      "confidence": 0.8983
+    }
+  ],
+  "total_amount": {
+    "value": "8.20",
+    "confidence": 0.9143,
+    "flag": false,
+    "reason": null
+  }
+}

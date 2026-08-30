@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "SUN WONG KUT SON BHO",
+    "confidence": 0.7179,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "21/02/18",
+    "confidence": 0.7179,
+    "flag": false,
+    "reason": null
+  },
+  "items": [],
+  "total_amount": {
+    "value": "17",
+    "confidence": 0.6179,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

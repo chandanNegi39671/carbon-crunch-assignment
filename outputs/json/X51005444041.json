@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "BLC",
+    "confidence": 0.7205,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "08/03/18",
+    "confidence": 0.7205,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "T:",
+      "price": "03-20",
+      "confidence": 0.5679
+    },
+    {
+      "name": "1430018201",
+      "price": "8.90",
+      "confidence": 0.864
+    },
+    {
+      "name": "9556001030290 5 80*1",
+      "price": "5.80",
+      "confidence": 0.816
+    },
+    {
+      "name": "9557305000118",
+      "price": "4.90",
+      "confidence": 0.8689
+    },
+    {
+      "name": "Pmpc (debit) 0012 App:",
+      "price": "81.00",
+      "confidence": 0.8508
+    },
+    {
+      "name": "S=6%",
+      "price": "28.86",
+      "confidence": 0.8667
+    },
+    {
+      "name": "BAT",
+      "price": "013019-30",
+      "confidence": 0.5313
+    }
+  ],
+  "total_amount": {
+    "value": "81.00",
+    "confidence": 0.9205,
+    "flag": false,
+    "reason": null
+  }
+}

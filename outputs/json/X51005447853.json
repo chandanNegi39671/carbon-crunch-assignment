@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "39 STEED MART S/8 (519537.X}",
+    "confidence": 0.6059,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "@S X R",
+      "price": "12.50",
+      "confidence": 0.8387
+    },
+    {
+      "name": "2508 YONGCHUN LOKAM HNDRN 4 = -RN",
+      "price": "79.00",
+      "confidence": 0.6512
+    },
+    {
+      "name": "@5 X R",
+      "price": "15.80",
+      "confidence": 0.795
+    },
+    {
+      "name": "2 = #",
+      "price": "141.50",
+      "confidence": 0.7465
+    },
+    {
+      "name": "2504 YORCCHUN ‘OMAN HNORN $ p",
+      "price": "62. 50",
+      "confidence": 0.2913
+    }
+  ],
+  "total_amount": {
+    "value": "141.58",
+    "confidence": 0.8059,
+    "flag": false,
+    "reason": null
+  }
+}

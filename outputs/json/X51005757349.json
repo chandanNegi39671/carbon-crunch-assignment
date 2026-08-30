@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "31803083",
+    "confidence": 0.43,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "03-58",
+      "confidence": 0.5125
+    },
+    {
+      "name": "FAX;",
+      "price": "03-58",
+      "confidence": 0.5125
+    },
+    {
+      "name": "Discount :",
+      "price": "0.00",
+      "confidence": 0.8583
+    }
+  ],
+  "total_amount": {
+    "value": "21.00",
+    "confidence": 0.93,
+    "flag": false,
+    "reason": null
+  }
+}

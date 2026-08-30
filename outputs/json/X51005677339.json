@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "BEYOND BROTHERS HARDWARE",
+    "confidence": 0.6799,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5829
+    },
+    {
+      "name": "USER Time",
+      "price": "11.14",
+      "confidence": 0.85
+    }
+  ],
+  "total_amount": {
+    "value": "3",
+    "confidence": 0.5799,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

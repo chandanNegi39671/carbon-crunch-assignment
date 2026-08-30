@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "tt yen 25, 40400 Shah Alam Selangor",
+    "confidence": 0.6877,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "4/02/2017 03:30:29",
+    "confidence": 0.8877,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Te]",
+      "price": "03-51",
+      "confidence": 0.4892
+    },
+    {
+      "name": "2901060611145",
+      "price": "2.00",
+      "confidence": 0.8398
+    },
+    {
+      "name": "0611213 Z *",
+      "price": "12.00",
+      "confidence": 0.783
+    },
+    {
+      "name": "290186051 ;206 10 1,.00",
+      "price": "10.00",
+      "confidence": 0.7532
+    },
+    {
+      "name": "9555023304655",
+      "price": "2.20",
+      "confidence": 0.8465
+    },
+    {
+      "name": "Totai",
+      "price": "85. 10",
+      "confidence": 0.4875
+    },
+    {
+      "name": "Gx'",
+      "price": "80.27",
+      "confidence": 0.6981
+    },
+    {
+      "name": "Your Totai Savings",
+      "price": "8.00",
+      "confidence": 0.8868
+    }
+  ],
+  "total_amount": {
+    "value": "85.10",
+    "confidence": 0.6877,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "3180304/",
+    "confidence": 0.4318,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "18-03-18 12:09",
+    "confidence": 0.4318,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "WA",
+      "price": "38 - 10",
+      "confidence": 0.555
+    },
+    {
+      "name": "9690059 2X",
+      "price": "3.30",
+      "confidence": 0.855
+    }
+  ],
+  "total_amount": {
+    "value": "6.60",
+    "confidence": 0.7318,
+    "flag": false,
+    "reason": null
+  }
+}

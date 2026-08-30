@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "tan woon yann",
+    "confidence": 0.7218,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "12-01-19 21:13",
+    "confidence": 0.4218,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "8970669 1X",
+      "price": "19.00",
+      "confidence": 0.8275
+    },
+    {
+      "name": "9066468 1X",
+      "price": "8.02",
+      "confidence": 0.865
+    },
+    {
+      "name": "9557031100236 1X",
+      "price": "3.02",
+      "confidence": 0.865
+    },
+    {
+      "name": "ROUNDING ADJUSTME} -R",
+      "price": "0.02",
+      "confidence": 0.8412
+    }
+  ],
+  "total_amount": {
+    "value": "33.92",
+    "confidence": 0.9218,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "—",
+    "confidence": 0.421,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "21/09/2017 10:20:37 AM",
+    "confidence": 0.721,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "+",
+      "price": "603-91",
+      "confidence": 0.5633
+    },
+    {
+      "name": "0.9 3/4\" ALUMINIUM ROD",
+      "price": "6.00",
+      "confidence": 0.85
+    },
+    {
+      "name": "5 PVC WALLPLUG",
+      "price": "1.00",
+      "confidence": 0.784
+    },
+    {
+      "name": "5.9 Type: 2 Tofal",
+      "price": "10.40",
+      "confidence": 0.863
+    },
+    {
+      "name": "Discount:",
+      "price": "0.00",
+      "confidence": 0.845
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0.00",
+      "confidence": 0.875
+    },
+    {
+      "name": "SR S",
+      "price": "9.81",
+      "confidence": 0.859
+    }
+  ],
+  "total_amount": {
+    "value": "10.40",
+    "confidence": 0.921,
+    "flag": false,
+    "reason": null
+  }
+}

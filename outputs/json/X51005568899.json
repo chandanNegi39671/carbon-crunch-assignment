@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "MR. D.I.¥. SON BHD",
+    "confidence": 0.7316,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "18-10-17 15:16",
+    "confidence": 0.4316,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "5.90",
+    "confidence": 0.7316,
+    "flag": false,
+    "reason": null
+  }
+}

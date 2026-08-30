@@ -1,0 +1,77 @@
+{
+  "store_name": {
+    "value": "NO.23 BATU 10, TAMAN SENTOSA",
+    "confidence": 0.6874,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "22/12/2017",
+    "confidence": 0.8874,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "9556231 /10048",
+      "price": "3.55",
+      "confidence": 0.789
+    },
+    {
+      "name": "9556127101331",
+      "price": "1.41",
+      "confidence": 0.8596
+    },
+    {
+      "name": "885019032072:",
+      "price": "1.42",
+      "confidence": 0.8645
+    },
+    {
+      "name": "385019932072;",
+      "price": "1.42",
+      "confidence": 0.8159
+    },
+    {
+      "name": "888800218851 ;",
+      "price": "2.30",
+      "confidence": 0.8649
+    },
+    {
+      "name": "96% 2 J0",
+      "price": "2.44",
+      "confidence": 0.7548
+    },
+    {
+      "name": "933067031- {0L +! JS (1",
+      "price": "2.74",
+      "confidence": 0.7514
+    },
+    {
+      "name": "Discount",
+      "price": "0.00",
+      "confidence": 0.8997
+    },
+    {
+      "name": "Rounding",
+      "price": "0.02",
+      "confidence": 0.9
+    },
+    {
+      "name": "ZRL 34:Cnde SR % Amt (R",
+      "price": "27.48",
+      "confidence": 0.7309
+    },
+    {
+      "name": "Tolal",
+      "price": "31.03",
+      "confidence": 0.8329
+    }
+  ],
+  "total_amount": {
+    "value": "32.69",
+    "confidence": 0.8874,
+    "flag": false,
+    "reason": null
+  }
+}

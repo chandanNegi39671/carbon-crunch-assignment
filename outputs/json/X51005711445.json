@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "RESTORAN WAN SHENG",
+    "confidence": 0.7602,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "12-03-2018 10:13:04",
+    "confidence": 0.6602,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "Date ;",
+      "price": "12-03",
+      "confidence": 0.5212
+    },
+    {
+      "name": "2x",
+      "price": "2.20",
+      "confidence": 0.8412
+    },
+    {
+      "name": "2 x",
+      "price": "1.10",
+      "confidence": 0.827
+    }
+  ],
+  "total_amount": {
+    "value": "6",
+    "confidence": 0.6602,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

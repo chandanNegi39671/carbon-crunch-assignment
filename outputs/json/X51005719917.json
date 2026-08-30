@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "Segambut Bahagia",
+    "confidence": 0.7624,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "9\"HT (BQ) 21 2P2C-R-:",
+      "price": "30 .30",
+      "confidence": 0.4481
+    },
+    {
+      "name": "9\"NYC (CP) 21 2P2C-R-:",
+      "price": "30 .30",
+      "confidence": 0.5275
+    },
+    {
+      "name": "Coupon Discount",
+      "price": "27.60",
+      "confidence": 0.8971
+    },
+    {
+      "name": "Payment",
+      "price": "50 .00",
+      "confidence": 0.5499
+    }
+  ],
+  "total_amount": {
+    "value": "33.00",
+    "confidence": 0.7624,
+    "flag": false,
+    "reason": null
+  }
+}

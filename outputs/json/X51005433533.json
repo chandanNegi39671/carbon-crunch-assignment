@@ -1,0 +1,87 @@
+{
+  "store_name": {
+    "value": "Fjo3oYi",
+    "confidence": 0.6958,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "09/03/2018",
+    "confidence": 0.8958,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "07-38",
+      "confidence": 0.4446
+    },
+    {
+      "name": "Item 10273 GA i01 Rly",
+      "price": "170.00",
+      "confidence": 0.7141
+    },
+    {
+      "name": "2547",
+      "price": "35.00",
+      "confidence": 0.7875
+    },
+    {
+      "name": "12133 G4 18 }",
+      "price": "7.50",
+      "confidence": 0.6954
+    },
+    {
+      "name": "10157 G#1*(",
+      "price": "5.50",
+      "confidence": 0.7659
+    },
+    {
+      "name": "12131 61 (8 '",
+      "price": "3.50",
+      "confidence": 0.6775
+    },
+    {
+      "name": "9555762615725 I14 (& |",
+      "price": "25.00",
+      "confidence": 0.7067
+    },
+    {
+      "name": "2226 Grllol",
+      "price": "6.00",
+      "confidence": 0.8182
+    },
+    {
+      "name": "3879 Gala",
+      "price": "1.00",
+      "confidence": 0.706
+    },
+    {
+      "name": "3880 Gnl?o |",
+      "price": "0.30",
+      "confidence": 0.7725
+    },
+    {
+      "name": "9685058800696",
+      "price": "8.00",
+      "confidence": 0.815
+    },
+    {
+      "name": "6891 GB180 |",
+      "price": "12.00",
+      "confidence": 0.8329
+    },
+    {
+      "name": "Rounding (RM)",
+      "price": "0.01",
+      "confidence": 0.895
+    }
+  ],
+  "total_amount": {
+    "value": "18.81",
+    "confidence": 0.8958,
+    "flag": false,
+    "reason": null
+  }
+}

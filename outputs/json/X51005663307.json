@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "YB 02014\"",
+    "confidence": 0.7485,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "09/02/2018 09:21:19 AM",
+    "confidence": 0.9485,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Invoice No. : T",
+      "price": "01-00",
+      "confidence": 0.535
+    },
+    {
+      "name": "5 PCS",
+      "price": "2.86",
+      "confidence": 0.8295
+    },
+    {
+      "name": "5 PCS",
+      "price": "2.86",
+      "confidence": 0.8295
+    },
+    {
+      "name": "2 PCS",
+      "price": "2.86",
+      "confidence": 0.8738
+    },
+    {
+      "name": "1BTL *",
+      "price": "7.42",
+      "confidence": 0.7883
+    },
+    {
+      "name": "2 PCS",
+      "price": "3.71",
+      "confidence": 0.8738
+    },
+    {
+      "name": "PCS",
+      "price": "2.33",
+      "confidence": 0.8295
+    },
+    {
+      "name": "PCS",
+      "price": "5.30",
+      "confidence": 0.8295
+    },
+    {
+      "name": "Rounding Adjustment :",
+      "price": "0.01",
+      "confidence": 0.8712
+    },
+    {
+      "name": "SR 6 %",
+      "price": "53.58",
+      "confidence": 0.8895
+    }
+  ],
+  "total_amount": {
+    "value": "56.80",
+    "confidence": 0.9485,
+    "flag": false,
+    "reason": null
+  }
+}

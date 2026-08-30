@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "cf)",
+    "confidence": 0.7658,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "02/03/2018",
+    "confidence": 0.9658,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "012-97",
+      "confidence": 0.5625
+    },
+    {
+      "name": "SALESPERSON TIME:",
+      "price": "09.43",
+      "confidence": 0.879
+    },
+    {
+      "name": "9555223500307",
+      "price": "2.33",
+      "confidence": 0.8987
+    },
+    {
+      "name": "SR:FEI YAN BRAND YOUNG CORN 425G (",
+      "price": "2.33",
+      "confidence": 0.8493
+    },
+    {
+      "name": "9557166110018",
+      "price": "2.00",
+      "confidence": 0.856
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.865
+    }
+  ],
+  "total_amount": {
+    "value": "26",
+    "confidence": 0.6658,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

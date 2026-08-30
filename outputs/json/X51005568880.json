@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "MR.D.1.¥(M)SDN BHD",
+    "confidence": 0.7251,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "3-04-06",
+    "confidence": 0.4251,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "TOILET BRUSH",
+      "price": "47-23",
+      "confidence": 0.4862
+    },
+    {
+      "name": "HDo",
+      "price": "3-04",
+      "confidence": 0.5088
+    },
+    {
+      "name": "KF",
+      "price": "12 - 12",
+      "confidence": 0.555
+    },
+    {
+      "name": "9071872 1X 1,60",
+      "price": "1.60",
+      "confidence": 0.8588
+    },
+    {
+      "name": "KH",
+      "price": "22 - 10",
+      "confidence": 0.565
+    },
+    {
+      "name": "6909906163102 1X",
+      "price": "3.30",
+      "confidence": 0.8688
+    },
+    {
+      "name": "KH",
+      "price": "12 - 10",
+      "confidence": 0.565
+    },
+    {
+      "name": "6909906163103 1X",
+      "price": "3.30",
+      "confidence": 0.8688
+    },
+    {
+      "name": "CK",
+      "price": "11-22",
+      "confidence": 0.5517
+    },
+    {
+      "name": "8720019 2X",
+      "price": "2.50",
+      "confidence": 0.8475
+    }
+  ],
+  "total_amount": {
+    "value": "15.90",
+    "confidence": 0.9251,
+    "flag": false,
+    "reason": null
+  }
+}

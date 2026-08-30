@@ -1,0 +1,72 @@
+{
+  "store_name": {
+    "value": "SIMPLIFIED TAX INVOICE",
+    "confidence": 0.7084,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TEL:",
+      "price": "03-42",
+      "confidence": 0.4867
+    },
+    {
+      "name": "SALESPERSON Cz TIME:",
+      "price": "12.09",
+      "confidence": 0.6905
+    },
+    {
+      "name": "930602",
+      "price": "3.00",
+      "confidence": 0.8567
+    },
+    {
+      "name": "9556492002837",
+      "price": "3.00",
+      "confidence": 0.809
+    },
+    {
+      "name": "940152",
+      "price": "3.49",
+      "confidence": 0.8444
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.8901
+    },
+    {
+      "name": "ROUNDING",
+      "price": "9.00",
+      "confidence": 0.845
+    },
+    {
+      "name": "MASTE",
+      "price": "46.20",
+      "confidence": 0.875
+    },
+    {
+      "name": "S",
+      "price": "20.94",
+      "confidence": 0.88
+    },
+    {
+      "name": "ZRL 24 oo",
+      "price": "0 . 00",
+      "confidence": 0.4517
+    }
+  ],
+  "total_amount": {
+    "value": "14",
+    "confidence": 0.6084,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

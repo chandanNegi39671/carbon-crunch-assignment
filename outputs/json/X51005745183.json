@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "P)",
+    "confidence": 0.663,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "22/02/2018 7:41:46 AM",
+    "confidence": 0.863,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "603-58",
+      "confidence": 0.5751
+    },
+    {
+      "name": "Invoice No",
+      "price": "0- 17",
+      "confidence": 0.3756
+    },
+    {
+      "name": "SR' 9566405112206",
+      "price": "5.80",
+      "confidence": 0.884
+    },
+    {
+      "name": "Dlscount:",
+      "price": "0.00",
+      "confidence": 0.7717
+    },
+    {
+      "name": "Dy",
+      "price": "0.00",
+      "confidence": 0.7
+    },
+    {
+      "name": "Master Card",
+      "price": "63.80",
+      "confidence": 0.8471
+    },
+    {
+      "name": "S",
+      "price": "6.00",
+      "confidence": 0.8767
+    }
+  ],
+  "total_amount": {
+    "value": "63.80",
+    "confidence": 0.863,
+    "flag": false,
+    "reason": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "tan woon yann",
+    "confidence": 0.6671,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "4916500153 lee",
+      "price": "3.11",
+      "confidence": 0.6788
+    },
+    {
+      "name": "KILéT’ ECO AUTO WASH &WAX EW",
+      "price": "1000- 11",
+      "confidence": 0.4607
+    },
+    {
+      "name": "955° 26 1X",
+      "price": "4.62",
+      "confidence": 0.752
+    },
+    {
+      "name": "079567600084 1X",
+      "price": "11.23",
+      "confidence": 0.76
+    },
+    {
+      "name": "9555651400385 1 X",
+      "price": "7.45",
+      "confidence": 0.761
+    },
+    {
+      "name": "ROUNDING ADJUSTMENT RN",
+      "price": "0.01",
+      "confidence": 0.8112
+    },
+    {
+      "name": "TUTAL ROUNDED R",
+      "price": "30.90",
+      "confidence": 0.85
+    }
+  ],
+  "total_amount": {
+    "value": "30.91",
+    "confidence": 0.8671,
+    "flag": false,
+    "reason": null
+  }
+}

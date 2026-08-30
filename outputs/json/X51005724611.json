@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "R",
+    "confidence": 0.4357,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "21/03/2078",
+    "confidence": 0.9357,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL :",
+      "price": "03-87",
+      "confidence": 0.5433
+    },
+    {
+      "name": "100139 17 00 18,02",
+      "price": "144.16",
+      "confidence": 0.8703
+    },
+    {
+      "name": "Discount :",
+      "price": "0.00",
+      "confidence": 0.83
+    },
+    {
+      "name": "SR 6 136",
+      "price": "8.16",
+      "confidence": 0.8885
+    }
+  ],
+  "total_amount": {
+    "value": "144.16",
+    "confidence": 0.9357,
+    "flag": false,
+    "reason": null
+  }
+}

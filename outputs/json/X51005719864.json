@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "oe",
+    "confidence": 0.7141,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "05/01/2018",
+    "confidence": 0.7141,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "03-62",
+      "confidence": 0.5153
+    },
+    {
+      "name": "0412638 2 14,90",
+      "price": "29.80",
+      "confidence": 0.8165
+    },
+    {
+      "name": "SR = 6%",
+      "price": "28.11",
+      "confidence": 0.7939
+    }
+  ],
+  "total_amount": {
+    "value": "2",
+    "confidence": 0.6141,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

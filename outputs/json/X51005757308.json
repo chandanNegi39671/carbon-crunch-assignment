@@ -1,0 +1,67 @@
+{
+  "store_name": {
+    "value": "31803045",
+    "confidence": 0.426,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "12-21-22",
+    "confidence": 0.426,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "RC",
+      "price": "22-32",
+      "confidence": 0.5981
+    },
+    {
+      "name": "9084134 1X",
+      "price": "1.90",
+      "confidence": 0.855
+    },
+    {
+      "name": "GB",
+      "price": "12-21",
+      "confidence": 0.5919
+    },
+    {
+      "name": "6935818350846 1X",
+      "price": "3.90",
+      "confidence": 0.87
+    },
+    {
+      "name": "HD",
+      "price": "03 - 36",
+      "confidence": 0.538
+    },
+    {
+      "name": "9084135 1 X",
+      "price": "1.90",
+      "confidence": 0.8507
+    },
+    {
+      "name": "9554100363103 1X",
+      "price": "11.90",
+      "confidence": 0.8663
+    },
+    {
+      "name": "9080456 1X",
+      "price": "1.70",
+      "confidence": 0.8525
+    },
+    {
+      "name": "$9999 1X",
+      "price": "0.20",
+      "confidence": 0.845
+    }
+  ],
+  "total_amount": {
+    "value": "21.59",
+    "confidence": 0.926,
+    "flag": false,
+    "reason": null
+  }
+}

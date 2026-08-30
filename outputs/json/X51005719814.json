@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "KIKU JAPANESE RESTAURANT",
+    "confidence": 0.7628,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "17/1/2018",
+    "confidence": 0.9628,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-41",
+      "confidence": 0.5998
+    },
+    {
+      "name": "Date 17/1/2018",
+      "price": "12.12",
+      "confidence": 0.8934
+    },
+    {
+      "name": "BENO2",
+      "price": "12.90",
+      "confidence": 0.834
+    },
+    {
+      "name": "Set10",
+      "price": "6.90",
+      "confidence": 0.8458
+    },
+    {
+      "name": "TS02 Kat",
+      "price": "9.90",
+      "confidence": 0.8583
+    },
+    {
+      "name": "Service Charge R",
+      "price": "0. 00",
+      "confidence": 0.56
+    },
+    {
+      "name": "Round ng Adjustment R",
+      "price": "0.00",
+      "confidence": 0.8523
+    }
+  ],
+  "total_amount": {
+    "value": "29.70",
+    "confidence": 0.9628,
+    "flag": false,
+    "reason": null
+  }
+}

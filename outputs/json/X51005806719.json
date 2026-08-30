@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "POSTED",
+    "confidence": 0.7064,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-89",
+      "confidence": 0.5523
+    },
+    {
+      "name": "KITO1",
+      "price": "19.81",
+      "confidence": 0.8167
+    },
+    {
+      "name": "Rounding :",
+      "price": "0.00",
+      "confidence": 0.7917
+    },
+    {
+      "name": "6",
+      "price": "59.43",
+      "confidence": 0.7298
+    }
+  ],
+  "total_amount": {
+    "value": "59.42",
+    "confidence": 0.9064,
+    "flag": false,
+    "reason": null
+  }
+}

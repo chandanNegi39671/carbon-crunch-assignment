@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "NO 183, Jalan Wangsa Delima 12,",
+    "confidence": 0.748,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "23/03/2018 3:13:19",
+    "confidence": 0.748,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "5",
+      "price": "11.00",
+      "confidence": 0.863
+    },
+    {
+      "name": "Item Discount",
+      "price": "0.20",
+      "confidence": 0.8588
+    },
+    {
+      "name": "27736",
+      "price": "29.00",
+      "confidence": 0.8914
+    },
+    {
+      "name": "Disc $.20 X 5",
+      "price": "1.00",
+      "confidence": 0.7752
+    },
+    {
+      "name": "Rounding Adj",
+      "price": "0.00",
+      "confidence": 0.8992
+    },
+    {
+      "name": "SR 6%",
+      "price": "78.30",
+      "confidence": 0.8306
+    }
+  ],
+  "total_amount": {
+    "value": "84.00",
+    "confidence": 0.948,
+    "flag": false,
+    "reason": null
+  }
+}

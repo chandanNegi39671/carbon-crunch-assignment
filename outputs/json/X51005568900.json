@@ -1,0 +1,27 @@
+{
+  "store_name": {
+    "value": "MR. D.I.Y. SDN BHD",
+    "confidence": 0.7263,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "28-12-17 18:52",
+    "confidence": 0.4263,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "6942131561507 1X",
+      "price": "9.90",
+      "confidence": 0.8488
+    }
+  ],
+  "total_amount": {
+    "value": "9.90",
+    "confidence": 0.7263,
+    "flag": false,
+    "reason": null
+  }
+}

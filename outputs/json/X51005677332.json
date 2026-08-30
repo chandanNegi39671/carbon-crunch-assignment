@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "3 ! 802,0/*6",
+    "confidence": 0.4233,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "12/01/2018",
+    "confidence": 0.9233,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5994
+    },
+    {
+      "name": "Rounding",
+      "price": "0.00",
+      "confidence": 0.88
+    }
+  ],
+  "total_amount": {
+    "value": "95",
+    "confidence": 0.6233,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

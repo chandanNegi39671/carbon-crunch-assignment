@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "PASARAYA BORONG PINTAR",
+    "confidence": 0.7459,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "14/02/2018",
+    "confidence": 0.7459,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "NO 19-G&",
+      "price": "19-18",
+      "confidence": 0.5383
+    },
+    {
+      "name": "14/02/2018",
+      "price": "5.37",
+      "confidence": 0.8776
+    },
+    {
+      "name": "1 WALK 1,45",
+      "price": "1.45",
+      "confidence": 0.8408
+    },
+    {
+      "name": "ZRL = 0 %",
+      "price": "1.45",
+      "confidence": 0.8502
+    }
+  ],
+  "total_amount": {
+    "value": "1.45",
+    "confidence": 0.9459,
+    "flag": false,
+    "reason": null
+  }
+}

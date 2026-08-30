@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "HUGO TRADING SDN BHD Tota",
+    "confidence": 0.7313,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "13/01/2018",
+    "confidence": 0.7313,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "13/01/2018",
+      "price": "11.44",
+      "confidence": 0.7725
+    },
+    {
+      "name": "2 PKT",
+      "price": "10.38",
+      "confidence": 0.8688
+    },
+    {
+      "name": "PkT 8",
+      "price": "17.74",
+      "confidence": 0.7919
+    }
+  ],
+  "total_amount": {
+    "value": "4.09",
+    "confidence": 0.9313,
+    "flag": false,
+    "reason": null
+  }
+}

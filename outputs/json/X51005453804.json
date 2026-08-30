@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "3180303",
+    "confidence": 0.4368,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "F Castoll",
+      "price": "187057.75",
+      "confidence": 0.8466
+    },
+    {
+      "name": "Paid Amount",
+      "price": "20.00",
+      "confidence": 0.88
+    },
+    {
+      "name": "Charge :",
+      "price": "8.00",
+      "confidence": 0.8133
+    }
+  ],
+  "total_amount": {
+    "value": "1290",
+    "confidence": 0.6368,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "store_name": {
+    "value": "(1125830-V)",
+    "confidence": 0.7256,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "28/03/2018 10:36:13",
+    "confidence": 0.7256,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "0025679 U 3x",
+      "price": "8 . 00",
+      "confidence": 0.4833
+    },
+    {
+      "name": "0025679 U Ix",
+      "price": "7. 00",
+      "confidence": 0.5437
+    },
+    {
+      "name": "PD",
+      "price": "3.20",
+      "confidence": 0.7733
+    },
+    {
+      "name": "0020323 PKT 1x",
+      "price": "1.00",
+      "confidence": 0.789
+    },
+    {
+      "name": "0020324 PKT 1x",
+      "price": "1.80",
+      "confidence": 0.836
+    },
+    {
+      "name": "Oty 6 Spac. Disc",
+      "price": "0.00",
+      "confidence": 0.839
+    },
+    {
+      "name": "Saving",
+      "price": "3.80",
+      "confidence": 0.8812
+    },
+    {
+      "name": "$(6%)",
+      "price": "28.30",
+      "confidence": 0.8317
+    }
+  ],
+  "total_amount": {
+    "value": "30.00",
+    "confidence": 0.9256,
+    "flag": false,
+    "reason": null
+  }
+}

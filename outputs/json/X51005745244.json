@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "Subway#42219-6 Phone 03-78870693",
+    "confidence": 0.7235,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "14/02/2018 11:13:31",
+    "confidence": 0.7235,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Subway#42219-6 Phone",
+      "price": "03-78",
+      "confidence": 0.4667
+    },
+    {
+      "name": "| (MY) EDV Mea] R",
+      "price": "11.90",
+      "confidence": 0.771
+    }
+  ],
+  "total_amount": {
+    "value": "11.90",
+    "confidence": 0.9235,
+    "flag": false,
+    "reason": null
+  }
+}

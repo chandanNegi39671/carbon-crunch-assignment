@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "IKEA Cheras",
+    "confidence": 0.6499,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "6",
+    "confidence": 0.5499,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

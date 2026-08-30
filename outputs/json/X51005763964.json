@@ -1,0 +1,47 @@
+{
+  "store_name": {
+    "value": "hide",
+    "confidence": 0.7265,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "06/01/2018",
+    "confidence": 0.9265,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL;",
+      "price": "012-97",
+      "confidence": 0.5012
+    },
+    {
+      "name": "SALESPERSON TIME:",
+      "price": "10.47",
+      "confidence": 0.8469
+    },
+    {
+      "name": "9555223500000",
+      "price": "2.58",
+      "confidence": 0.8914
+    },
+    {
+      "name": "DISC",
+      "price": "0.00",
+      "confidence": 0.8941
+    },
+    {
+      "name": "ROUNDING",
+      "price": "0.01",
+      "confidence": 0.8686
+    }
+  ],
+  "total_amount": {
+    "value": "24",
+    "confidence": 0.6265,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

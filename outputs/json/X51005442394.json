@@ -1,0 +1,21 @@
+{
+  "store_name": {
+    "value": "0 re ast 136",
+    "confidence": 0.6962,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "30 Mar 2018",
+    "confidence": 0.6962,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "items": [],
+  "total_amount": {
+    "value": "5",
+    "confidence": 0.5962,
+    "flag": true,
+    "reason": "unparsable_format"
+  }
+}

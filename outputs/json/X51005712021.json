@@ -1,0 +1,57 @@
+{
+  "store_name": {
+    "value": "HAPPY SNACKS ENTERPRISE",
+    "confidence": 0.7378,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "20/03/2018 1:11:38 PM",
+    "confidence": 0.9378,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "BiITNo~ : HPO",
+      "price": "1-18",
+      "confidence": 0.36
+    },
+    {
+      "name": "SK",
+      "price": "74.31",
+      "confidence": 0.6882
+    },
+    {
+      "name": "2 SR 9556296307411",
+      "price": "12.51",
+      "confidence": 0.8467
+    },
+    {
+      "name": "Totai",
+      "price": "26.82",
+      "confidence": 0.876
+    },
+    {
+      "name": "Rounding Adjustment:",
+      "price": "0.02",
+      "confidence": 0.8733
+    },
+    {
+      "name": "Amount To Be Paid :",
+      "price": "26.80",
+      "confidence": 0.8708
+    },
+    {
+      "name": "S",
+      "price": "6.00",
+      "confidence": 0.8892
+    }
+  ],
+  "total_amount": {
+    "value": "26.82",
+    "confidence": 0.7378,
+    "flag": false,
+    "reason": null
+  }
+}

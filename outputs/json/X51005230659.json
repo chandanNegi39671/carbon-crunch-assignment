@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "ENTERPRISE SDN BHD",
+    "confidence": 0.7235,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "08/01/2018",
+    "confidence": 0.7235,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel",
+      "price": "03-60",
+      "confidence": 0.4985
+    },
+    {
+      "name": "11:",
+      "price": "07.06",
+      "confidence": 0.7239
+    },
+    {
+      "name": "20X30 1KG i",
+      "price": "8.00",
+      "confidence": 0.764
+    },
+    {
+      "name": "G 6% Inciuded In Totel",
+      "price": "0.45",
+      "confidence": 0.7775
+    }
+  ],
+  "total_amount": {
+    "value": "8.00",
+    "confidence": 0.9235,
+    "flag": false,
+    "reason": null
+  }
+}

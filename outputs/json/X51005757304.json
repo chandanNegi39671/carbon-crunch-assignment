@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "2020z04y",
+    "confidence": 0.7041,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "20/03/2018 7:07pm",
+    "confidence": 0.4041,
+    "flag": true,
+    "reason": "unparsable_format"
+  },
+  "items": [
+    {
+      "name": "PHONE",
+      "price": "03-80",
+      "confidence": 0.5025
+    },
+    {
+      "name": "33",
+      "price": "2.00",
+      "confidence": 0.7809
+    }
+  ],
+  "total_amount": {
+    "value": "35.40",
+    "confidence": 0.9041,
+    "flag": false,
+    "reason": null
+  }
+}

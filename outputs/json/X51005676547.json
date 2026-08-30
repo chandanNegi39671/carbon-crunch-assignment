@@ -1,0 +1,32 @@
+{
+  "store_name": {
+    "value": "2 VOV\\O\\t, + ‘",
+    "confidence": 0.7365,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "13/01/2018",
+    "confidence": 0.9365,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-40",
+      "confidence": 0.5998
+    },
+    {
+      "name": "SR",
+      "price": "12.00",
+      "confidence": 0.877
+    }
+  ],
+  "total_amount": {
+    "value": "12.72",
+    "confidence": 0.9365,
+    "flag": false,
+    "reason": null
+  }
+}

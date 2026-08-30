@@ -1,0 +1,52 @@
+{
+  "store_name": {
+    "value": "LIGHTROOM GALLERY, SDN HD",
+    "confidence": 0.7217,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "20/11/2017",
+    "confidence": 0.9217,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel:",
+      "price": "03-33",
+      "confidence": 0.4609
+    },
+    {
+      "name": "Name ESWARAN",
+      "price": "012-63",
+      "confidence": 0.5517
+    },
+    {
+      "name": "*RM 18, 77 UNI",
+      "price": "2.25",
+      "confidence": 0.7633
+    },
+    {
+      "name": "Sub 'al",
+      "price": "37 . 55",
+      "confidence": 0.5298
+    },
+    {
+      "name": "CASII R",
+      "price": "39. 80",
+      "confidence": 0.5171
+    },
+    {
+      "name": "SR ZRYOS/EZ @ 6%",
+      "price": "37 . 55",
+      "confidence": 0.5243
+    }
+  ],
+  "total_amount": {
+    "value": "39.80",
+    "confidence": 0.7217,
+    "flag": false,
+    "reason": null
+  }
+}

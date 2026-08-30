@@ -1,0 +1,42 @@
+{
+  "store_name": {
+    "value": "SIN LIANHAP SDN BHD",
+    "confidence": 0.689,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "05/02/2018",
+    "confidence": 0.889,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-60",
+      "confidence": 0.508
+    },
+    {
+      "name": "tounding Adjustment :",
+      "price": "0.00",
+      "confidence": 0.81
+    },
+    {
+      "name": "Payent",
+      "price": "7.30",
+      "confidence": 0.8796
+    },
+    {
+      "name": "SR @6",
+      "price": "6.89",
+      "confidence": 0.775
+    }
+  ],
+  "total_amount": {
+    "value": "7.30",
+    "confidence": 0.889,
+    "flag": false,
+    "reason": null
+  }
+}

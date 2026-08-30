@@ -1,0 +1,77 @@
+{
+  "store_name": {
+    "value": "FASARAYA BORUNG SUPER SEVEN",
+    "confidence": 0.6496,
+    "flag": true,
+    "reason": "no_keyword_anchor"
+  },
+  "date": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  },
+  "items": [
+    {
+      "name": "TEL",
+      "price": "03-78",
+      "confidence": 0.4052
+    },
+    {
+      "name": "cary 1 000055 300UP(3)6KG *4 @63",
+      "price": "252.00",
+      "confidence": 0.6639
+    },
+    {
+      "name": "95562{16389892 #1",
+      "price": "53.50",
+      "confidence": 0.6867
+    },
+    {
+      "name": "AWANG BESAR [NDIA/CINA GUNT &",
+      "price": "8.50",
+      "confidence": 0.67
+    },
+    {
+      "name": "iT 1kG @",
+      "price": "19.50",
+      "confidence": 0.7017
+    },
+    {
+      "name": "55:,bijbsuu65*",
+      "price": "19.50",
+      "confidence": 0.5935
+    },
+    {
+      "name": "ART DAGING +t 1KG @17',20",
+      "price": "19.50",
+      "confidence": 0.6919
+    },
+    {
+      "name": "9640065000348 #1",
+      "price": "17.20",
+      "confidence": 0.6962
+    },
+    {
+      "name": "3654100157601 *]",
+      "price": "7.90",
+      "confidence": 0.7662
+    },
+    {
+      "name": "JR (08)",
+      "price": "359.20",
+      "confidence": 0.7575
+    },
+    {
+      "name": "Sk (6* }",
+      "price": "0.45",
+      "confidence": 0.7963
+    }
+  ],
+  "total_amount": {
+    "value": "",
+    "confidence": 0.0,
+    "flag": true,
+    "reason": "missing_field"
+  }
+}

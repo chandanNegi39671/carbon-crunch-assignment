@@ -1,0 +1,37 @@
+{
+  "store_name": {
+    "value": "CO. (M) SDN BHD",
+    "confidence": 0.7558,
+    "flag": false,
+    "reason": null
+  },
+  "date": {
+    "value": "29/03/18 13:24",
+    "confidence": 0.7558,
+    "flag": false,
+    "reason": null
+  },
+  "items": [
+    {
+      "name": "Tel :",
+      "price": "03-92",
+      "confidence": 0.555
+    },
+    {
+      "name": "2pe @ 3,50",
+      "price": "7.00",
+      "confidence": 0.835
+    },
+    {
+      "name": "R RING 500'S",
+      "price": "2.65",
+      "confidence": 0.807
+    }
+  ],
+  "total_amount": {
+    "value": "9.65",
+    "confidence": 0.9558,
+    "flag": false,
+    "reason": null
+  }
+}
