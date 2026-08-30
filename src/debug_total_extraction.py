@@ -101,7 +101,7 @@ def main() -> None:
             h, w = raw.shape[:2]
             scale = min(1.0, 1600 / max(h, w))
             if scale < 1.0:
-                raw = cv2.resize(raw, (int(w * scale), int(h, w)))
+                raw = cv2.resize(raw, (int(w * scale), int(h * scale)))
 
             processed = preprocess(raw, bucket)
 
